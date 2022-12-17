@@ -1,0 +1,11 @@
+# ignore datasets/checkpoints
+checkpoints/*.*
+datasets/*/*.*
+datasets/*/*/*.*
+datasets/*/*/*/*.*
+datasets/*/*/*/*/*.*
+# environment variables
+.env
+
+# gitkeep
+!.gitkeep
