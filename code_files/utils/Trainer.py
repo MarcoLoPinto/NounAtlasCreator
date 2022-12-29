@@ -1,5 +1,6 @@
 import torch
 from torch.utils.data import DataLoader
+import matplotlib.pyplot as plt
 
 class Trainer():
 
@@ -107,3 +108,14 @@ class Trainer():
     def conditions_for_saving_model(self, history, min_score):
         ''' must return True or False '''
         raise NotImplementedError
+
+    @staticmethod
+    def display_history(dict_history):
+        plt.figure(figsize=(8,8))
+        for name, hist in dict_history.items():
+            plt.plot([i for i in range(len(hist))], hist, label=name)
+        plt.xlabel('epochs')
+        plt.ylabel('value')
+        plt.title('Model learning')
+        plt.legend()
+        plt.show()

@@ -1,34 +1,33 @@
 import torch
 import torch.nn as nn
 import numpy as np
+import typing
 
 from transformers import AutoModel, AutoConfig, AutoTokenizer
 
-class NEIdentificator(nn.Module):
+class ModelPID(nn.Module):
     def __init__(   self, 
                     hparams = {}, 
-                    loss_fn = None):
-        """Nominal Event Identificator model
-
-        Args:
-            hparams (any, optional): Parameters necessary to initialize the model. It can be either a dictionary or the path string for the file. Defaults to {}.
-            loss_fn (any, optional): Loss function. Defaults to None.
-        """
+                    loss_fn = None,
+                    fine_tune_transformer = False,
+                    has_predicates_positions = False):
                     
         super().__init__()
 
-        hparams = hparams if type(hparams) != str else self._load_hparams(hparams)
+        self.hparams = hparams if type(hparams) != str else self._load_hparams(hparams)
 
         self.tokenizer = AutoTokenizer.from_pretrained(hparams['transformer_name'])
-        self.n_labels = 1
+
+        self.n_labels = int(hparams['n_predicates_labels'])
+        self.has_predicates_positions = has_predicates_positions
         
         # 1) Embedding
         self.transformer_model = AutoModel.from_pretrained(
             hparams['transformer_name'], output_hidden_states=True
         )
-        if not hparams['fine_tune_transformer']:
+        if not fine_tune_transformer:
             for param in self.transformer_model.parameters():
-                param.requires_grad = hparams['fine_tune_transformer']
+                param.requires_grad = fine_tune_transformer
 
         transformer_out_dim = self.transformer_model.config.hidden_size
 
@@ -37,16 +36,28 @@ class NEIdentificator(nn.Module):
         # 2) Classifier
 
         self.classifier = nn.Linear(transformer_out_dim, self.n_labels)
-        self.sigmoid = nn.Sigmoid()
 
         # Loss function:
         self.loss_fn = loss_fn
     
     def forward(
         self, 
-        text = None,
-        text_pair = None
+        text: typing.Union[str, typing.List[str], typing.List[typing.List[str]]],
+        text_pair: typing.Union[str, typing.List[str], typing.List[typing.List[str]], None] = None,
+        batch_predicates_positions: typing.List[typing.List[int]] = None,
+        is_split_into_words: bool = True,
     ):
+        """_summary_
+
+        Args:
+            text (typing.Union[str, typing.List[str], typing.List[typing.List[str]]]): _description_
+            text_pair (typing.Union[str, typing.List[str], typing.List[typing.List[str]], None], optional): _description_. Defaults to None.
+            batch_predicates_positions (typing.List[typing.List[int]], optional): _description_. Defaults to None.
+            is_split_into_words (bool, optional): _description_. Defaults to True.
+
+        Returns:
+            _type_: _description_
+        """
 
         device = self.get_device()
 
@@ -56,8 +67,8 @@ class NEIdentificator(nn.Module):
             text, text_pair,
             return_tensors="pt",
             padding=True,
-            is_split_into_words=False,
-            truncation=True # Warning!
+            is_split_into_words=is_split_into_words,
+            # truncation=True # Warning!
         ).to(device)
 
         transformer_outs = self.transformer_model(**batch_encoding)
@@ -69,16 +80,16 @@ class NEIdentificator(nn.Module):
             transformer_outs.hidden_states[-n_transformer_hidden_states:],
             dim=0).sum(dim=0)
 
-        cls_token = transformer_out[:,0,:]
-
-        batch_sentence_words = self.dropout(cls_token) # -> (batch, sentence_len, word_emb_dim)
+        batch_sentence_words = self.dropout(transformer_out) # -> (batch, tokenizer_len, word_emb_dim)
 
         # 2) Classifier
-        logits = self.classifier(batch_sentence_words)
 
-        logits = self.sigmoid(logits)
+        if self.has_predicates_positions:
+            batch_sentence_words = batch_sentence_words * batch_predicates_positions.unsqueeze(-1)
 
-        return logits # (batch, sentence_len, n_lables)
+        predictions = self.classifier(batch_sentence_words)
+
+        return predictions, batch_encoding # predictions = (batch, tokenizer_len, n_lables)
 
     def compute_loss(self, x, y_true):
         """computes the loss for the net

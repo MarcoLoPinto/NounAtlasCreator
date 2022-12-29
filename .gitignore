@@ -1,5 +1,6 @@
 # ignore datasets/checkpoints
 checkpoints/*.*
+checkpoints/*/*.*
 datasets/*/*.*
 datasets/*/*/*.*
 datasets/*/*/*/*.*
