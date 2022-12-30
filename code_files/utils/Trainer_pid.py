@@ -26,16 +26,21 @@ class Trainer_pid(Trainer):
         words = sample['words']
         predicates_positions = sample['predicates_positions'] # only for ModelPD
         # outputs
-        labels = sample['predicates']
+        labels_raw = sample['predicates']
 
-        predictions, batch_encoding = model.forward(words)
+        predictions, batch_encoding = model.forward(
+            words,
+            predicates_positions = predicates_positions if model.has_predicates_positions else None
+        )
+
+        predictions_raw = model.process_predictions(predictions, batch_encoding)
 
         labels_processed = []
         for i, _ in enumerate(predictions):
             words_ids = batch_encoding.word_ids(batch_index = i)
             labels_processed.append(torch.tensor([
                 model.hparams['predicates_pad_id'] if v == None or (v != None and j-1>=0 and words_ids[j-1]==words_ids[j])
-                else model.hparams['predicates_to_id'][ labels[i][v] ]
+                else model.hparams['predicates_to_id'][ labels_raw[i][v] ]
                 for j,v in enumerate(words_ids)
             ]))
         labels_processed = torch.stack(labels_processed)
@@ -56,17 +61,12 @@ class Trainer_pid(Trainer):
             sample_loss.backward()
             optimizer.step()
 
-        return {
-            'labels':labels, 
-            'predictions':predictions, 
-            'loss':sample_loss,
-        }
+        return {'labels':labels_raw, 'labels_torch':labels_processed, 'predictions':predictions_raw, 'predictions_torch':predictions, 'loss':sample_loss}
 
     def compute_validation(self, model, valid_dataloader, device):
         ''' must return a dictionary with "labels", "predictions" and "loss" keys '''
         valid_loss = 0.0
-        labels = []
-        predictions = []
+        dict_out_all = {'labels':[],  'predictions':[]}
 
         model.eval()
         model.to(device)
@@ -76,10 +76,10 @@ class Trainer_pid(Trainer):
 
                 valid_loss += dict_out['loss'].tolist() if dict_out['loss'] is not None else 0
 
-                labels.append(dict_out['labels'])
-                predictions.append(dict_out['predictions'])
+                dict_out_all['labels'] += dict_out['labels']
+                dict_out_all['predictions'] += dict_out['predictions']
 
-        return {'labels': labels, 'predictions': predictions, 'loss': (valid_loss / len(valid_dataloader))}
+        return {**dict_out_all, 'loss': (valid_loss / len(valid_dataloader))}
 
     def compute_evaluations(self, labels, predictions):
         ''' must return a dictionary of results '''
@@ -105,7 +105,7 @@ class Trainer_pid(Trainer):
     def print_evaluations_results(self, valid_loss, evaluations_results):
         f1_arg_iden = evaluations_results['pred_iden']['f1']
         f1_arg_class = evaluations_results['pred_disamb']['f1']
-        print(f'# Validation loss => {valid_loss:0.6f} | f1-score: arg_iden = {f1_arg_iden:0.6f} arg_class = {f1_arg_class:0.6f} #')
+        print(f'# Validation loss => {valid_loss:0.6f} | f1-score: pred_iden = {f1_arg_iden:0.6f} pred_dis = {f1_arg_class:0.6f} #')
 
     def conditions_for_saving_model(self, history, min_score):
         ''' must return True or False '''
@@ -114,14 +114,14 @@ class Trainer_pid(Trainer):
             history['f1_pred_disamb_history'][-1] > min_score
         )
 
-    ########### utils evaluations! ###########
+    ########### utils evaluations ###########
 
     @staticmethod
     def evaluate_predicate_identification(labels, predictions, null_tag="_"):
         true_positives, false_positives, false_negatives = 0, 0, 0
-        for sentence_id in labels:
-            gold_predicates = labels[sentence_id]["predicates"]
-            pred_predicates = predictions[sentence_id]["predicates"]
+        for sentence_id, _ in enumerate(labels):
+            gold_predicates = labels[sentence_id]
+            pred_predicates = predictions[sentence_id]
             for g, p in zip(gold_predicates, pred_predicates):
                 if g != null_tag and p != null_tag:
                     true_positives += 1
@@ -129,9 +129,10 @@ class Trainer_pid(Trainer):
                     false_positives += 1
                 elif g != null_tag and p == null_tag:
                     false_negatives += 1
-        precision = true_positives / (true_positives + false_positives)
-        recall = true_positives / (true_positives + false_negatives)
-        f1 = 2 * (precision * recall) / (precision + recall)
+        precision = true_positives / (true_positives + false_positives) if (true_positives + false_positives) != 0 else 0.0
+        recall = true_positives / (true_positives + false_negatives) if (true_positives + false_negatives) != 0 else 0.0
+        f1 = 2 * (precision * recall) / (precision + recall) if (precision + recall) != 0 else 0.0
+
         return {
             "true_positives": true_positives,
             "false_positives": false_positives,
@@ -144,9 +145,9 @@ class Trainer_pid(Trainer):
     @staticmethod
     def evaluate_predicate_disambiguation(labels, predictions, null_tag="_"):
         true_positives, false_positives, false_negatives = 0, 0, 0
-        for sentence_id in labels:
-            gold_predicates = labels[sentence_id]["predicates"]
-            pred_predicates = predictions[sentence_id]["predicates"]
+        for sentence_id, _ in enumerate(labels):
+            gold_predicates = labels[sentence_id]
+            pred_predicates = predictions[sentence_id]
             for g, p in zip(gold_predicates, pred_predicates):
                 if g != null_tag and p != null_tag:
                     if p == g:
@@ -158,9 +159,10 @@ class Trainer_pid(Trainer):
                     false_positives += 1
                 elif g != null_tag and p == null_tag:
                     false_negatives += 1
-        precision = true_positives / (true_positives + false_positives)
-        recall = true_positives / (true_positives + false_negatives)
-        f1 = 2 * (precision * recall) / (precision + recall)
+        precision = true_positives / (true_positives + false_positives) if (true_positives + false_positives) != 0 else 0.0
+        recall = true_positives / (true_positives + false_negatives) if (true_positives + false_negatives) != 0 else 0.0
+        f1 = 2 * (precision * recall) / (precision + recall) if (precision + recall) != 0 else 0.0
+
         return {
             "true_positives": true_positives,
             "false_positives": false_positives,

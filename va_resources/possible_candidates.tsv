@@ -2,8 +2,8 @@ tolerance.n.03	the act of tolerating something	TOLERATE
 allowance.n.06	the act of allowing	AUTHORIZE_ADMIT
 license.n.04	the act of giving a formal (usually written) authorization	AUTHORIZE_ADMIT
 authorization.n.04	the act of conferring legality or sanction or formal warrant	AUTHORIZE_ADMIT
-management.n.01	the act of managing something	WATCH_LOOK-OUT
-act.n.02	something that people do or cause to happen	CARRY-OUT-ACTION
+management.n.01	the act of managing something	MANAGE
+act.n.02	something that people do or cause to happen	INCITE_INDUCE
 abidance.n.03	the act of abiding (enduring without yielding)	TOLERATE
 continuance.n.01	the act of continuing an activity without interruption	CONTINUE
 adoption.n.01	the act of accepting with approval; favorable reception	AGREE_ACCEPT
@@ -11,12 +11,12 @@ blessing.n.01	the formal act of approving	APPROVE_PRAISE
 support.n.02	aiding the cause or policy or interests of	FOLLOW_SUPPORT_SPONSOR_FUND
 aid.n.02	the activity of contributing to the fulfillment of a need or furtherance of an effort or purpose	HELP_HEAL_CARE_CURE
 toleration.n.02	official recognition of the right of individuals to hold dissenting opinions (especially in religion)	TOLERATE
-conformity.n.02	acting according to certain accepted standards	OBEY
+conformity.n.02	acting according to certain accepted standards	MATCH
 cooperation.n.01	joint operation or action	ALLY_ASSOCIATE_MARRY
 obedience.n.01	the act of obeying; dutiful or submissive behavior with respect to another person	OBEY
-submission.n.02	the act of submitting; usually surrendering power to another	AGREE_ACCEPT
+submission.n.02	the act of submitting; usually surrendering power to another	SUBJUGATE
 airlift.n.01	transportation of people or goods by air (especially when other means of access are unavailable)	CARRY_TRANSPORT
-transportation.n.02	the act of moving something from one location to another	BRING
+transportation.n.02	the act of moving something from one location to another	TRANSMIT
 movement.n.11	the act of changing the location of something	MOVE-SOMETHING
 change.n.03	the action of changing something	DIVERSIFY
 action.n.01	something done (usually as opposed to something said)	CARRY-OUT-ACTION
@@ -27,18 +27,18 @@ carry.n.01	the act of carrying something	CARRY_TRANSPORT
 cartage.n.01	the work of taking something away in a cart or truck and disposing of it	CARRY_TRANSPORT
 hauling.n.01	the activity of transporting goods by truck	CARRY_TRANSPORT
 transportation.n.05	the commercial enterprise of moving goods and materials	CARRY_TRANSPORT
-transaction.n.01	the act of transacting within or between groups (as carrying on commercial activities)	ALLY_ASSOCIATE_MARRY
+transaction.n.01	the act of transacting within or between groups (as carrying on commercial activities)	WORK
 delivery.n.01	the act of delivering or distributing something (as goods or mail)	CARRY_TRANSPORT
 drive.n.08	a journey in a vehicle (usually an automobile)	MOVE-BY-MEANS-OF
 journey.n.01	the act of traveling from one place to another	TRAVEL
 travel.n.01	the act of going from one place to another	TRAVEL
-motion.n.06	the act of changing location from one place to another	MOVE-SOMETHING
+motion.n.06	the act of changing location from one place to another	LEAVE_DEPART_RUN-AWAY
 ferry.n.02	transport by boat or aircraft	CARRY_TRANSPORT
 flight.n.02	an instance of traveling by air	FLY
 freight.n.02	transporting goods commercially at rates cheaper than express rates	CARRY_TRANSPORT
 draw.n.09	the act of drawing or hauling something	PULL
 pull.n.01	the act of pulling; applying force to move something toward or with you	PULL
-propulsion.n.02	the act of propelling	MOVE-SOMETHING
+propulsion.n.02	the act of propelling	INCITE_INDUCE
 importing.n.01	the commercial activity of buying and bringing in goods from a foreign country	CARRY_TRANSPORT
 lighterage.n.02	the transportation of goods on a lighter	CARRY_TRANSPORT
 packing.n.03	carrying something in a pack on the back	CARRY_TRANSPORT
@@ -55,7 +55,7 @@ smuggling.n.01	secretly importing prohibited goods or goods on which duty is due
 tide.n.01	the periodic rise and fall of the sea level under the gravitational pull of the moon	CARRY_TRANSPORT
 happening.n.01	an event that happens	HAPPEN_OCCUR
 transshipment.n.01	the transfer from one conveyance to another for shipment	CARRY_TRANSPORT
-puff.n.01	a short light gust of air	CARRY_TRANSPORT
+puff.n.01	a short light gust of air	SPEAK
 gust.n.01	a strong current of air	TRAVEL
 weather.n.01	the atmospheric conditions that comprise the state of the atmosphere in terms of temperature and wind and clouds and precipitation	CHANGE-APPEARANCE/STATE
 absorption.n.01	(chemistry) a process in which one substance permeates another; a fluid permeates or is dissolved by a liquid or solid	ABSORB
@@ -73,18 +73,18 @@ borrowing.n.01	the appropriation (of ideas or words etc) from another source	LEA
 acquiring.n.01	the act of acquiring something	CHANGE-APPEARANCE/STATE
 approach.n.01	ideas or actions intended to deal with a problem or situation	LEARN
 conceptualization.n.01	inventing or contriving an idea or explanation and formulating it mentally	CREATE_MATERIALIZE
-creation.n.01	the human act of creating	CREATE_MATERIALIZE
+creation.n.01	the human act of creating	MOUNT_ASSEMBLE_PRODUCE
 cinch.n.01	any undertaking that is easy to do	LEARN
 undertaking.n.01	any piece of work that is undertaken or attempted	WORK
 work.n.01	activity directed toward making or doing something	WORK
-professionalization.n.01	the social process whereby people come to engage in an activity for pay or as a means of livelihood	LEARN
+professionalization.n.01	the social process whereby people come to engage in an activity for pay or as a means of livelihood	CONVERT
 socialization.n.03	the adoption of the behavior patterns of the surrounding culture	TEACH
 adoption.n.02	a legal proceeding that creates a parent-child relation between persons not related by blood; the adopted child is entitled to all privileges belonging to a natural child of the adoptive parents (including the right to inherit)	CO-OPT
 proceeding.n.01	(law) the institution of a sequence of steps by which legal judgments are invoked	ORGANIZE
 co-option.n.01	the selection of a new member (usually by a vote of the existing membership)	CO-OPT
 choice.n.02	the act of choosing or selecting	CHOOSE
 co-option.n.02	the act of appointing summarily (with or without the appointee's consent)	CO-OPT
-appointment.n.01	the act of putting a person into a non-elective position	ASSIGN-smt-to-smn
+appointment.n.01	the act of putting a person into a non-elective position	ASSIGN-SMT-TO-SMN
 decision.n.01	the act of making up your mind about something	SETTLE_CONCILIATE
 engagement.n.07	the act of sharing in the activities of a group	PARTICIPATE
 retraction.n.01	a disavowal or taking back of a previous assertion	SPEAK
@@ -100,8 +100,8 @@ address.n.03	the act of delivering a formal spoken communication to an audience	
 public_speaking.n.01	delivering an address to a public audience	SPEAK
 discussion.n.01	an extended communication (often interactive) dealing with some particular topic	SPEAK
 advertising.n.02	the business of drawing public attention to goods and services	SPEAK
-controversy.n.01	a contentious speech act; a dispute where there is strong disagreement	CRITICIZE
-dispute.n.01	a disagreement or argument about something important	DISTINGUISH_DIFFER
+controversy.n.01	a contentious speech act; a dispute where there is strong disagreement	SPEAK
+dispute.n.01	a disagreement or argument about something important	QUARREL_POLEMICIZE
 disagreement.n.03	the speech act of disagreeing or arguing or disputing	DISTINGUISH_DIFFER
 articulation.n.03	expressing in coherent verbal form	SPEAK
 expression.n.03	the communication (in speech or writing) of your beliefs or opinions	SPEAK
@@ -109,7 +109,7 @@ talk.n.05	idle gossip or rumor	SPEAK
 gossip.n.02	a report (often malicious) about the behavior of other people	REVEAL
 report.n.02	the act of informing by verbal report	REPRESENT
 informing.n.02	a speech act that conveys information	INFORM
-tattle.n.01	disclosing information or giving evidence about another	INFORM
+tattle.n.01	disclosing information or giving evidence about another	SPEAK
 disclosure.n.01	the speech act of making something evident	REVEAL
 bark.n.02	a noise resembling the bark of a dog	SPEAK
 noise.n.01	sound of any kind (especially unintelligible or dissonant sound)	MAKE-A-SOUND
@@ -122,15 +122,15 @@ writing.n.01	the act of creating written works	CREATE_MATERIALIZE
 chorus.n.01	any utterance produced simultaneously by a group	SPEAK
 intercommunication.n.01	mutual communication; communication with each other	SPEAK
 complaint.n.03	an expression of grievance or resentment	SPEAK
-gripe.n.01	informal terms for objecting	OFFEND_DISESTEEM
-presentation.n.04	the act of presenting a proposal	SHOW
+gripe.n.01	informal terms for objecting	SPEAK
+presentation.n.04	the act of presenting a proposal	SPEAK
 proposal.n.03	the act of making a proposal	PROPOSE
 diversion.n.02	a turning aside (of your course or attention or concern)	TURN_CHANGE-DIRECTION
 turn.n.02	the act of changing or reversing the direction of the course	TURN_CHANGE-DIRECTION
 change_of_direction.n.01	the act of changing the direction in which something is oriented	ORIENT
-proclamation.n.02	the formal act of proclaiming; giving public notice	ASSIGN-smt-to-smn
+proclamation.n.02	the formal act of proclaiming; giving public notice	SPEAK
 verbalization.n.02	the activity of expressing something in words	SPEAK
-offer.n.01	the verbal act of offering	GIVE_GIFT
+offer.n.01	the verbal act of offering	OFFER
 fibbing.n.01	a trivial act of lying or being deliberately unclear	DECEIVE
 lying.n.01	the deliberate act of deviating from the truth	DECEIVE
 falsification.n.02	a willful perversion of facts	DECEIVE
@@ -138,7 +138,7 @@ wrongdoing.n.02	activity that transgresses moral or civil law	BEHAVE
 gargle.n.02	the sound produced while gargling	SPEAK
 giving.n.02	the imparting of news or promises etc.	INFORM
 conveyance.n.02	the transmission of information	INFORM
-transmission.n.02	communication by means of transmitted signals	CIRCULATE_SPREAD_DISTRIBUTE
+transmission.n.02	communication by means of transmitted signals	TRANSMIT
 release.n.09	activity that frees or expresses creative energy or emotion	SPEAK
 gulp.n.02	a spasmodic reflex of the throat made as if in swallowing	SPEAK
 reaction.n.03	a bodily process occurring due to the effect of some antecedent stimulus or agent	REACT
@@ -180,22 +180,22 @@ boom.n.01	a deep prolonged loud noise	MAKE-A-SOUND
 affirmation.n.02	the act of affirming or asserting or stating something	AFFIRM
 telling.n.02	informing by words	INFORM
 communion.n.02	sharing thoughts and feelings	SPEAK
-sigh.n.02	a sound like a person sighing	BREATH_BLOW
+sigh.n.02	a sound like a person sighing	SPEAK
 singalong.n.01	informal group singing of popular songs	SING
 singing.n.01	the act of singing vocal music	SING
 presentation.n.02	a show or display; the act of presenting something to sight or view	SHOW
 show.n.01	the act of publicly exhibiting or entertaining	SHOW
-entertainment.n.01	an activity that is diverting and that holds the attention	CAUSE-MENTAL-STATE
-diversion.n.01	an activity that diverts or amuses or stimulates	CAUSE-MENTAL-STATE
+entertainment.n.01	an activity that is diverting and that holds the attention	ENJOY
+diversion.n.01	an activity that diverts or amuses or stimulates	PLAY_SPORT/GAME
 snivel.n.01	whining in a tearful manner	CRY
 crying.n.01	the process of shedding tears (usually accompanied by sobs or other inarticulate sounds)	CRY
 whimper.n.01	a complaint uttered in a plaintive whining way	SPEAK
 spiel.n.01	plausible glib talk (especially useful to a salesperson)	SPEAK
-channel.n.05	(often plural) a means of communication or access	CIRCULATE_SPREAD_DISTRIBUTE
+channel.n.05	(often plural) a means of communication or access	DIRECT_AIM_MANEUVER
 spatter.n.01	the noise of something spattering or sputtering explosively	MAKE-A-SOUND
 withdrawal.n.01	a retraction of a previously held position	SPEAK
 voice.n.05	a means or agency by which something is expressed or communicated	SPEAK
-implementation.n.02	the act of implementing (providing a practical means for accomplishing something); carrying into effect	USE
+implementation.n.02	the act of implementing (providing a practical means for accomplishing something); carrying into effect	CREATE_MATERIALIZE
 access.n.05	(computer science) the operation of reading or writing stored information	TAKE
 processing.n.01	preparing or putting through a prescribed procedure	PREPARE
 winning.n.01	succeeding with great difficulty	TAKE
@@ -218,7 +218,7 @@ validation.n.01	the act of validating; finding or testing the truth of something
 determination.n.01	the act of determining the properties of something, usually by research or calculation	FIND
 discovery.n.01	the act of discovering something	FIND
 certification.n.01	the act of certifying or bestowing a franchise on	AUTHORIZE_ADMIT
-commitment.n.05	the official act of consigning a person to confinement (as in a prison or mental hospital)	FOLLOW_SUPPORT_SPONSOR_FUND
+commitment.n.05	the official act of consigning a person to confinement (as in a prison or mental hospital)	AUTHORIZE_ADMIT
 confinement.n.02	the act of restraining of a person's liberty by confining them	CAGE_IMPRISON
 restraint.n.01	the act of controlling by restraining someone or something	RETAIN_KEEP_SAVE-MONEY
 control.n.05	the activity of managing or exerting control over something	MANAGE
@@ -227,7 +227,7 @@ beginning.n.05	the act of starting something	BEGIN
 legalization.n.01	the act of making lawful	AUTHORIZE_ADMIT
 formalization.n.01	the act of making formal (as by stating formal rules governing classes of expressions)	AUTHORIZE_ADMIT
 systematization.n.01	systematic organization; the act of organizing something according to a system or a rationale	THINK
-initiation.n.01	a formal entry into an organization or position or office	ASSIGN-smt-to-smn
+initiation.n.01	a formal entry into an organization or position or office	ASSIGN-SMT-TO-SMN
 legislation.n.02	the act of making or enacting laws	AUTHORIZE_ADMIT
 government.n.02	the act of governing; exercising authority	INFLUENCE
 enactment.n.01	the passing of a law by a legislative body	ORDER
@@ -237,28 +237,28 @@ easing.n.02	the act of reducing something unpleasant (as pain or annoyance)	HELP
 decrease.n.04	the act of decreasing or reducing something	REDUCE_DIMINISH
 monetization.n.01	establishing something (e.g. gold or silver) as the legal tender of a country	AUTHORIZE_ADMIT
 readmission.n.01	the act of admitting someone again	AUTHORIZE_ADMIT
-repatriation.n.01	the act of returning to the country of origin	MOVE-SOMETHING
+repatriation.n.01	the act of returning to the country of origin	AUTHORIZE_ADMIT
 return.n.02	a coming to or returning home	MOVE-BACK
 sanction.n.04	the act of final authorization	AUTHORIZE_ADMIT
 banking.n.02	transacting business with a bank; depositing or withdrawing funds or requesting a loan etc.	CARRY-OUT-ACTION
 finance.n.01	the commercial activity of providing funds and capital	PAY
 suppression.n.02	the act of withholding or withdrawing some book or writing from publication or circulation	RETAIN_KEEP_SAVE-MONEY
-mortification.n.04	(Christianity) the act of mortifying the lusts of the flesh by self-denial and privation (especially by bodily pain or discomfort inflicted on yourself)	RETAIN_KEEP_SAVE-MONEY
+mortification.n.04	(Christianity) the act of mortifying the lusts of the flesh by self-denial and privation (especially by bodily pain or discomfort inflicted on yourself)	HURT_HARM_ACHE
 withholding.n.01	the act of deducting from an employee's salary	RETAIN_KEEP_SAVE-MONEY
 subtraction.n.02	the act of subtracting (removing a part from the whole)	REMOVE_TAKE-AWAY_KIDNAP
-economy.n.04	an act of economizing; reduction in cost	RETAIN_KEEP_SAVE-MONEY
+economy.n.04	an act of economizing; reduction in cost	PRESERVE
 filing.n.04	preservation and methodical arrangement as of documents and papers etc.	RETAIN_KEEP_SAVE-MONEY
 storage.n.01	the act of storing something	RETAIN_KEEP_SAVE-MONEY
 retention.n.01	the act of retaining something	RETAIN_KEEP_SAVE-MONEY
 possession.n.01	the act of having and controlling property	POSSESS
-redeposition.n.01	deposition from one deposit to another	RETAIN_KEEP_SAVE-MONEY
+redeposition.n.01	deposition from one deposit to another	FALL_SLIDE-DOWN
 accretion.n.01	an increase by natural growth or addition	INCREASE_ENLARGE_MULTIPLY
 increase.n.03	a process of becoming larger or longer or more numerous or more important	INCREASE_ENLARGE_MULTIPLY
 repositing.n.01	depositing in a warehouse	RETAIN_KEEP_SAVE-MONEY
 deposit.n.09	the act of putting something somewhere	PUT_APPLY_PLACE_PAVE
 buildup.n.01	the act of building up an accumulation	INCREASE_ENLARGE_MULTIPLY
 accumulation.n.03	the act of accumulating	AMASS
-inhibition.n.01	(psychology) the conscious exclusion of unacceptable thoughts or desires	RETAIN_KEEP_SAVE-MONEY
+inhibition.n.01	(psychology) the conscious exclusion of unacceptable thoughts or desires	PRECLUDE_FORBID_EXPEL
 reservation.n.07	the act of keeping back or setting aside for some future occasion	RETAIN_KEEP_SAVE-MONEY
 preservation.n.01	the activity of protecting something from loss or danger	PROTECT
 protection.n.01	the activity of protecting someone or something	PROTECT
@@ -282,7 +282,7 @@ stunt.n.01	a difficult or unusual or dangerous feat; usually done to gain attent
 chasse.n.01	(ballet) quick gliding steps with one foot always leading	TRAVEL
 locomotion.n.02	self-propelled movement	GO-FORWARD
 concert.n.01	a performance of music by players or singers not involving theatrical staging	PERFORM
-conducting.n.02	the direction of an orchestra or choir	PERFORM
+conducting.n.02	the direction of an orchestra or choir	LEAD_GOVERN
 declamation.n.02	recitation of a speech from memory with studied gestures and intonation as an exercise in elocution or rhetoric	PERFORM
 drum.n.02	the sound of a drum	PERFORM
 drumming.n.01	the act of playing drums	PERFORM
@@ -304,7 +304,7 @@ pretense.n.01	the act of giving a false appearance	DECEIVE
 piping.n.03	playing a pipe or the bagpipes	PERFORM
 playing.n.01	the act of playing a musical instrument	PERFORM
 pirouette.n.01	(ballet) a rapid spin of the body (especially on the toes as in ballet)	PERFORM
-spin.n.02	the act of rotating rapidly	MOVE-SOMETHING
+spin.n.02	the act of rotating rapidly	TRAVEL
 rotation.n.01	the act of rotating as if on an axis	TURN_CHANGE-DIRECTION
 motion.n.03	a change of position that does not entail a change of location	MOVE-SOMETHING
 playback.n.01	the act of reproducing recorded sound	PERFORM
@@ -315,7 +315,7 @@ replay.n.02	the immediate rebroadcast of some action (especially sports action) 
 premiere.n.01	the first public performance of a play or movie	PERFORM
 stage.n.04	the theater as a profession (usually `the stage')	PERFORM
 rerun.n.01	a program that is broadcast again	TRANSMIT
-broadcast.n.02	a radio or television show	CIRCULATE_SPREAD_DISTRIBUTE
+broadcast.n.02	a radio or television show	TRANSMIT
 axial_rotation.n.01	rotary motion of an object around its own axis	ROLL
 rotation.n.03	a single complete turn (axial or orbital)	TRAVEL
 turning.n.04	a movement in a new direction	TURN_CHANGE-DIRECTION
@@ -340,10 +340,10 @@ overachievement.n.01	better than expected performance (better than might have be
 run.n.01	a score in baseball made by a runner touching all four bases safely	ACHIEVE
 score.n.10	the act of scoring in a game or sport	SCORE
 underachievement.n.01	poorer than expected performance (poorer than might have been predicted from intelligence tests)	ACHIEVE
-abandonment.n.01	the act of giving something up	BETRAY
+abandonment.n.01	the act of giving something up	CHANGE_SWITCH
 change.n.04	the result of alteration or modification	DIVERSIFY
 consequence.n.01	a phenomenon that follows and is caused by some previous phenomenon	RESULT_CONSEQUENCE
-change.n.01	an event that occurs when something passes from one state or phase to another	DIVERSIFY
+change.n.01	an event that occurs when something passes from one state or phase to another	ADJUST_CORRECT
 alteration.n.02	the act of making something different (as e.g. the size of a garment)	ADJUST_CORRECT
 brutalization.n.03	an act that makes people cruel or lacking normal human qualities	CHANGE_SWITCH
 degradation.n.01	changing to a lower state (a less respected state)	DEBASE_ADULTERATE
@@ -365,7 +365,7 @@ realization.n.02	making real or giving the appearance of reality	CREATE_MATERIAL
 substitution.n.01	an event in which one thing is substituted for another	REPLACE
 variation.n.01	an instance of change; the rate or magnitude of change	CHANGE_SWITCH
 substitution.n.02	the act of putting one thing or person in the place of another:	REPLACE
-test.n.05	the act of testing something	RESULT_CONSEQUENCE
+test.n.05	the act of testing something	VERIFY
 attempt.n.01	earnest and conscientious activity intended to do or accomplish something	TRY
 humanization.n.01	the act of making more human	CHANGE_SWITCH
 mobilization.n.01	act of assembling and putting into readiness for war or other emergency:	PREPARE
@@ -375,9 +375,9 @@ revolution.n.01	a drastic and far-reaching change in ways of thinking and behavi
 renovation.n.01	the act of improving by renewing and restoring	AMELIORATE
 remilitarization.n.01	the act of militarizing again	CHANGE_SWITCH
 ritual.n.02	the prescribed procedure for conducting religious ceremonies	CHANGE_SWITCH
-practice.n.01	a customary way of operation or behavior	APPLY
+practice.n.01	a customary way of operation or behavior	SHAPE
 ritual.n.01	any customary observance or practice	CHANGE_SWITCH
-custom.n.01	accepted or habitual practice	APPLY
+custom.n.01	accepted or habitual practice	BEHAVE
 secularization.n.01	the activity of changing something (art or education or society or morality etc.) so it is no longer under the control or influence of religion	CHANGE_SWITCH
 transformation.n.01	a qualitative change	CHANGE_SWITCH
 socialization.n.01	the action of establishing on a socialist basis	CHANGE_SWITCH
@@ -396,15 +396,15 @@ antic.n.01	a ludicrous or grotesque act done for fun and amusement	BEHAVE
 attitude.n.03	a theatrical pose created for effect	BEHAVE
 affectation.n.01	a deliberate pretense or exaggerated display	BEHAVE
 boast.n.01	speaking of yourself in superlatives	BEHAVE
-brag.n.01	an instance of boastful talk	ENJOY
+brag.n.01	an instance of boastful talk	BEHAVE
 braggadocio.n.01	vain and empty boasting	BEHAVE
 vaunt.n.01	extravagant self-praise	BEHAVE
 escapade.n.02	any carefree episode	BEHAVE
 celebration.n.01	a joyful occasion for special festivities to mark some happy event	CELEBRATE_PARTY
-celebration.n.03	the public performance of a sacrament or solemn ceremony with all appropriate ritual	CELEBRATE_PARTY
-celebration.n.02	any joyous diversion	CELEBRATE_PARTY
+celebration.n.03	the public performance of a sacrament or solemn ceremony with all appropriate ritual	BEHAVE
+celebration.n.02	any joyous diversion	BEHAVE
 flirt.n.02	playful behavior intended to arouse sexual interest	BEHAVE
-dalliance.n.01	the deliberate act of delaying and playing instead of working	SPEND-TIME_PASS-TIME
+dalliance.n.01	the deliberate act of delaying and playing instead of working	BEHAVE
 delay.n.02	the act of delaying; inactivity resulting in something being put off until a later time	DELAY
 presumption.n.04	a kind of discourtesy in the form of an act of presuming	BEHAVE
 discourtesy.n.03	a lack of politeness; a failure to show regard for others; wounding the feelings or others	HURT_HARM_ACHE
@@ -417,9 +417,9 @@ outburst.n.02	a sudden intense happening	BEGIN
 haste.n.02	the act of moving hurriedly and in a careless manner	RUN
 hamming.n.01	poor acting by a ham actor	BEHAVE
 interaction.n.01	a mutual or reciprocal action; interacting	BEHAVE
-jest.n.02	activity characterized by good humor	JOKE
-luxuriation.n.01	an activity that affords excessive pleasure and enjoyment	ENJOY
-pleasure.n.04	an activity that affords enjoyment	CAUSE-MENTAL-STATE
+jest.n.02	activity characterized by good humor	BEHAVE
+luxuriation.n.01	an activity that affords excessive pleasure and enjoyment	BEHAVE
+pleasure.n.04	an activity that affords enjoyment	REQUIRE_NEED_WANT_HOPE
 misbehavior.n.01	improper or wicked or immoral behavior	BEHAVE
 playing.n.02	the action of taking part in a game or sport or other recreation	PLAY_SPORT/GAME
 rampage.n.01	violently angry and destructive behavior	BEHAVE
@@ -442,7 +442,7 @@ introduction.n.01	the act of beginning something new	SHOW
 trigger.n.03	an act that sets in motion some course of events	BEGIN
 stimulation.n.01	the act of arousing an organism to action	INCITE_INDUCE
 arousal.n.01	the act of arousing	AROUSE_WAKE_ENLIVEN
-cause.n.01	events that provide the generative force that is the origin of something	CAUSE-SMT
+cause.n.01	events that provide the generative force that is the origin of something	INCITE_INDUCE
 origin.n.03	an event that is a beginning; a first part or stage of subsequent events	BEGIN
 beginning.n.01	the event consisting of the start of something	BEGIN
 incitation.n.02	an act of urging on or spurring on or rousing to action or instigating	AROUSE_WAKE_ENLIVEN
@@ -453,13 +453,13 @@ acquittal.n.01	a judgment of not guilty	SUBJECTIVE-JUDGING
 judgment.n.03	(law) the determination by a court of competent jurisdiction on matters submitted to it	SUBJECTIVE-JUDGING
 clearing.n.02	the act of freeing from suspicion	SUBJECTIVE-JUDGING
 liberation.n.01	the act of liberating someone or something	LIBERATE_ALLOW_AFFORD
-vindication.n.01	the act of vindicating or defending against criticism or censure etc.	SUBJECTIVE-JUDGING
+vindication.n.01	the act of vindicating or defending against criticism or censure etc.	ARGUE-IN-DEFENSE
 exculpation.n.02	the act of freeing from guilt or blame	SUBJECTIVE-JUDGING
 forgiveness.n.02	the act of excusing a mistake or offense	PARDON
 trial.n.04	(law) the determination of a person's innocence or guilt by due process of law	SUBJECTIVE-JUDGING
-consideration.n.03	a discussion of a topic (as in a meeting)	TAKE-INTO-ACCOUNT_CONSIDER
+consideration.n.03	a discussion of a topic (as in a meeting)	CONSIDER
 calculation.n.01	the procedure of calculating; determining something by mathematical or logical methods	CALCULATE_ESTIMATE
-procedure.n.01	a particular course of action intended to achieve a result	ORGANIZE
+procedure.n.01	a particular course of action intended to achieve a result	SHAPE
 condemnation.n.02	(law) the act of condemning (as land forfeited for public use) or judging to be unfit for use (as a food product or an unsafe building)	SUBJECTIVE-JUDGING
 disapproval.n.04	the act of disapproving or condemning	REFUSE
 judgment.n.02	the act of judging or assessing a person or situation or event	SUBJECTIVE-JUDGING
@@ -486,7 +486,7 @@ embrace.n.03	a close affectionate and protective acceptance	FOLLOW_SUPPORT_SPONS
 backing.n.01	the act of providing approval and support	FOLLOW_SUPPORT_SPONSOR_FUND
 endorsement.n.05	the act of endorsing	FOLLOW_SUPPORT_SPONSOR_FUND
 second.n.08	a speech seconding a motion	FOLLOW_SUPPORT_SPONSOR_FUND
-ratification.n.01	making something valid by formally ratifying or confirming it	FOLLOW_SUPPORT_SPONSOR_FUND
+ratification.n.01	making something valid by formally ratifying or confirming it	APPROVE_PRAISE
 financing.n.01	the act of financing	PAY
 patronage.n.04	(politics) granting favors or giving contracts or making appointments to office in return for political support	FOLLOW_SUPPORT_SPONSOR_FUND
 polarization.n.01	the phenomenon in which waves of light or other radiation are restricted in direction of vibration	SEPARATE_FILTER_DETACH
@@ -520,7 +520,7 @@ miscarriage.n.01	failure of a plan	FAIL_LOSE
 failure.n.02	an event that does not accomplish its intended purpose	FAIL_LOSE
 adjournment.n.02	the act of postponing to another time or place	STOP
 postponement.n.02	act of putting off to a future time	DELAY
-withdrawal.n.03	the act of withdrawing	STOP
+withdrawal.n.03	the act of withdrawing	LIBERATE_ALLOW_AFFORD
 containment.n.03	the act of containing; keeping something from spreading	STOP
 stop.n.01	the event of something ending	STOP
 ending.n.04	event whose occurrence ends something	FINISH_CONCLUDE_END
@@ -542,7 +542,7 @@ discontinuance.n.01	the act of discontinuing or breaking off; an interruption (t
 termination.n.05	the act of ending something	FINISH_CONCLUDE_END
 intermission.n.01	the act of suspending activity temporarily	STOP
 respite.n.02	a pause from doing something (as work)	STOP
-dislocation.n.02	the act of disrupting an established order so it fails to continue	REMOVE_TAKE-AWAY_KIDNAP
+dislocation.n.02	the act of disrupting an established order so it fails to continue	STOP
 disruption.n.04	the act of causing disorder	MESS
 break.n.13	an act of delaying or interrupting the continuity	STOP
 check.n.12	obstructing an opponent in ice hockey	STOP
@@ -577,7 +577,7 @@ draw.n.03	the finish of a contest in which the score is tied and the winner is u
 stand.n.06	an interruption of normal activity	STOP
 stonewalling.n.01	stalling or delaying especially by refusing to answer questions or cooperate	STOP
 stall.n.07	a tactic used to mislead or delay	DELAY
-stop.n.03	a brief stay in the course of a journey	STOP
+stop.n.03	a brief stay in the course of a journey	LAND_GET-OFF
 stay.n.01	continuing or remaining in a place or state	REMAIN
 shift.n.05	the act of moving from one place to another	GO-FORWARD
 amble.n.01	a leisurely walk (usually in some public place)	MOVE-ONESELF
@@ -595,7 +595,7 @@ recoil.n.02	a movement back from an impact	MOVE-BACK
 lurch.n.01	an unsteady uneven gait	GO-FORWARD
 bustle.n.01	a rapid active commotion	MOVE-ONESELF
 commotion.n.02	the act of making a noisy disturbance	MESS
-lap.n.05	movement once around a course	TRAVEL
+lap.n.05	movement once around a course	MOVE-ONESELF
 slide.n.05	the act of moving smoothly along a surface while remaining in contact with it	MOVE-SOMETHING
 strut.n.01	a proud stiff pompous gait	MOVE-ONESELF
 waddle.n.01	walking with short steps and the weight tilting from one foot to the other	MOVE-ONESELF
@@ -623,7 +623,7 @@ tug.n.01	a sudden abrupt pull	PULL
 swish.n.01	a brushing or rustling sound	MOVE-ONESELF
 libration.n.01	(astronomy) a real or apparent slow oscillation of a moon or satellite	MOVE-ONESELF
 oscillation.n.01	the process of oscillating between states	COMPARE
-luff.n.02	the act of sailing close to the wind	DIRECT_AIM_MANEUVER
+luff.n.02	the act of sailing close to the wind	MOVE-ONESELF
 nutation.n.01	uncontrolled nodding	MOVE-ONESELF
 nod.n.02	the act of nodding the head	SLEEP
 inclination.n.08	the act of inclining; bending forward	TURN_CHANGE-DIRECTION
@@ -661,14 +661,14 @@ lust.n.02	self-indulgent sexual desire (personified as one of the deadly sins)	R
 sin.n.02	an act that is regarded by theologians as a transgression of God's will	VIOLATE
 wish.n.02	an expression of some desire or inclination	REQUIRE_NEED_WANT_HOPE
 discovery.n.02	something that is discovered	FIND
-meeting.n.03	a casual or unexpected convergence	MEET
+meeting.n.03	a casual or unexpected convergence	FIND
 convergence.n.01	the occurrence of two or more things coming together	COMBINE_MIX_UNITE
 trip.n.07	an unintentional but embarrassing blunder	MISTAKE
 blunder.n.01	an embarrassing mistake	MESS
 detection.n.02	the act of detecting something; catching sight of something	FIND
-detection.n.04	a police investigation to determine the perpetrator	SEE
+detection.n.04	a police investigation to determine the perpetrator	FIND
 investigation.n.02	the work of inquiring into something thoroughly and systematically	ANALYZE
-observation.n.01	the act of making and recording a measurement	MATCH
+observation.n.01	the act of making and recording a measurement	FIND
 excavation.n.01	the act of digging	EXTRACT
 case.n.01	an occurrence of something	REPRESENT
 localization.n.01	a determination of the place where something is	FIND
@@ -691,7 +691,7 @@ drip.n.01	flowing in drops; the formation and falling of drops of liquid	FLOW
 eddy.n.02	a miniature whirlpool or whirlwind resulting when the current of a fluid doubles back on itself	FLOW
 current.n.02	a steady flow of a fluid (usually from natural causes)	FLOW
 whirlpool.n.01	a powerful circular current of water (usually the result of conflicting tides)	FLOW
-whirl.n.01	confused movement	FLOW
+whirl.n.01	confused movement	FLY
 effusion.n.02	flow under pressure	FLOW
 emission.n.01	the act of emitting; causing to flow forth	EMIT
 egress.n.03	the act of coming (or going) out; becoming apparent	APPEAR
@@ -703,7 +703,7 @@ punishment.n.01	the act of punishing	PUNISH
 birth.n.02	the event of being born	GIVE-BIRTH
 parturition.n.01	the process of giving birth	GIVE-BIRTH
 delivery.n.07	the act of delivering a child	GIVE-BIRTH
-genesis.n.01	a coming into being	CREATE_MATERIALIZE
+genesis.n.01	a coming into being	GIVE-BIRTH
 generation.n.07	the act of producing offspring or multiplying by such production	GIVE-BIRTH
 reproduction.n.05	the sexual activity of conceiving and bearing offspring	GIVE-BIRTH
 sexual_activity.n.01	activities associated with sexual intercourse	AROUSE_WAKE_ENLIVEN
@@ -719,7 +719,7 @@ reproduction.n.01	the process of generating offspring	GIVE-BIRTH
 transmigration.n.01	the passing of a soul into another body after death	GIVE-BIRTH
 superfetation.n.01	fertilization of a second ovum after a pregnancy has begun; results in two fetuses of different ages in the uterus at the same time	GIVE-BIRTH
 fertilization.n.01	creation by the physical union of male and female gametes; of sperm and ova in an animal or pollen and ovule in a plant	AROUSE_WAKE_ENLIVEN
-creation.n.03	the event that occurred at the beginning of something	CREATE_MATERIALIZE
+creation.n.03	the event that occurred at the beginning of something	ESTABLISH
 stockpiling.n.01	accumulating and storing a reserve supply	POSSESS
 fruitage.n.01	the yield of fruit	GROW_PLOW
 crop.n.01	the yield from plants in a single growing season	GROW_PLOW
@@ -730,16 +730,16 @@ monopoly.n.01	(economics) a market in which there are many buyers but only one s
 market.n.01	the world of commercial activity where goods and services are bought and sold	SELL
 exhaustion.n.03	the act of exhausting something entirely	CONSUME_SPEND
 depletion.n.01	the act of decreasing something markedly	CONSUME_SPEND
-doze.n.01	a light fitful sleep	SLEEP
+doze.n.01	a light fitful sleep	EXHAUST
 overexertion.n.01	excessive exertion; so much exertion that discomfort or injury results	EXHAUST
 effort.n.02	use of physical or mental energy; hard work	TRY
 labor.n.02	productive work (especially physical work done for wages)	WORK
 overstrain.n.01	too much strain	EXHAUST
-strain.n.01	(physics) deformation of a physical body under the action of applied forces	EXTEND
+strain.n.01	(physics) deformation of a physical body under the action of applied forces	AFFECT
 deformation.n.02	alteration in the shape or dimensions of an object as a result of the application of stress to it	SHAPE
 strain.n.10	an intense or violent exertion	TRY
 striving.n.01	an effortful attempt to attain a goal	TRY
-assumption.n.03	the act of taking possession of or power over something	PAY
+assumption.n.03	the act of taking possession of or power over something	BEGIN
 emergence.n.01	the gradual beginning or coming forth	BEGIN
 auspice.n.01	a favorable omen	BEGIN
 omen.n.01	a sign of something about to happen	SIGNAL_INDICATE
@@ -751,7 +751,7 @@ stroke.n.01	(sports) the act of swinging or striking at a ball with a club or ra
 outbreak.n.01	a sudden violent spontaneous occurrence (usually of some undesirable condition)	BEGIN
 inauguration.n.01	the act of starting a new operation or practice	BEGIN
 dawn.n.02	the earliest period	BEGIN
-dedication.n.02	a ceremony in which something (as a building) is dedicated to some goal or purpose	HAVE-A-FUNCTION_SERVE
+dedication.n.02	a ceremony in which something (as a building) is dedicated to some goal or purpose	FOCUS
 formation.n.07	creation by mental activity	BEGIN
 inauguration.n.02	the ceremonial induction into a position	BEGIN
 kickoff.n.03	a start given to contestants	BEGIN
@@ -774,7 +774,7 @@ trial.n.06	an annoying or frustrating or catastrophic event	HURT_HARM_ACHE
 affliction.n.03	a cause of great suffering and distress	HURT_HARM_ACHE
 coercion.n.01	the act of compelling by force of authority	OBLIGE_FORCE
 compulsion.n.03	using force to cause something to occur	OBLIGE_FORCE
-power_play.n.01	an aggressive attempt to compel acquiescence by the concentration or manipulation of power	OBLIGE_FORCE
+power_play.n.01	an aggressive attempt to compel acquiescence by the concentration or manipulation of power	STEAL_DEPRIVE
 stipulation.n.03	a restriction that is insisted upon as a condition for an agreement	OBLIGE_FORCE
 restriction.n.03	the act of keeping something within specified bounds (by force if necessary)	RESTRAIN
 conscription.n.01	compulsory military service	SUMMON
@@ -812,9 +812,9 @@ cut.n.18	the act of shortening something by chopping off the ends	SHAPE
 shortening.n.02	act of decreasing in length	REDUCE_DIMINISH
 rumination.n.02	(of ruminants) chewing (the cud)	EAT_BITE
 supping.n.01	ingestion of liquid food with a spoon or by drinking	EAT_BITE
-adjustment.n.01	making or becoming suitable; adjusting to circumstances	ADJUST_CORRECT
-reconciliation.n.02	getting two things to correspond	COMBINE_MIX_UNITE
-equalization.n.01	the act of making equal or uniform	SCORE
+adjustment.n.01	making or becoming suitable; adjusting to circumstances	HARMONIZE
+reconciliation.n.02	getting two things to correspond	HARMONIZE
+equalization.n.01	the act of making equal or uniform	MATCH
 blend.n.01	an occurrence of thorough mixing	COMBINE_MIX_UNITE
 mix.n.02	an event that combines things in a mixture	COMBINE_MIX_UNITE
 combining.n.01	an occurrence that results in things being united	COMBINE_MIX_UNITE
@@ -822,11 +822,11 @@ blend.n.03	the act of blending components together thoroughly	COMBINE_MIX_UNITE
 combination.n.07	the act of combining things to form a new whole	COMBINE_MIX_UNITE
 mix.n.03	the act of mixing together	COMBINE_MIX_UNITE
 fusion.n.01	an occurrence that involves the production of a union	COMBINE_MIX_UNITE
-fusion.n.07	the act of fusing (or melting) together	CONVERT
+fusion.n.07	the act of fusing (or melting) together	HARMONIZE
 coalescence.n.01	the union of diverse things into one body or form or group; the growing together of parts	COMBINE_MIX_UNITE
 union.n.11	the act of making or becoming a single unit	COMBINE_MIX_UNITE
 naturalization.n.03	the introduction of animals or plants to places where they flourish but are not indigenous	HARMONIZE
-honoring.n.01	conformity with law or custom or practice etc.	LIKE
+honoring.n.01	conformity with law or custom or practice etc.	HARMONIZE
 keeping.n.01	conformity or harmony	HARMONIZE
 readjustment.n.01	the act of adjusting again (to changed circumstances)	HARMONIZE
 synthesis.n.01	the process of producing a chemical compound (usually by the union of simpler chemical compounds)	HARMONIZE
@@ -854,7 +854,7 @@ race.n.02	a contest of speed	COMPETE
 startle.n.01	a sudden involuntary movement	JUMP
 leap.n.01	a light, self-propelled movement upwards or forwards	JUMP
 leapfrog.n.02	a game in which one child bends down and another leaps over	JUMP
-dancing.n.01	taking a series of rhythmical steps (and movements) in time to music	DANCE
+dancing.n.01	taking a series of rhythmical steps (and movements) in time to music	JUMP
 ski_jumping.n.01	the act of performing a jump on skis from a high ramp overhanging a snow covered slope	JUMP
 skiing.n.01	a sport in which participants must travel on skis	TRAVEL
 surf.n.01	waves breaking on the shore	ROLL
@@ -862,7 +862,7 @@ convolution.n.03	the action of coiling or twisting or winding together	ROLL
 wind.n.08	the act of winding or twisting	ROLL
 booking.n.02	the act of reserving (a place or passage) or engaging the services of (a person or group)	RESERVE
 employment.n.03	the act of giving someone a job	HIRE
-atrophy.n.02	any weakening or degeneration (especially through lack of use)	WORSEN
+atrophy.n.02	any weakening or degeneration (especially through lack of use)	BREAK_DETERIORATE
 weakening.n.01	becoming weaker	WEAKEN
 blowout.n.02	a sudden malfunction of a part or apparatus	BREAK_DETERIORATE
 grind.n.04	the act of grinding to a powder or dust	BREAK_DETERIORATE
@@ -878,7 +878,7 @@ breakage.n.03	the act of breaking something	DESTROY
 breakdown.n.03	a cessation of normal operation	BREAK_DETERIORATE
 crash.n.03	a sudden large decline of business or the prices of stocks (especially one that causes additional failures)	REDUCE_DIMINISH
 collapse.n.02	a natural event caused by something suddenly falling down or caving in	BREAK_DETERIORATE
-cave_in.n.01	the sudden collapse of something into a hollow beneath it	LOWER
+cave_in.n.01	the sudden collapse of something into a hollow beneath it	BREAK_DETERIORATE
 fracture.n.03	the act of cracking something	BREAK_DETERIORATE
 chip.n.09	the act of chipping something	BREAK_DETERIORATE
 fragmentation.n.03	(computer science) the condition of a file that is broken up and stored in many different locations on a magnetic disk	BREAK_DETERIORATE
@@ -901,7 +901,7 @@ corrosion.n.02	erosion by chemical action	CORRODE_WEAR-AWAY_SCRATCH
 desquamation.n.01	loss of bits of outer skin by peeling or shedding or coming off in scales	BREAK_DETERIORATE
 dilapidation.n.02	the process of becoming dilapidated	DESTROY
 dissociation.n.03	(chemistry) the temporary or reversible process in which a molecule or ion is broken down into smaller molecules or ions	BREAK_DETERIORATE
-exfoliation.n.01	the peeling off in flakes or scales of bark or dead skin	DISCARD
+exfoliation.n.01	the peeling off in flakes or scales of bark or dead skin	BREAK_DETERIORATE
 run.n.13	a row of unravelled stitches	BREAK_DETERIORATE
 hammer.n.08	the act of pounding (delivering repeated heavy blows)	HIT
 smashing.n.01	the act of breaking something into small pieces	BREAK_DETERIORATE
@@ -909,8 +909,8 @@ emergence.n.03	the act of emerging	APPEAR
 appearance.n.05	the act of appearing in public view	APPEAR
 emergence.n.02	the becoming visible	APPEAR
 desorption.n.01	changing from an adsorbed state on a surface to a gaseous or liquid state	REMOVE_TAKE-AWAY_KIDNAP
-smoke.n.01	a cloud of fine particles suspended in a gas	TREAT-WITH/BY
-aerosol.n.01	a cloud of solid or liquid particles in a gas	CIRCULATE_SPREAD_DISTRIBUTE
+smoke.n.01	a cloud of fine particles suspended in a gas	EMIT
+aerosol.n.01	a cloud of solid or liquid particles in a gas	COVER_SPREAD_SURMOUNT
 smoke.n.02	a hot vapor containing fine particles of carbon being produced by combustion	EMIT
 vaporization.n.02	the process of becoming a vapor	CONVERT
 pulsation.n.01	(electronics) a sharp transient wave in the normal electrical state (or a series of such transients)	EMIT
@@ -925,7 +925,7 @@ expansion.n.01	the act of increasing (something) in size or volume or quantity o
 protrusion.n.02	the act of projecting out from something	BULGE-OUT
 annihilation.n.02	total destruction	KILL
 destruction.n.02	an event (or the result of an event) that completely destroys something	CANCEL_ELIMINATE
-annihilation.n.01	destruction by annihilating something	FORGET
+annihilation.n.01	destruction by annihilating something	CANCEL_ELIMINATE
 destruction.n.01	the termination of something by causing so much damage to it that it cannot be repaired or no longer exists	DESTROY
 extinction.n.04	complete annihilation	KILL
 decimation.n.01	destroying or killing a large part of the population (literally every tenth person as chosen by lot)	KILL
@@ -958,9 +958,9 @@ extinction.n.06	the act of extinguishing; causing to stop burning	RESTRAIN
 hanging.n.02	a form of capital punishment; victim is suspended by the neck from a gallows or gibbet until dead	KILL
 immolation.n.01	killing or offering as a sacrifice	KILL
 sacrifice.n.04	the act of killing (an animal or person) in order to propitiate a deity	KILL
-impalement.n.01	the act of piercing with a sharpened stake as a form of punishment or torture	HOLE_PIERCE
+impalement.n.01	the act of piercing with a sharpened stake as a form of punishment or torture	KILL
 killing.n.01	an event that causes someone to die	KILL
-stoning.n.01	the act of pelting with stones; punishment inflicted by throwing stones at the victim (even unto death)	THROW
+stoning.n.01	the act of pelting with stones; punishment inflicted by throwing stones at the victim (even unto death)	KILL
 lynching.n.01	putting a person to death by mob action without due process of law	KILL
 shooting.n.02	killing someone by gunfire	KILL
 poisoning.n.02	the act of giving poison to a person or animal with the intent to kill	KILL
@@ -974,9 +974,9 @@ quantization.n.01	the act of dividing into quanta or expressing in terms of quan
 recalculation.n.01	the act of calculating again (usually to eliminate errors or to include additional data)	CALCULATE_ESTIMATE
 rectification.n.04	determination of the length of a curve; finding a straight line equal in length to a given curve	CALCULATE_ESTIMATE
 transposition.n.04	(mathematics) the transfer of a quantity from one side of an equation to the other along with a change of sign	CALCULATE_ESTIMATE
-naming.n.01	the verbal act of naming	RECOGNIZE_ADMIT_IDENTIFY
+naming.n.01	the verbal act of naming	CITE
 designation.n.03	the act of designating or identifying something	RECOGNIZE_ADMIT_IDENTIFY
-label.n.01	a brief description given for purposes of identification	NAME
+label.n.01	a brief description given for purposes of identification	DECREE_DECLARE
 description.n.02	the act of describing something	REPRESENT
 joining.n.01	the act of bringing two things into contact (especially for communication)	JOIN_CONNECT
 liaison.n.02	a channel for communication between groups	COMMUNICATE_CONTACT
@@ -989,7 +989,7 @@ call_up.n.01	an order to report for military duty	SUMMON
 summons.n.02	an order to appear in person at a given place and time	SUMMON
 order.n.01	(often plural) a command given by a superior (e.g., a military or law enforcement officer) that must be obeyed	ORDER
 command.n.01	an authoritative direction or instruction to do something	ORDER
-mobilization.n.02	act of marshaling and organizing and making ready for use or action	SUMMON
+mobilization.n.02	act of marshaling and organizing and making ready for use or action	PREPARE
 assembly.n.06	the social act of assembling	GROUP
 rally.n.02	the feat of mustering strength for a renewed effort	SUMMON
 convocation.n.02	the act of convoking	SUMMON
@@ -1005,12 +1005,12 @@ sojourn.n.01	a temporary stay (e.g., as a guest)	SPEND-TIME_PASS-TIME
 lipreading.n.01	perceiving what a person is saying by observing the movements of the lips	READ
 numeration.n.01	naming numbers	READ
 solicitation.n.03	the act of enticing a person to do something wrong (as an offer of sex in return for money)	LURE_ENTICE
-enticement.n.03	the act of influencing by exciting hope or desire	LURE_ENTICE
+enticement.n.03	the act of influencing by exciting hope or desire	PERSUADE
 influence.n.02	causing something without any direct or apparent effort	INFLUENCE
 adjuration.n.01	a solemn and earnest appeal to someone to do something	ASK_REQUEST
 entreaty.n.01	earnest or urgent request	ASK_REQUEST
-mission.n.03	a special assignment that is given to a person or group	ASSIGN-smt-to-smn
-assignment.n.01	a duty that you are assigned to perform (especially in the armed forces)	ASSIGN-smt-to-smn
+mission.n.03	a special assignment that is given to a person or group	ASSIGN-SMT-TO-SMN
+assignment.n.01	a duty that you are assigned to perform (especially in the armed forces)	ASSIGN-SMT-TO-SMN
 commandment.n.01	something that is commanded	ORDER
 injunction.n.01	a formal command or admonition	ORDER
 survey.n.01	a detailed critical inspection	ANALYZE
@@ -1025,22 +1025,22 @@ call-back.n.02	the recall of an employee after a layoff	RECALL
 putout.n.01	an out resulting from a fielding play (not a strikeout)	RECALL
 ouster.n.03	the act of ejecting someone or forcing them out	DISMISS_FIRE-SMN
 ejection.n.02	the act of forcing out someone or something	DRIVE-BACK
-banishment.n.02	rejection by means of an act of banishing or proscribing someone	DRIVE-BACK
+banishment.n.02	rejection by means of an act of banishing or proscribing someone	PRECLUDE_FORBID_EXPEL
 dismissal.n.04	the termination of someone's employment (leaving them free to depart)	DISMISS_FIRE-SMN
 deactivation.n.01	breaking up a military unit (by transfers or discharges)	DISMISS_FIRE-SMN
 demobilization.n.01	act of changing from a war basis to a peace basis including disbanding or discharging troops	DISMISS_FIRE-SMN
 deposition.n.04	the act of deposing someone; removing a powerful person from a position or office	DISMISS_FIRE-SMN
 disbarment.n.01	the act of expelling a lawyer from the practice of law	DISMISS_FIRE-SMN
 release.n.11	a formal written statement of relinquishment	GIVE-UP_ABOLISH_ABANDON
-relinquishment.n.02	the act of giving up and abandoning a struggle or task etc.	CHANGE-HANDS
+relinquishment.n.02	the act of giving up and abandoning a struggle or task etc.	LIBERATE_ALLOW_AFFORD
 layoff.n.01	the act of laying off an employee or a work force	DISMISS_FIRE-SMN
 closure.n.07	termination of operations	FINISH_CONCLUDE_END
 lustrum.n.02	a ceremonial purification of the Roman population every five years following the census	DISMISS_FIRE-SMN
 removal.n.02	dismissal from office	DISMISS_FIRE-SMN
 superannuation.n.03	the act of discharging someone because of age (especially to cause someone to retire from service on a pension)	DISMISS_FIRE-SMN
-apprehension.n.04	the act of apprehending (especially apprehending a criminal)	CAGE_IMPRISON
+apprehension.n.04	the act of apprehending (especially apprehending a criminal)	CATCH
 capture.n.01	the act of forcibly dispossessing an owner of property	STEAL_DEPRIVE
-capture.n.04	the act of taking of a person by force	REMOVE_TAKE-AWAY_KIDNAP
+capture.n.04	the act of taking of a person by force	CATCH
 capture.n.03	any process in which an atomic or nuclear system acquires an additional particle	CATCH
 catcher.n.02	the position on a baseball team of the player who is stationed behind home plate and who catches the balls that the pitcher throws	CATCH
 hug.n.01	a tight or amorous embrace	CATCH
@@ -1049,14 +1049,14 @@ entrapment.n.01	a defense that claims the defendant would not have broken the la
 defense.n.11	a defendant's answer or plea denying the truth of the charges against him	REFUSE
 frame-up.n.01	an act that incriminates someone on a false charge	CATCH
 falsification.n.03	the act of rendering something false as by fraudulent changes (of documents or measures etc.) or counterfeiting	FAKE
-fielding.n.01	(baseball) handling the ball while playing in the field	WORK
+fielding.n.01	(baseball) handling the ball while playing in the field	CATCH
 handling.n.02	the action of touching with the hands (or the skillful use of the hands) or by the use of mechanical means	TOUCH
-wrestle.n.01	the act of engaging in close hand-to-hand combat	FIGHT
+wrestle.n.01	the act of engaging in close hand-to-hand combat	CATCH
 struggle.n.03	strenuous effort	TRY
-wrestling.n.02	the sport of hand-to-hand struggle between unarmed contestants who try to throw each other down	FIGHT
+wrestling.n.02	the sport of hand-to-hand struggle between unarmed contestants who try to throw each other down	CATCH
 interception.n.01	the act of intercepting; preventing something from proceeding or arriving	CATCH
 roping.n.01	capturing cattle or horses with a lasso	CATCH
-recapture.n.02	the act of taking something back	CATCH
+recapture.n.02	the act of taking something back	CONQUER
 recovery.n.03	the act of regaining or saving something lost (or in danger of becoming lost)	OBTAIN
 swoop.n.02	a very rapid raid	CATCH
 foray.n.01	a sudden short attack	ATTACK_BOMB
@@ -1071,7 +1071,7 @@ incorporation.n.03	including by incorporating	INCLUDE-AS
 consignment.n.03	the delivery of goods for sale or disposal	SEND
 express.n.03	rapid transport of goods	SEND
 forwarding.n.01	the act of sending on to another destination	SEND
-transmission.n.01	the act of sending a message; causing a message to be transmitted	CIRCULATE_SPREAD_DISTRIBUTE
+transmission.n.01	the act of sending a message; causing a message to be transmitted	TRANSMIT
 sending.n.01	the act of causing something to go (especially messages)	SEND
 mailing.n.02	the transmission of a letter	SEND
 hospitalization.n.04	placing in medical care in a hospital	SEND
@@ -1087,9 +1087,9 @@ push.n.05	an effort to advance	PERSUADE
 progress.n.02	the act of moving forward (as toward a goal)	GO-FORWARD
 blandishment.n.02	the act of urging by means of teasing or flattery	PERSUADE
 dissuasion.n.02	persuading not to do or believe something; talking someone out of a belief or an intended course of action	PERSUADE
-drift.n.01	a force that moves something along	TRAVEL
-force.n.02	(physics) the influence that produces a change in a physical quantity	PRESS_PUSH_FOLD
-guidance.n.02	the act of guiding or showing the way	DIRECT_AIM_MANEUVER
+drift.n.01	a force that moves something along	PERSUADE
+force.n.02	(physics) the influence that produces a change in a physical quantity	PULL
+guidance.n.02	the act of guiding or showing the way	PERSUADE
 steering.n.02	the act of setting and holding a course	PERSUADE
 fomentation.n.03	deliberate and intentional triggering (of trouble or discord)	AROUSE_WAKE_ENLIVEN
 seduction.n.01	enticing someone astray from right behavior	PERSUADE
@@ -1102,9 +1102,9 @@ germination.n.01	the process whereby seeds or spores sprout and begin to grow	GR
 pullulation.n.01	asexual reproduction in which a local growth on the surface or in the body of the parent becomes a separate individual	GROW_PLOW
 branching.n.01	the act of branching out or dividing into branches	SEPARATE_FILTER_DETACH
 producer.n.03	something that produces	GROW_PLOW
-cultivation.n.02	(agriculture) production of food by preparing the land to grow crops (especially on a large scale)	GROW_PLOW
-cross-fertilization.n.01	fertilization by the union of male and female gametes from different individual of the same species	GROW_PLOW
-graft.n.03	the act of grafting something onto something else	GROW_PLOW
+cultivation.n.02	(agriculture) production of food by preparing the land to grow crops (especially on a large scale)	INCREASE_ENLARGE_MULTIPLY
+cross-fertilization.n.01	fertilization by the union of male and female gametes from different individual of the same species	COMBINE_MIX_UNITE
+graft.n.03	the act of grafting something onto something else	PUT_APPLY_PLACE_PAVE
 attachment.n.06	the act of attaching or affixing something	ADD
 fertilization.n.02	making fertile as by applying fertilizer or manure	AROUSE_WAKE_ENLIVEN
 enrichment.n.01	act of making fuller or more meaningful or rewarding	AMELIORATE
@@ -1115,12 +1115,12 @@ insemination.n.01	the act of sowing (of seeds in the ground or, figuratively, of
 planting.n.03	putting seeds or young plants in the ground to grow	PUT_APPLY_PLACE_PAVE
 farming.n.01	the practice of cultivating the land or raising stock	GENERATE
 maturation.n.01	coming to full development; becoming mature	GROW_PLOW
-mellowing.n.01	the process of becoming mellow	GROW_PLOW
+mellowing.n.01	the process of becoming mellow	REDUCE_DIMINISH
 plowing.n.01	tilling the land with a plow	GROW_PLOW
 tilling.n.01	cultivation of the land in order to raise crops	GROW_PLOW
 reforestation.n.01	the restoration (replanting) of a forest that had been reduced by fire or cutting	GROW_PLOW
 reclamation.n.01	the conversion of wasteland into land suitable for use of habitation or cultivation	RESTORE-TO-PREVIOUS/INITIAL-STATE_UNDO_UNWIND
-restoration.n.02	the act of restoring something or someone to a satisfactory state	HELP_HEAL_CARE_CURE
+restoration.n.02	the act of restoring something or someone to a satisfactory state	RESTORE-TO-PREVIOUS/INITIAL-STATE_UNDO_UNWIND
 repair.n.01	the act of putting something in working order again	REPAIR_REMEDY
 rooting.n.01	the process of putting forth roots and beginning to grow	GROW_PLOW
 tillage.n.02	the cultivation of soil for raising crops	GROW_PLOW
@@ -1134,7 +1134,7 @@ amendment.n.01	the act of amending or correcting	ADJUST_CORRECT
 correction.n.01	the act of offering an improvement to replace a mistake; setting right	ADJUST_CORRECT
 redress.n.02	act of correcting an error or a fault or an evil	ADJUST_CORRECT
 reparation.n.04	something done or paid in expiation of a wrong	ADJUST_CORRECT
-expiation.n.02	the act of atoning for sin or wrongdoing (especially appeasing a deity)	JUSTIFY_EXCUSE
+expiation.n.02	the act of atoning for sin or wrongdoing (especially appeasing a deity)	REGRET_SORRY
 redemption.n.01	(theology) the act of delivering from sin or saving from evil	HELP_HEAL_CARE_CURE
 rescue.n.01	recovery or preservation from loss or danger	HELP_HEAL_CARE_CURE
 collimation.n.01	the accurate adjustment of the line of sight of a telescope	ADJUST_CORRECT
@@ -1157,7 +1157,7 @@ tuning.n.01	(music) calibrating something (an instrument or electronic circuit) 
 tune-up.n.02	adjustments made to an engine to improve its performance	ADJUST_CORRECT
 backhand.n.01	a return made with the back of the hand facing the direction of the stroke	HIT
 slam.n.03	a forceful impact that makes a loud noise	HIT
-contact.n.04	the physical coming together of two or more things	BORDER
+contact.n.04	the physical coming together of two or more things	VIOLATE
 knock.n.03	a vigorous blow	HIT
 blow.n.02	an impact (as from a collision)	HIT
 batting.n.01	(baseball) the batter's attempt to get on base	HIT
@@ -1170,8 +1170,8 @@ beat.n.09	a stroke or blow	SHAPE
 blast.n.01	a very long fly ball	HIT
 fly.n.04	(baseball) a hit that flies up in the air	HIT
 kick.n.01	the act of delivering a blow with the foot	HIT
-box.n.10	a blow with the hand (usually on the ear)	FIGHT
-boxing.n.01	fighting with the fists	FIGHT
+box.n.10	a blow with the hand (usually on the ear)	HIT
+boxing.n.01	fighting with the fists	HIT
 bunt.n.01	(baseball) the act of hitting a baseball lightly without swinging the bat	HIT
 whipping.n.01	beating with a whip or strap or rope as a form of punishment	HIT
 ricochet.n.01	a glancing rebound	MOVE-BACK
@@ -1200,7 +1200,7 @@ hook.n.06	a golf shot that curves to the left for a right-handed golfer	HIT
 hook.n.07	a short swinging punch delivered from the side with the elbow bent	HIT
 horsewhipping.n.01	the act of whipping with a horsewhip	HIT
 jab.n.02	a quick short straight punch	HIT
-jab.n.01	a sharp hand gesture (resembling a blow)	PUT_APPLY_PLACE_PAVE
+jab.n.01	a sharp hand gesture (resembling a blow)	PRESS_PUSH_FOLD
 gesture.n.01	motion of hands or body to emphasize or help to express a thought or feeling	SIGN
 kick.n.06	a rhythmic thrusting movement of the legs as in swimming or calisthenics	HIT
 knock.n.05	the act of hitting vigorously	HIT
@@ -1241,7 +1241,7 @@ teeoff.n.01	the act of hitting a golf ball from the teeing ground at the start o
 threshing.n.01	the separation of grain or seeds from the husks and straw	HIT
 separation.n.04	sorting one thing from others	SEPARATE_FILTER_DETACH
 sorting.n.03	grouping by class or kind or size	SORT_CLASSIFY_ARRANGE
-grouping.n.02	the activity of putting things together in groups	GROUP
+grouping.n.02	the activity of putting things together in groups	SORT_CLASSIFY_ARRANGE
 thump.n.01	a heavy dull sound (as made by impact of heavy objects)	MAKE-A-SOUND
 triple.n.01	a base hit at which the batter stops safely at third base	HIT
 cut.n.14	(sports) a stroke that puts reverse spin on the ball	HIT
@@ -1257,7 +1257,7 @@ vote.n.01	a choice that is made by counting the number of people in favor of eac
 lottery.n.02	players buy (or are given) chances and prizes are distributed by casting lots	CHOOSE
 gambling.n.01	the act of playing for stakes in the hope of winning (including the payment of a price for a chance to win a prize)	BID
 cast.n.07	the act of throwing dice	CHOOSE
-preferment.n.01	the act of preferring	CHOOSE
+preferment.n.01	the act of preferring	LIKE
 promotion.n.02	act of raising in rank or position	PROMOTE
 copout.n.01	a failure to face some difficulty squarely	CHOOSE
 failure.n.05	an unexpected omission	FAIL_LOSE
@@ -1269,7 +1269,7 @@ count.n.02	the act of counting; reciting numbers in ascending order	COUNT
 reelection.n.01	election again	CHOOSE
 volition.n.02	the act of making a choice	CHOOSE
 beatification.n.03	(Roman Catholic Church) an act of the Pope who declares that a deceased person lived a holy life and is worthy of public veneration; a first step toward canonization	APPROVE_PRAISE
-sanctification.n.01	a religious ceremony in which something is made holy	COMMUNE
+sanctification.n.01	a religious ceremony in which something is made holy	CHANGE-APPEARANCE/STATE
 canonization.n.01	(Roman Catholic and Eastern Orthodox Church) the act of admitting a deceased person into the canon of saints	APPROVE_PRAISE
 congratulation.n.02	(usually plural) an expression of pleasure at the success or good fortune of another	APPROVE_PRAISE
 congratulation.n.01	the act of acknowledging that someone has an occasion for celebration	APPROVE_PRAISE
@@ -1284,7 +1284,7 @@ recourse.n.01	act of turning to for assistance	RESULT_CONSEQUENCE
 supervention.n.01	a following on in addition	RESULT_CONSEQUENCE
 testing.n.02	an examination of the characteristics of something	VERIFY
 burst.n.03	a sudden flurry of activity (often for no obvious reason)	EXIST-WITH-FEATURE
-integration.n.01	the action of incorporating a racial or religious group into a community	EXIST-WITH-FEATURE
+integration.n.01	the action of incorporating a racial or religious group into a community	BEFRIEND
 discord.n.04	strife resulting from a lack of agreement	EXIST-WITH-FEATURE
 flow.n.04	any uninterrupted stream or discharge	SPILL_POUR
 fortification.n.03	the addition of an ingredient for the purpose of enrichment (as the addition of alcohol to wine or the addition of vitamins to food)	ADD
@@ -1307,13 +1307,13 @@ recurrence.n.01	happening again (especially at regular intervals)	HAPPEN_OCCUR
 repeat.n.01	an event that repeats	REPEAT
 succession.n.03	the action of following in order	SORT_CLASSIFY_ARRANGE
 follow-up.n.03	a subsequent examination of a patient for the purpose of monitoring earlier treatment	ANALYZE
-follow-up.n.02	an activity that continues something that has already begun or that repeats something that has already been done	FINISH_CONCLUDE_END
+follow-up.n.02	an activity that continues something that has already begun or that repeats something that has already been done	COME-AFTER_FOLLOW-IN-TIME
 startup.n.01	the act of setting in operation	START-FUNCTIONING
 cycle.n.03	a periodically repeated sequence of events	REPEAT
 perseverance.n.02	the act of persisting or persevering; continuing or repeating behavior	CONTINUE
 prolongation.n.01	the act of prolonging something	CONTINUE
 abscondment.n.01	the act of running away secretly (as to avoid arrest)	LEAVE_DEPART_RUN-AWAY
-desertion.n.01	withdrawing support or help despite allegiance or responsibility	BETRAY
+desertion.n.01	withdrawing support or help despite allegiance or responsibility	GIVE-UP_ABOLISH_ABANDON
 bolt.n.07	a sudden abandonment (as from a political party)	LEAVE_DEPART_RUN-AWAY
 absence.n.02	failure to be present	LEAVE_DEPART_RUN-AWAY
 slip.n.15	the act of avoiding capture (especially by cunning)	LEAVE_DEPART_RUN-AWAY
@@ -1329,9 +1329,9 @@ takeoff.n.02	the initial ascent of an airplane as it becomes airborne	LEAVE_DEPA
 rise.n.04	a movement upward	RAISE
 derailment.n.01	an accident in which a train runs off its track	LEAVE_DEPART_RUN-AWAY
 vanishing.n.01	a sudden or mysterious disappearance	LEAVE_DEPART_RUN-AWAY
-dispersion.n.01	spreading widely or driving off	SEPARATE_FILTER_DETACH
+dispersion.n.01	spreading widely or driving off	LEAVE_DEPART_RUN-AWAY
 spread.n.01	process or result of distributing or extending over a wide expanse of space	CIRCULATE_SPREAD_DISTRIBUTE
-dissipation.n.01	breaking up and scattering by dispersion	SEPARATE_FILTER_DETACH
+dissipation.n.01	breaking up and scattering by dispersion	LEAVE_DEPART_RUN-AWAY
 scatter.n.02	the act of scattering	COVER_SPREAD_SURMOUNT
 spread.n.10	act of extending over a wider scope or expanse of space or time	CIRCULATE_SPREAD_DISTRIBUTE
 extension.n.02	act of expanding in scope; making more widely available	INCREASE_ENLARGE_MULTIPLY
@@ -1351,7 +1351,7 @@ disengagement.n.02	to break off a military action with an enemy	MOVE-BACK
 immigration.n.01	migration into a place (especially migration to a country of which you are not a native in order to settle there)	LEAVE_DEPART_RUN-AWAY
 liftoff.n.01	the initial ascent of a rocket from its launching pad	LEAVE_DEPART_RUN-AWAY
 tarriance.n.01	the act of tarrying	LEAVE_DEPART_RUN-AWAY
-move.n.02	the act of changing your residence or place of business	MOVE-SOMETHING
+move.n.02	the act of changing your residence or place of business	LEAVE_DEPART_RUN-AWAY
 stampede.n.01	a headlong rush of people on a common impulse	LEAVE_DEPART_RUN-AWAY
 walkout.n.02	the act of walking out (of a meeting or organization) as a sign of protest	LEAVE_DEPART_RUN-AWAY
 protest.n.02	the act of protesting; a public (often organized) manifestation of dissent	REFUSE
@@ -1362,7 +1362,7 @@ bar_mitzvah.n.01	(Judaism) an initiation ceremony marking the 13th birthday of a
 bat_mitzvah.n.01	(Judaism) an initiation ceremony marking the 12th birthday of a Jewish girl and signifying the beginning of religious responsibility	COMMUNE
 benediction.n.02	a ceremonial prayer invoking divine protection	COMMUNE
 blessing.n.05	the act of praying for divine protection	COMMUNE
-consecration.n.02	(religion) sanctification of something by setting it apart (usually with religious rites) as dedicated to God	COMMUNE
+consecration.n.02	(religion) sanctification of something by setting it apart (usually with religious rites) as dedicated to God	FOCUS
 church_service.n.01	a service conducted in a house of worship	COMMUNE
 communion.n.01	the act of participating in the celebration of the Eucharist	COMMUNE
 sanction.n.02	a mechanism of social control for enforcing a society's standards	COMMUNE
@@ -1381,7 +1381,7 @@ lead.n.04	a position of leadership (especially in the phrase `take the lead')	LE
 internationalization.n.01	the act of bringing something under international control	LEAD_GOVERN
 misgovernment.n.01	government that is inefficient or dishonest	LEAD_GOVERN
 classification.n.04	restriction imposed by the government on documents or weapons that are available only to certain authorized people	RESTRAIN
-bridle.n.02	the act of restraining power or action or limiting excess	RESTRAIN
+bridle.n.02	the act of restraining power or action or limiting excess	REDUCE_DIMINISH
 hold-down.n.01	a limitation or constraint	RESTRAIN
 impoundment.n.01	placing private property in the custody of an officer of the law	RESTRAIN
 seizure.n.04	the taking possession of something by legal process	REMOVE_TAKE-AWAY_KIDNAP
@@ -1453,7 +1453,7 @@ payment.n.02	the act of paying money	PAY
 expending.n.01	the act of spending money for goods or services	CONSUME_SPEND
 consumption.n.03	(economics) the utilization of economic goods to satisfy needs or in manufacturing	CONSUME_SPEND
 consumption.n.04	the act of consuming something	CONSUME_SPEND
-spree.n.01	a brief indulgence of your impulses	ENJOY
+spree.n.01	a brief indulgence of your impulses	CONSUME_SPEND
 progress.n.03	a movement forward	GO-FORWARD
 approach.n.05	the event of one object coming closer to another	GO-FORWARD
 approach.n.02	the act of drawing spatially closer to something	GO-FORWARD
@@ -1469,7 +1469,7 @@ flit.n.01	a sudden quick movement	TRAVEL
 slowdown.n.01	the act of slowing down or falling behind	SLOW-DOWN
 floating.n.01	the act of someone who floats on the water	GO-FORWARD
 swimming.n.01	the act of swimming; :	DIP_DIVE
-flotation.n.01	the phenomenon of floating (remaining on the surface of a liquid without sinking)	MOVE-SOMETHING
+flotation.n.01	the phenomenon of floating (remaining on the surface of a liquid without sinking)	DIP_DIVE
 flux.n.02	a flow or discharge	GO-FORWARD
 foot.n.07	travel by walking	GO-FORWARD
 gravity.n.01	(physics) the force of attraction between all masses in the universe; especially the attraction of the earth's mass for bodies near its surface; ; ; --Albert Einstein	GO-FORWARD
@@ -1481,7 +1481,7 @@ lurch.n.04	the act of moving forward suddenly	GO-FORWARD
 hurl.n.01	a violent throw	THROW
 drive.n.01	the act of applying force to propel something	DRIVE-BACK
 stab.n.02	a strong blow with a knife or other sharp pointed instrument	CUT
-march.n.04	a procession of people walking together	MOVE-SOMETHING
+march.n.04	a procession of people walking together	GO-FORWARD
 migration.n.04	the periodic passage of groups of animals (especially birds or fishes) from one region to another for feeding or breeding	GO-FORWARD
 ocean_trip.n.01	an act of traveling by water	GO-FORWARD
 voyage.n.02	a journey to some distant place	GO-FORWARD
@@ -1515,7 +1515,7 @@ sandblast.n.01	a blast of wind laden with sand	CORRODE_WEAR-AWAY_SCRATCH
 snuffle.n.01	the act of breathing heavily through the nose (as when the nose is congested)	BREATH_BLOW
 wailing.n.01	loud cries made while weeping	CRY
 sob.n.03	convulsive gasp made while weeping	CRY
-lacrimation.n.01	shedding tears	CRY
+lacrimation.n.01	shedding tears	WET
 knockdown.n.01	a blow that knocks the opponent off his feet	KNOCK-DOWN
 fell.n.03	the act of felling something (as a tree)	KNOCK-DOWN
 knockout.n.02	a blow that renders the opponent unconscious	KNOCK-DOWN
@@ -1531,9 +1531,9 @@ soak.n.01	the process of becoming softened and saturated as a consequence of bei
 irrigation.n.01	supplying dry land with water by means of ditches etc	WET
 irrigation.n.02	(medicine) cleaning a wound or body organ by flushing or washing out with water or a medicated solution	WET
 perfusion.n.01	pumping a liquid into an organ or tissue (especially by way of blood vessels)	WET
-spatter.n.02	the act of splashing a (liquid) substance on a surface	WET
+spatter.n.02	the act of splashing a (liquid) substance on a surface	DIRTY
 painting.n.03	the act of applying paint to a surface	PAINT
-application.n.03	the work of applying something	PUT_APPLY_PLACE_PAVE
+application.n.03	the work of applying something	COVER_SPREAD_SURMOUNT
 splash.n.01	the sound like water splashing	WET
 splash.n.06	the act of scattering water about haphazardly	WET
 swash.n.01	the movement or sound of water	WET
@@ -1543,7 +1543,7 @@ quarrel.n.01	an angry dispute	QUARREL_POLEMICIZE
 representation.n.03	the act of representing; standing in for someone or some group and speaking with authority in their behalf	ARGUE-IN-DEFENSE
 sparring.n.01	an argument in which the participants are trying to gain some advantage	ARGUE-IN-DEFENSE
 fight.n.04	an intense verbal dispute	RESIST
-confrontation.n.04	the act of hostile groups opposing each other	SEE
+confrontation.n.04	the act of hostile groups opposing each other	RESIST
 stand.n.12	a defensive effort	RESIST
 resistance.n.04	the military action of resisting the enemy's advance	RESIST
 execution.n.06	the act of accomplishing some aim or executing some order	CARRY-OUT-ACTION
@@ -1554,7 +1554,7 @@ extemporization.n.01	a performance given extempore without planning or preparati
 improvisation.n.02	an unplanned expedient	CARRY-OUT-ACTION
 occupation.n.03	any activity that occupies a person's attention	CAUSE-MENTAL-STATE
 collaboration.n.01	act of working jointly	CARRY-OUT-ACTION
-decay.n.05	the spontaneous disintegration of a radioactive substance along with the emission of ionizing radiation	CARRY-OUT-ACTION
+decay.n.05	the spontaneous disintegration of a radioactive substance along with the emission of ionizing radiation	LOSE
 performance.n.03	the act of performing; of doing something successfully; using knowledge as distinguished from merely possessing it	CARRY-OUT-ACTION
 pastime.n.01	a diversion that occupies one's time and thoughts (usually pleasantly)	CARRY-OUT-ACTION
 execution.n.04	(law) the completion of a legal instrument (such as a contract or deed) by signing it (and perhaps sealing and delivering it) so that it becomes legally binding and enforceable	CARRY-OUT-ACTION
@@ -1567,7 +1567,7 @@ deviation.n.04	deviate behavior	DIVERSIFY
 variation.n.02	an activity that varies from a norm or standard	DIVERSIFY
 discrepancy.n.02	an event that departs from expectations	DIVERSIFY
 digression.n.03	wandering from the main path of a journey	DIVERSIFY
-specialization.n.03	(biology) the structural adaptation of some body part for a particular function	AMELIORATE
+specialization.n.03	(biology) the structural adaptation of some body part for a particular function	DIVERSIFY
 dissimilation.n.01	a linguistic process by which one of two similar sounds in a word becomes less like the other	DIVERSIFY
 radiation.n.05	the spread of a group of organisms into new habitats	DIVERSIFY
 variation.n.11	the act of changing or altering something slightly but noticeably from the norm or standard	DIVERSIFY
@@ -1577,16 +1577,16 @@ conveyance.n.04	act of transferring property title from one person to another	CH
 transfer.n.06	transferring ownership	GIVE_GIFT
 secularization.n.02	transfer of property from ecclesiastical to civil possession	CHANGE-HANDS
 deal.n.01	a particular instance of buying or selling	SELL
-trade.n.01	the commercial exchange (buying and selling on domestic or international markets) of goods and services	NEGOTIATE
+trade.n.01	the commercial exchange (buying and selling on domestic or international markets) of goods and services	WORK
 enjoyment.n.02	act of receiving pleasure from something	LIKE
 carouse.n.01	revelry in drinking; a merry drinking party	ENJOY
-orgy.n.03	a wild gathering involving excessive drinking and promiscuity	DEBASE_ADULTERATE
-repletion.n.02	eating until excessively full	ENJOY
+orgy.n.03	a wild gathering involving excessive drinking and promiscuity	ENJOY
+repletion.n.02	eating until excessively full	NOURISH_FEED
 thrill.n.03	something that causes you to experience a sudden intense feeling or sensation	CAUSE-MENTAL-STATE
 excitation.n.03	something that agitates and arouses	AROUSE_WAKE_ENLIVEN
 decantation.n.01	the act of gently pouring off a clear liquor (as from its original bottle) without disturbing the lees	SPILL_POUR
 extravasation.n.03	the process of exuding or passing out of a vessel into surrounding tissues; said of blood or lymph or urine	SPILL_POUR
-leach.n.01	the process of leaching	SPILL_POUR
+leach.n.01	the process of leaching	PERMEATE
 regurgitation.n.01	backflow of blood through a defective heart valve	SPILL_POUR
 spill.n.03	the act of allowing a fluid to escape	SPILL_POUR
 abduction.n.02	(physiology) moving of a body part away from the central axis of the body	MOVE-SOMETHING
@@ -1619,7 +1619,7 @@ transplant.n.03	the act of removing something from one location and introducing 
 translation.n.07	the act of uniform movement	MOVE-SOMETHING
 translocation.n.02	(genetics) an exchange of chromosome parts	MOVE-SOMETHING
 ultracentrifugation.n.01	centrifugation at very high speeds	MOVE-SOMETHING
-acetylation.n.01	the process of introducing an acetyl group into a compound	REPLACE
+acetylation.n.01	the process of introducing an acetyl group into a compound	INSERT
 exchange.n.04	the act of giving something in return for something received	REPLACE
 interchange.n.02	mutual interaction; the activity of reciprocating or exchanging (especially information)	GIVE_GIFT
 subbing.n.01	working as a substitute for someone who is ill or on leave of absence	REPLACE
@@ -1628,15 +1628,15 @@ supplanting.n.01	act of taking the place of another especially using underhanded
 supersedure.n.01	act of replacing one person or thing by another especially one held to be superior	REPLACE
 subrogation.n.01	(law) the act of substituting of one creditor for another	REPLACE
 truncation.n.02	the replacement of an edge or solid angle (as in cutting a gemstone) by a plane (especially by a plane that is equally inclined to the adjacent faces)	REPLACE
-carving.n.02	removing parts from hard material to create a desired pattern or shape	SHAPE
+carving.n.02	removing parts from hard material to create a desired pattern or shape	CAVE_CARVE
 bathe.n.01	the act of swimming	WASH_CLEAN
 bathing.n.01	immersing the body in water or sunshine	WASH_CLEAN
 bath.n.02	you soak and wash your body in a bathtub	WASH_CLEAN
 washup.n.01	the act of washing yourself (or another person)	WASH_CLEAN
-chlorination.n.02	disinfection of water by the addition of small amounts of chlorine or a chlorine compound	TREAT-WITH/BY
+chlorination.n.02	disinfection of water by the addition of small amounts of chlorine or a chlorine compound	WASH_CLEAN
 disinfection.n.01	treatment to destroy harmful microorganisms	HELP_HEAL_CARE_CURE
 housecleaning.n.02	the act of cleaning the rooms and furnishings of a house	WASH_CLEAN
-clearing.n.03	the act of removing solid particles from a liquid	CONVERT
+clearing.n.03	the act of removing solid particles from a liquid	LIGHTEN
 decontamination.n.01	the removal of contaminants	WASH_CLEAN
 disinfestation.n.01	the activity of getting rid of vermin	WASH_CLEAN
 refining.n.01	the process of removing impurities (as from oil or metals or sugar etc.)	PREPARE
@@ -1646,7 +1646,7 @@ dishwashing.n.01	the act of washing dishes	WASH_CLEAN
 douche.n.02	irrigation with a jet of water or medicated solution into or around a body part (especially the vagina) to treat infections or cleanse from odorous contents	WASH_CLEAN
 dry_cleaning.n.01	the act of cleaning (fabrics) with a solvent other than water	WASH_CLEAN
 elution.n.01	the process of extracting one material from another by washing with a solvent to remove adsorbed material from an adsorbent (as in washing of loaded ion-exchange resins to remove captured ions); used to obtain uranium ions	WASH_CLEAN
-extraction.n.01	the process of obtaining something from a mixture or compound by chemical or physical or mechanical means	SEPARATE_FILTER_DETACH
+extraction.n.01	the process of obtaining something from a mixture or compound by chemical or physical or mechanical means	EXTRACT
 refreshment.n.02	activity that refreshes and recreates; activity that renews your health and spirits by enjoyment and relaxation	AROUSE_WAKE_ENLIVEN
 rejuvenation.n.02	the act of restoring to a more youthful condition	CHANGE-APPEARANCE/STATE
 lavage.n.01	washing out a hollow organ (especially the stomach) by flushing with water	WASH_CLEAN
@@ -1742,12 +1742,12 @@ ptyalism.n.01	excessive flow of saliva	EXCRETE
 salivation.n.01	the secretion of saliva	EXCRETE
 secretion.n.01	the organic process of synthesizing and releasing some substance	EXCRETE
 catharsis.n.02	purging the body by the use of a cathartic to stimulate evacuation of the bowels	EXCRETE
-release.n.03	a process that liberates or discharges something	EXCRETE
+release.n.03	a process that liberates or discharges something	CANCEL_ELIMINATE
 transpiration.n.02	the process of giving off or exhaling water vapor through the skin or mucous membranes	EXCRETE
 production.n.04	(law) the act of exhibiting in a court of law	SHOW
 exhibition.n.01	the act of exhibiting	SHOW
 shaping.n.01	any process serving to define the shape of something	SHOW
-depiction.n.04	representation by drawing or painting etc	SHOW
+depiction.n.04	representation by drawing or painting etc	PAINT
 pictorial_representation.n.01	visual representation as by photography or painting	SHOW
 display.n.02	something shown to the public	SHOW
 parade.n.03	a visible display	SHOW
@@ -1761,13 +1761,13 @@ beam.n.03	a group of nearly parallel lines of electromagnetic radiation	SHOW
 muckraking.n.01	the exposure of scandal (especially about public figures)	SHOW
 overexposure.n.01	the act of exposing film to too much light or for too long a time	SHOW
 overexposure.n.02	the act of exposing someone excessively to an influencing experience	SHOW
-presentation.n.06	formally making a person known to another or to the public	SHOW
+presentation.n.06	formally making a person known to another or to the public	KNOW
 underexposure.n.01	the act of exposing film to too little light or for too short a time	SHOW
 electric_shock.n.03	a reflex response to the passage of electric current through the body	UNDERGO-EXPERIENCE
 taste.n.04	a brief experience of something	UNDERGO-EXPERIENCE
-externalization.n.02	embodying in an outward form	CONVERT
+externalization.n.02	embodying in an outward form	EXTRACT
 decoction.n.01	(pharmacology) the extraction of water-soluble drug substances by boiling	EXTRACT
-extirpation.n.02	the act of pulling up or out; uprooting; cutting off from existence	CANCEL_ELIMINATE
+extirpation.n.02	the act of pulling up or out; uprooting; cutting off from existence	EXTRACT
 mining.n.01	the act of extracting ores or coal etc from the earth	EXTRACT
 exhumation.n.01	the act of digging something out of the ground (especially a corpse) where it has been buried	EXTRACT
 drawing.n.05	act of getting or draining something such as electricity or a liquid from a source	EXTRACT
@@ -1777,7 +1777,7 @@ gouge.n.03	the act of gouging	EXTRACT
 lick.n.02	touching with the tongue	TOUCH
 percolation.n.01	the slow passage of a liquid through a filtering medium	PERMEATE
 filtration.n.01	the process whereby fluids pass through a filter or a filtering medium	PERMEATE
-percolation.n.03	the filtration of a liquid for extraction or purification	COOK
+percolation.n.03	the filtration of a liquid for extraction or purification	EXTRACT
 filtration.n.02	the act of changing a fluid by passing it through a filter	PERMEATE
 quarrying.n.01	the extraction of building stone or slate from an open surface quarry	EXTRACT
 squeeze.n.05	a twisting squeeze	PRESS_PUSH_FOLD
@@ -1803,7 +1803,7 @@ stalk.n.04	the act of following prey stealthily	FOLLOW-IN-SPACE
 shadowing.n.01	the act of following someone secretly	FOLLOW-IN-SPACE
 dating.n.01	use of chemical analysis to estimate the age of geological specimens	LOCATE-IN-TIME_DATE
 analysis.n.01	an investigation of the component parts of a whole and their relations in making up the whole	ANALYZE
-anachronism.n.01	something located at a time when it could not have existed or occurred	LOCATE-IN-TIME_DATE
+anachronism.n.01	something located at a time when it could not have existed or occurred	MEASURE_EVALUATE
 ramble.n.01	an aimless amble on a winding course	TRAVEL
 circumnavigation.n.01	traveling around something (by ship or plane)	TRAVEL
 constitutional.n.01	a regular walk taken as a form of exercise	TRAVEL
@@ -1831,10 +1831,10 @@ skating.n.01	the sport of gliding on skates	TRAVEL
 sleepwalking.n.01	walking by a person who is asleep	TRAVEL
 space_walk.n.01	any kind of physical activity outside a spacecraft by one of the crew	TRAVEL
 stomp.n.01	a dance involving a rhythmical stamping step	TRAVEL
-stoop.n.01	an inclination of the top half of the body forward and downward	LOWER
+stoop.n.01	an inclination of the top half of the body forward and downward	TRAVEL
 twiddle.n.01	a series of small (usually idle) twists or turns	TRAVEL
 twist.n.13	turning or twisting around (in place)	TURN_CHANGE-DIRECTION
-trample.n.01	the sound of heavy treading or stomping	TRAVEL
+trample.n.01	the sound of heavy treading or stomping	FLATTEN_SMOOTHEN
 wallow.n.02	an indolent or clumsy rolling about	TRAVEL
 dissection.n.03	detailed critical analysis or examination one part at a time (as of a literary work)	ANALYZE
 psychoanalysis.n.01	a set of techniques for exploring underlying motives and a method of treating various mental disorders; based on the theories of Sigmund Freud	ANALYZE
@@ -1858,10 +1858,10 @@ review.n.08	(law) a judicial reexamination of the proceedings of a court (especi
 scan.n.01	the act of scanning; systematic examination of a prescribed region	ANALYZE
 scanning.n.01	the process of translating photographs into a digital form that can be recognized by a computer	ANALYZE
 screening.n.04	testing objects or persons in order to identify those with particular characteristics	ANALYZE
-sort.n.04	an operation that segregates items into groups according to a specified criterion	ANALYZE
+sort.n.04	an operation that segregates items into groups according to a specified criterion	SORT_CLASSIFY_ARRANGE
 scrutiny.n.02	a prolonged intense look	VERIFY
 test.n.04	the act of undergoing testing	TRY
-test.n.02	any standardized procedure for measuring sensitivity or memory or intelligence or aptitude or personality etc	VERIFY
+test.n.02	any standardized procedure for measuring sensitivity or memory or intelligence or aptitude or personality etc	REACH
 triangulation.n.02	a method of surveying; the area is divided into triangles and the length of one side and its angles with the other two are measured, then the lengths of the other sides can be calculated	ANALYZE
 surveying.n.01	the practice of measuring angles and distances on the ground so that they can be accurately plotted on a map	PAINT
 x-raying.n.01	obtaining images by the use of X rays	ANALYZE
@@ -1878,9 +1878,9 @@ crackdown.n.01	severely repressive actions	PRECLUDE_FORBID_EXPEL
 suppression.n.03	forceful prevention; putting down by power or authority	SUBJUGATE
 shutting.n.01	the act of closing something	CLOSE
 prohibition.n.05	the action of prohibiting or inhibiting or forbidding (or an instance thereof)	PRECLUDE_FORBID_EXPEL
-conquest.n.01	the act of conquering	OVERCOME_SURPASS
+conquest.n.01	the act of conquering	PRECLUDE_FORBID_EXPEL
 interdiction.n.01	authoritative prohibition	PRECLUDE_FORBID_EXPEL
-veto.n.01	a vote that blocks a decision	REFUSE
+veto.n.01	a vote that blocks a decision	PRECLUDE_FORBID_EXPEL
 obviation.n.01	the act of preventing something by anticipating and disposing of it effectively	PRECLUDE_FORBID_EXPEL
 lockout.n.01	a management action resisting employee's demands; employees are barred from entering the workplace until they agree to terms	PRECLUDE_FORBID_EXPEL
 resistance.n.01	the action of opposing something that you disapprove or disagree with	OPPOSE_REBEL_DISSENT
@@ -1917,8 +1917,8 @@ larceny.n.01	the act of taking something from someone unlawfully	STEAL_DEPRIVE
 rollover.n.01	the act of changing the institution that invests your pension plan without incurring a tax penalty	BUY
 shopping.n.01	searching for or buying goods or services	BUY
 reception.n.04	the act of receiving	RECEIVE
-connivance.n.01	agreement on a secret plot	ALLY_ASSOCIATE_MARRY
-constitution.n.02	the act of forming or establishing something	MOUNT_ASSEMBLE_PRODUCE
+connivance.n.01	agreement on a secret plot	ORGANIZE
+constitution.n.02	the act of forming or establishing something	ORGANIZE
 dispersion.n.03	the act of dispersing or diffusing something	CIRCULATE_SPREAD_DISTRIBUTE
 orchestration.n.03	an arrangement of events that attempts to achieve a maximum effect	ORGANIZE
 composing.n.02	musical creation	CREATE_MATERIALIZE
@@ -1930,7 +1930,7 @@ reorganization.n.01	the imposition of a new organization; organizing differently
 reshuffle.n.01	a redistribution of something	ORGANIZE
 reallotment.n.01	a new apportionment (especially a new apportionment of congressional seats in the United States on the basis of census results)	CIRCULATE_SPREAD_DISTRIBUTE
 territorialization.n.01	the act of organizing as a territory	ORGANIZE
-accommodation.n.05	the act of providing something (lodging or seat or food) to meet a need	GIVE_GIFT
+accommodation.n.05	the act of providing something (lodging or seat or food) to meet a need	LOAD_PROVIDE_CHARGE_FURNISH
 accordance.n.02	the act of granting rights	GIVE_GIFT
 giving.n.01	the act of giving	GIVE_GIFT
 sharing.n.04	a distribution in shares	SHARE
@@ -1952,7 +1952,7 @@ cession.n.01	the act of ceding	GIVE-UP_ABOLISH_ABANDON
 contribution.n.01	the part played by a person in bringing about a result	GIVE_GIFT
 contribution.n.03	act of giving in common with others for a common purpose especially to a charity	GIVE_GIFT
 giving.n.03	disposing of property by voluntary transfer without receiving value in return	GIVE_GIFT
-disposal.n.03	the act or means of getting rid of something	GIVE_GIFT
+disposal.n.03	the act or means of getting rid of something	DISCARD
 circulation.n.01	the dissemination of copies of periodicals (as newspapers or magazines)	GIVE_GIFT
 dissemination.n.01	the opening of a subject to widespread discussion and debate	CIRCULATE_SPREAD_DISTRIBUTE
 circulation.n.06	the spread or transmission of something (as news or money) to a wider group or area	CIRCULATE_SPREAD_DISTRIBUTE
@@ -1961,8 +1961,8 @@ handover.n.01	act of relinquishing property or authority etc	GIVE_GIFT
 digitalization.n.01	the administration of digitalis for the treatment of certain heart disorders	GIVE_GIFT
 sedation.n.02	the administration of a sedative agent or drug	GIVE_GIFT
 endowment.n.03	the act of endowing with a permanent source of income	GIVE_GIFT
-favor.n.01	an act of gracious kindness	GIVE_GIFT
-forfeit.n.03	the act of losing or surrendering something as a penalty for a mistake or fault or failure to perform etc.	GIVE_GIFT
+favor.n.01	an act of gracious kindness	TREAT
+forfeit.n.03	the act of losing or surrendering something as a penalty for a mistake or fault or failure to perform etc.	GIVE-UP_ABOLISH_ABANDON
 rendering.n.07	giving in acknowledgment of obligation	GIVE_GIFT
 refund.n.02	the act of returning money received previously	PAY
 oblation.n.01	the act of contributing to the funds of a church or charity	GIVE_GIFT
@@ -1971,7 +1971,7 @@ restitution.n.03	getting something back again	GIVE_GIFT
 repossession.n.01	the action of regaining possession (especially the seizure of collateral securing a loan that is in default)	GIVE_GIFT
 sop.n.02	a concession given to mollify or placate	GIVE_GIFT
 transfusion.n.01	the introduction of blood or blood plasma into a vein or artery	GIVE_GIFT
-base_on_balls.n.01	(baseball) an advance to first base by a batter who receives four balls	GIVE_GIFT
+base_on_balls.n.01	(baseball) an advance to first base by a batter who receives four balls	SCORE
 analogy.n.02	drawing a comparison in order to show a similarity in some respect	COMPARE
 comparison.n.01	the act of examining resemblances	COMPARE
 collation.n.03	careful examination and comparison to note points of disagreement	COMPARE
@@ -2004,7 +2004,7 @@ relief.n.05	assistance in time of difficulty	HELP_HEAL_CARE_CURE
 nursing.n.01	the work of caring for the sick or injured or infirm	HELP_HEAL_CARE_CURE
 operation.n.06	a medical procedure involving an incision with instruments; performed to repair damage or arrest disease in a living body	HELP_HEAL_CARE_CURE
 regeneration.n.03	the activity of spiritual or physical renewal	HELP_HEAL_CARE_CURE
-rejuvenation.n.01	the phenomenon of vitality and freshness being restored	HELP_HEAL_CARE_CURE
+rejuvenation.n.01	the phenomenon of vitality and freshness being restored	COLOR
 salvage.n.02	the act of saving goods or property that were in danger of damage or destruction	HELP_HEAL_CARE_CURE
 salvation.n.04	saving someone or something from harm or from an unpleasant situation	HELP_HEAL_CARE_CURE
 salve.n.02	anything that remedies or heals or soothes	HELP_HEAL_CARE_CURE
@@ -2027,13 +2027,13 @@ caressing.n.01	affectionate play (or foreplay without contact with the genital o
 penetration.n.06	the act (by a man) of inserting his penis into the vagina of a woman	HAVE-SEX
 servicing.n.01	the act of mating by male animals	HAVE-SEX
 impact.n.02	a forceful consequence; a strong effect	AFFECT
-impingement.n.01	influencing strongly	AFFECT
+impingement.n.01	influencing strongly	VIOLATE
 attack.n.08	the onset of a corrosive or destructive process (as by a chemical agent)	AFFECT
 degeneration.n.01	the process of declining from a higher to a lower level of effective power or vitality or essential quality	WORSEN
-permeation.n.01	the process of permeating or infusing something with a substance	COVER_SPREAD_SURMOUNT
-interpenetration.n.02	mutual penetration; diffusion of each through the other	COMBINE_MIX_UNITE
+permeation.n.01	the process of permeating or infusing something with a substance	PERMEATE
+interpenetration.n.02	mutual penetration; diffusion of each through the other	AFFECT
 play.n.06	utilization or exercise	AFFECT
-repercussion.n.01	a remote or indirect consequence of some action	INFLUENCE
+repercussion.n.01	a remote or indirect consequence of some action	AFFECT
 shoot.n.02	the act of shooting at targets	SHOOT_LAUNCH_PROPEL
 dribble.n.03	the propulsion of a ball by repeated taps or kicks	SHOOT_LAUNCH_PROPEL
 fusillade.n.01	rapid simultaneous discharge of firearms	SHOOT_LAUNCH_PROPEL
@@ -2074,20 +2074,20 @@ retaliation.n.01	action taken in return for an injury or offense	ATTACK_BOMB
 brutality.n.02	a brutal barbarous savage act	ATTACK_BOMB
 surprise.n.02	a sudden unexpected event	CAUSE-MENTAL-STATE
 strafe.n.01	an attack of machine-gun fire or cannon fire from a low flying airplane	ATTACK_BOMB
-joust.n.01	a combat between two mounted knights tilting against each other with blunted lances	FIGHT
+joust.n.01	a combat between two mounted knights tilting against each other with blunted lances	ATTACK_BOMB
 struggle.n.01	an energetic attempt to achieve something	TRY
 war.n.01	the waging of armed conflict against an enemy	ATTACK_BOMB
 courtship.n.01	a man's courting of a woman; seeking the affections of a woman (usually with the hope of marriage)	COURT
 seduction.n.02	an act of winning the love or sexual favor of someone	COURT
 sexual_conquest.n.01	a seduction culminating in sexual intercourse	COURT
 tying.n.01	the act of tying or binding things together	SECURE_FASTEN_TIE
-fastening.n.02	the act of fastening things together	SECURE_FASTEN_TIE
+fastening.n.02	the act of fastening things together	ATTACH
 implantation.n.01	(embryology) the organic process whereby a fertilized egg becomes implanted in the lining of the uterus of placental mammals	SECURE_FASTEN_TIE
 implantation.n.03	a surgical procedure that places something in the human body	SECURE_FASTEN_TIE
 implantation.n.02	the act of planting or setting in the ground	SECURE_FASTEN_TIE
 placement.n.03	the act of putting something in a certain place	PUT_APPLY_PLACE_PAVE
 planting.n.01	the act of fixing firmly in place	SECURE_FASTEN_TIE
-locking.n.01	the act of locking something up to protect it	CAGE_IMPRISON
+locking.n.01	the act of locking something up to protect it	SECURE_FASTEN_TIE
 docking.n.01	the act of securing an arriving vessel with ropes	LAND_GET-OFF
 sewing.n.01	joining or attaching by stitches	SECURE_FASTEN_TIE
 trade.n.02	the skilled practice of a practical occupation	MOUNT_ASSEMBLE_PRODUCE
@@ -2117,7 +2117,7 @@ affiliation.n.02	the act of becoming formally connected or joined	ALLY_ASSOCIATE
 association.n.02	the act of consorting with or joining with others	ACCOMPANY
 confederation.n.03	the act of forming an alliance or confederation	ALLY_ASSOCIATE_MARRY
 cooperation.n.02	the practice of cooperating	ALLY_ASSOCIATE_MARRY
-marriage.n.03	the act of marrying; the nuptial ceremony	ALLY_ASSOCIATE_MARRY
+marriage.n.03	the act of marrying; the nuptial ceremony	EMCEE
 federation.n.03	the act of constituting a political unity out of a number of separate states or colonies or provinces so that each member retains the management of its internal affairs	ALLY_ASSOCIATE_MARRY
 unionization.n.01	act of forming labor unions	ALLY_ASSOCIATE_MARRY
 remarriage.n.01	the act of marrying again	ALLY_ASSOCIATE_MARRY
@@ -2129,7 +2129,7 @@ ascension.n.04	(astronomy) the rising of a star above the horizon	RAISE
 assumption.n.05	(Christianity) the taking up of the body and soul of the Virgin Mary when her earthly life had ended	RAISE
 lift.n.12	the act of raising something	RAISE
 lift.n.04	a wave that lifts the surface of the water or ground	RAISE
-pull-up.n.02	an arm exercise performed by pulling yourself up on a horizontal bar until your chin is level with the bar	STRAIGHTEN
+pull-up.n.02	an arm exercise performed by pulling yourself up on a horizontal bar until your chin is level with the bar	RAISE
 clamber.n.01	an awkward climb	RAISE
 climb.n.03	the act of climbing something	RAISE
 climb.n.02	an event that involves rising to a higher point (as in altitude or temperature or intensity etc.)	INCREASE_ENLARGE_MULTIPLY
@@ -2150,19 +2150,19 @@ uplifting.n.01	the rise of something	RAISE
 intersection.n.06	the act of intersecting (as joining by causing your path to intersect your target's path)	OVERLAP
 stratification.n.03	forming or depositing in layers	OVERLAP
 superposition.n.03	(geometry) the placement of one object ideally in the position of another one in order to show that the two coincide	OVERLAP
-superposition.n.04	the placement of one thing on top of another	OVERLAP
+superposition.n.04	the placement of one thing on top of another	COVER_SPREAD_SURMOUNT
 review.n.09	practice intended to polish performance or refresh the memory	STUDY
 exercise.n.03	systematic training by multiple repetitions	TEACH
 training.n.01	activity leading to skilled behavior	TEACH
 refresher_course.n.01	a course that reviews and updates a topic for those who have not kept abreast of developments	STUDY
 education.n.01	the activities of educating or instructing; activities that impart knowledge or skill	TEACH
 homework.n.01	preparatory school work done outside school (especially at home)	STUDY
-assignment.n.05	an undertaking that you have been assigned to do (as by an instructor)	ASSIGN-smt-to-smn
+assignment.n.05	an undertaking that you have been assigned to do (as by an instructor)	ASSIGN-SMT-TO-SMN
 importunity.n.01	insistent solicitation and entreaty	PROPOSE
 solicitation.n.01	an entreaty addressed to someone of superior status	ASK_REQUEST
 feedback.n.01	the process in which part of the output of a system is returned to its input in order to regulate its further output	PROPOSE
 nominating_speech.n.01	an address (usually at a political convention) proposing the name of a candidate to run for election	PROPOSE
-nomination.n.01	the act of officially naming a candidate	ASSIGN-smt-to-smn
+nomination.n.01	the act of officially naming a candidate	ASSIGN-SMT-TO-SMN
 brush.n.03	momentary contact	TOUCH
 snogging.n.01	(British informal) cuddle and kiss	TOUCH
 kiss.n.01	the act of caressing with the lips (or an instance thereof)	TOUCH
@@ -2191,7 +2191,7 @@ vending.n.01	the act of selling goods for a living	SELL
 pawn.n.04	borrowing and leaving an article as security for repayment of the loan	SELL
 marketing.n.03	shopping at a market	SELL
 redeployment.n.01	the withdrawal and redistribution of forces in an attempt to use them more effectively	SORT_CLASSIFY_ARRANGE
-deployment.n.01	the distribution of forces in preparation for battle or work	CIRCULATE_SPREAD_DISTRIBUTE
+deployment.n.01	the distribution of forces in preparation for battle or work	SORT_CLASSIFY_ARRANGE
 preparation.n.01	the activity of putting or setting in order in advance of some act or purpose	PREPARE
 retail.n.01	the selling of goods to consumers; usually in small quantities and not for resale	SELL
 retailing.n.01	the activities involved in selling commodities directly to consumers	SELL
@@ -2220,7 +2220,7 @@ pitch.n.10	the action or manner of throwing something	THROW
 heave.n.06	throwing something heavy (with great effort)	THROW
 precipitation.n.04	the act of casting down or falling headlong from a height	FALL_SLIDE-DOWN
 drop.n.06	a free and rapid descent by the force of gravity	DROP
-precipitation.n.05	an unexpected acceleration or hastening	THROW
+precipitation.n.05	an unexpected acceleration or hastening	WORSEN
 acceleration.n.01	an increase in rate of change	SPEED-UP
 shy.n.01	a quick throw	THROW
 assumption.n.07	the act of assuming or taking for granted	SUPPOSE
@@ -2238,7 +2238,7 @@ ablation.n.01	surgical removal of a body part or tissue	REMOVE_TAKE-AWAY_KIDNAP
 abscission.n.02	the act of cutting something off	REMOVE_TAKE-AWAY_KIDNAP
 amputation.n.02	a surgical removal of all or part of a limb	REMOVE_TAKE-AWAY_KIDNAP
 sequestration.n.04	seizing property that belongs to someone else and holding it until profits pay the demand for which it was seized	REMOVE_TAKE-AWAY_KIDNAP
-confiscation.n.01	seizure by the government	REMOVE_TAKE-AWAY_KIDNAP
+confiscation.n.01	seizure by the government	STEAL_DEPRIVE
 autotomy.n.01	spontaneous removal or casting off of a body part (as the tail of a lizard or claw of a lobster) especially when the organism is injured or under attack	REMOVE_TAKE-AWAY_KIDNAP
 denudation.n.01	the removal of covering	REMOVE_TAKE-AWAY_KIDNAP
 dislodgment.n.01	forced removal from a position of advantage	REMOVE_TAKE-AWAY_KIDNAP
@@ -2246,7 +2246,7 @@ comb-out.n.02	the act of carefully weeding out unwanted things or people	REMOVE_
 skimming.n.01	the act of removing floating material from the surface of a liquid	REMOVE_TAKE-AWAY_KIDNAP
 de-iodination.n.01	the removal of iodine atoms from organic compounds	REMOVE_TAKE-AWAY_KIDNAP
 deamination.n.01	removal of the amino radical from an amino acid or other amino compound	REMOVE_TAKE-AWAY_KIDNAP
-decarboxylation.n.01	the process of removing a carboxyl group from a chemical compound (usually replacing it with hydrogen)	REMOVE_TAKE-AWAY_KIDNAP
+decarboxylation.n.01	the process of removing a carboxyl group from a chemical compound (usually replacing it with hydrogen)	LOSE
 decortication.n.01	removal of the outer covering of an organ or part	REMOVE_TAKE-AWAY_KIDNAP
 subtraction.n.01	an arithmetic operation in which the difference between two numbers is calculated	REMOVE_TAKE-AWAY_KIDNAP
 defoliation.n.01	the loss of foliage	REMOVE_TAKE-AWAY_KIDNAP
@@ -2255,7 +2255,7 @@ deforestation.n.02	the removal of trees	REMOVE_TAKE-AWAY_KIDNAP
 deactivation.n.02	the act of deactivating or making ineffective (as a bomb)	REMOVE_TAKE-AWAY_KIDNAP
 demagnetization.n.01	the process of removing magnetization	REMOVE_TAKE-AWAY_KIDNAP
 degaussing.n.01	the process of making a (steel) ship's hull nonmagnetic by producing an opposing magnetic field	REMOVE_TAKE-AWAY_KIDNAP
-disarming.n.01	act of reducing or depriving of arms	REMOVE_TAKE-AWAY_KIDNAP
+disarming.n.01	act of reducing or depriving of arms	STEAL_DEPRIVE
 demineralization.n.02	the removal of minerals and mineral salts from a liquid (especially from water)	REMOVE_TAKE-AWAY_KIDNAP
 denazification.n.01	social process of removing Nazis from official positions and giving up any allegiance to Nazism	REMOVE_TAKE-AWAY_KIDNAP
 reduction.n.02	any process in which electrons are added to an atom or ion (as by removing oxygen or adding hydrogen); always occurs accompanied by oxidation of the reducing agent	REMOVE_TAKE-AWAY_KIDNAP
@@ -2385,9 +2385,9 @@ remission.n.01	an abatement in intensity or degree (as in the manifestations of 
 reducing.n.02	loss of excess weight (as by dieting); becoming slimmer	REDUCE_DIMINISH
 moderation.n.04	the action of lessening in severity or intensity	REDUCE_DIMINISH
 minimization.n.01	the act of reducing something to the least possible amount or degree or position	DOWNPLAY_HUMILIATE
-pacification.n.01	the act of appeasing someone or causing someone to be more favorably inclined	MAKE-RELAX
+pacification.n.01	the act of appeasing someone or causing someone to be more favorably inclined	REDUCE_DIMINISH
 plump.n.01	the sound of a sudden heavy fall	REDUCE_DIMINISH
-rarefaction.n.01	a decrease in the density of something	CONVERT
+rarefaction.n.01	a decrease in the density of something	REDUCE_DIMINISH
 concentration.n.04	increase in density	COOK
 increase.n.02	a change resulting in an increase	INCREASE_ENLARGE_MULTIPLY
 relaxation.n.04	an occurrence of control or strength weakening	UNFASTEN_UNFOLD
@@ -2405,7 +2405,7 @@ canter.n.01	a smooth three-beat gait; between a trot and a gallop	MOVE-BY-MEANS-
 caravan.n.01	a procession (of wagons or mules or camels) traveling together in single file	MOVE-BY-MEANS-OF
 motorcycling.n.01	riding a motorcycle	MOVE-BY-MEANS-OF
 motoring.n.01	the act of driving an automobile	MOVE-BY-MEANS-OF
-driving.n.02	the act of controlling and steering the movement of a vehicle or animal	DIRECT_AIM_MANEUVER
+driving.n.02	the act of controlling and steering the movement of a vehicle or animal	PRESS_PUSH_FOLD
 gallop.n.01	a fast gait of a horse; a two-beat stride during which all four legs are off the ground simultaneously	RUN
 ice_skating.n.01	skating on ice	MOVE-BY-MEANS-OF
 tobogganing.n.01	riding on a long light sled with low handrails	MOVE-BY-MEANS-OF
@@ -2449,8 +2449,8 @@ chelation.n.02	the process of forming a ring by forming one or more hydrogen bon
 encoding.n.01	the activity of converting data or information into code	CONVERT
 commutation.n.03	(law) the reduction in severity of a punishment imposed by law	CONVERT
 exchange.n.03	the act of changing one thing for another thing	CONVERT
-condensation.n.02	the process of changing from a gaseous to a liquid or solid state	CONVERT
-condensation.n.03	atmospheric moisture that has condensed because of cold	CONVERT
+condensation.n.02	the process of changing from a gaseous to a liquid or solid state	CHANGE-APPEARANCE/STATE
+condensation.n.03	atmospheric moisture that has condensed because of cold	CHANGE-APPEARANCE/STATE
 condensing.n.01	the act of increasing the density of something	CONVERT
 decimalization.n.01	the act of changing to a decimal system	CONVERT
 thaw.n.02	warm weather following a freeze; snow and ice melt	CONVERT
@@ -2460,7 +2460,7 @@ dressing.n.05	processes in the conversion of rough hides into leather	CONVERT
 dehydration.n.03	the process of extracting moisture	DRY
 zymosis.n.01	a process in which an agent causes an organic substance to break down into simpler substances; especially, the anaerobic breakdown of sugar into alcohol	CONVERT
 novelization.n.01	converting something into the form of a novel	CONVERT
-fabrication.n.02	writing in a fictional form	CONVERT
+fabrication.n.02	writing in a fictional form	DECEIVE
 fossilization.n.01	the process of fossilizing a plant or animal that existed in some earlier age; the process of being turned to stone	CONVERT
 homogenization.n.01	the act of making something homogeneous or uniform in composition	COMBINE_MIX_UNITE
 humification.n.01	the process of the formation of humus from plant remains	CONVERT
@@ -2489,7 +2489,7 @@ transmutation.n.03	(physics) the change of one chemical element into another (as
 transposition.n.07	(music) playing in a different key from the key intended; moving the pitch of a piece of music upwards or downwards	CONVERT
 vinification.n.01	the process whereby fermentation changes grape juice into wine	CONVERT
 vitrification.n.02	the process of becoming vitreous	CONVERT
-vulcanization.n.01	process of treating rubber or rubberlike materials with sulphur at great heat to improve elasticity and strength or to harden them	CONVERT
+vulcanization.n.01	process of treating rubber or rubberlike materials with sulphur at great heat to improve elasticity and strength or to harden them	CHANGE-APPEARANCE/STATE
 cover.n.03	the act of concealing the existence of something by obstructing the view of it	CLOUD_SHADOW_HIDE
 covering.n.04	the act of protecting something by covering it	PROTECT
 plastering.n.01	the application of plaster	COVER_SPREAD_SURMOUNT
@@ -2499,7 +2499,7 @@ filling.n.06	the act of filling something	FILL
 foliation.n.05	the work of coating glass with metal foil	COVER_SPREAD_SURMOUNT
 frost.n.03	the formation of frost or ice on a surface	COVER_SPREAD_SURMOUNT
 galvanization.n.03	either the work of covering with metal by the use of a galvanic current or the coating of iron with zinc to protect it from rusting	COVER_SPREAD_SURMOUNT
-glaciation.n.02	the process of covering the earth with glaciers or masses of ice	COOL
+glaciation.n.02	the process of covering the earth with glaciers or masses of ice	COVER_SPREAD_SURMOUNT
 invasion.n.02	any entry into an area not previously occupied	VIOLATE
 entrance.n.02	a movement into or inward	ENTER
 lamination.n.02	bonding thin sheets together	MOUNT_ASSEMBLE_PRODUCE
@@ -2509,7 +2509,7 @@ papering.n.01	the application of wallpaper	COVER_SPREAD_SURMOUNT
 planking.n.03	the work of covering an area with planks	COVER_SPREAD_SURMOUNT
 plating.n.02	the application of a thin coat of metal (as by electrolysis)	COVER_SPREAD_SURMOUNT
 radiation.n.02	the act of spreading outward from a central source	COVER_SPREAD_SURMOUNT
-waterproofing.n.01	the act of treating something to make it repel water	STRENGTHEN_MAKE-RESISTANT
+waterproofing.n.01	the act of treating something to make it repel water	COVER_SPREAD_SURMOUNT
 shingling.n.02	the laying on of shingles	COVER_SPREAD_SURMOUNT
 spraying.n.03	the application of a liquid in the form of small particles ejected from a sprayer	COVER_SPREAD_SURMOUNT
 tiling.n.01	the application of tiles to cover a surface	COVER_SPREAD_SURMOUNT
@@ -2534,7 +2534,7 @@ abandonment.n.03	the voluntary surrender of property (or a right to property) wi
 discard.n.03	getting rid something that is regarded as useless or undesirable	DISCARD
 shedding.n.01	the process whereby something is shed	DISCARD
 molt.n.01	periodic shedding of the cuticle in arthropods or the outer skin in reptiles	DISCARD
-attraction.n.02	an entertainment that is offered to the public	ATTRACT_SUCK
+attraction.n.02	an entertainment that is offered to the public	LIKE
 pull.n.02	the force used in pulling	PULL
 suction.n.01	a force over an area produced by a pressure difference	ATTRACT_SUCK
 abnegation.n.02	renunciation of your own interests in favor of the interests of others	ABSTAIN_AVOID_REFRAIN
@@ -2561,11 +2561,11 @@ reimposition.n.01	imposition again	CHARGE
 taxation.n.03	the imposition of taxes; the practice of the government in levying taxes on the subjects of a state	CHARGE
 legal_action.n.01	a judicial proceeding brought by one party against another; one party prosecutes another for a wrong done or for protection of a right or for prevention of a wrong	ACCUSE
 lawsuit.n.01	a comprehensive term for any proceeding in a court of law whereby an individual seeks a legal remedy	ACCUSE
-litigation.n.01	a legal proceeding in a court; a judicial contest to determine and enforce legal rights	ACCUSE
+litigation.n.01	a legal proceeding in a court; a judicial contest to determine and enforce legal rights	FACE_CHALLENGE
 slander.n.01	words falsely spoken that damage the reputation of another	ACCUSE
 blot.n.02	an act that brings discredit to the person who does it	ACCUSE
-stigmatization.n.01	the act of stigmatizing	ACCUSE
-denunciation.n.01	a public act of denouncing	ACCUSE
+stigmatization.n.01	the act of stigmatizing	SIGNAL_INDICATE
+denunciation.n.01	a public act of denouncing	CRITICIZE
 prosecution.n.01	the institution and conduct of legal proceedings against a defendant for criminal behavior	ACCUSE
 sweetening.n.03	the act of adding a sweetener to food	CHANGE-TASTE
 seasoning.n.02	the act of adding a seasoning to food	COOK
@@ -2628,7 +2628,7 @@ inheritance.n.01	hereditary succession to a title or an office or property	OBTAI
 obtainment.n.01	the act of obtaining	OBTAIN
 preemption.n.04	a prior appropriation of something	OBTAIN
 procurement.n.01	the act of getting possession of something	OBTAIN
-attainment.n.02	arrival at a new stage	ARRIVE
+attainment.n.02	arrival at a new stage	REACH
 passing.n.06	going by something that is moving in order to get in front of it	OVERCOME_SURPASS
 reordering.n.01	a rearrangement in a different order	SORT_CLASSIFY_ARRANGE
 rearrangement.n.01	changing an arrangement	SORT_CLASSIFY_ARRANGE
@@ -2706,14 +2706,14 @@ crucifixion.n.03	the infliction of extremely painful punishment or suffering	HUR
 brutalization.n.02	the activity of treating someone savagely or viciously	TREAT
 wrong.n.02	any harm or injury resulting from a violation of a legal right	TREAT
 emphasizing.n.01	the act of giving special importance or significance to something	EMPHASIZE
-dispute.n.02	coming into conflict with	QUARREL_POLEMICIZE
+dispute.n.02	coming into conflict with	VIOLATE
 debate.n.02	the formal presentation of a stated proposition and the opposition to it (usually followed by a vote)	DISCUSS
 brawl.n.02	a noisy fight in a crowd	QUARREL_POLEMICIZE
 feud.n.01	a bitter quarrel between two parties	QUARREL_POLEMICIZE
 polemic.n.02	a controversy (especially over a belief or dogma)	QUARREL_POLEMICIZE
 annotation.n.02	the act of adding notes	EXPLAIN
 elucidation.n.01	an act of explaining that serves to clear up and cast light on	EXPLAIN
-explanation.n.03	the act of explaining; making something plain or intelligible	JUSTIFY_EXCUSE
+explanation.n.03	the act of explaining; making something plain or intelligible	EXPLAIN
 detail.n.03	extended treatment of particulars	EXPLAIN
 particularization.n.01	an individualized description of a particular instance	EXPLAIN
 explication.n.01	the act of making clear or removing obscurity from the meaning of a word or symbol or expression etc.	EXPLAIN
@@ -2789,7 +2789,7 @@ gamble.n.02	a risky act or venture	BID
 encore.n.01	an extra or repeated performance; usually given in response to audience demand	ASK_REQUEST
 interview.n.01	the questioning of a person (or a conversation in which information is elicited); often conducted by journalists	DISCUSS
 order.n.13	a request for something to be made, supplied, or served	ASK_REQUEST
-delegating.n.01	authorizing subordinates to make certain decisions	ASSIGN-smt-to-smn
+delegating.n.01	authorizing subordinates to make certain decisions	ASSIGN-SMT-TO-SMN
 supplication.n.02	a humble request for help from someone in authority	ASK_REQUEST
 essay.n.02	a tentative attempt	TRY
 audition.n.02	a test of the suitability of a performer	TRY
@@ -2804,10 +2804,10 @@ walk-through.n.03	a first perfunctory rehearsal of a theatrical production in wh
 apostasy.n.02	the act of abandoning a party for cause	REFUSE
 negative.n.01	a reply of denial	REFUSE
 boycott.n.01	a group's refusal to have commercial dealings with some organization in protest against its policies	REFUSE
-disregard.n.02	willful lack of care and attention	DOWNPLAY_HUMILIATE
+disregard.n.02	willful lack of care and attention	MISS_OMIT_LACK
 brush-off.n.01	a curt or disdainful rejection	REFUSE
 snub.n.02	a refusal to recognize someone you know	REFUSE
-rebuff.n.01	a deliberate discourteous act (usually as an expression of anger or disapproval)	OFFEND_DISESTEEM
+rebuff.n.01	a deliberate discourteous act (usually as an expression of anger or disapproval)	REFUSE
 nonacceptance.n.01	the act of refusing an offer	REFUSE
 deprecation.n.02	the act of expressing disapproval (especially of yourself)	DOWNPLAY_HUMILIATE
 discrimination.n.01	unfair treatment of a person or group on the basis of prejudice	REFUSE
@@ -2824,7 +2824,7 @@ temperance.n.03	the act of tempering	CHANGE-APPEARANCE/STATE
 arming.n.01	the act of equiping with weapons in preparation for war	PREPARE
 mineral_extraction.n.01	crushing and separating ore into valuable substances or waste by any of a variety of techniques	PREPARE
 face-off.n.02	(ice hockey) the method of starting play; a referee drops the puck between two opposing players	PREPARE
-elaboration.n.05	developing in intricate and painstaking detail	EMBELLISH
+elaboration.n.05	developing in intricate and painstaking detail	MOUNT_ASSEMBLE_PRODUCE
 warm-up.n.01	exercising in preparation for strenuous activity	PREPARE
 precondition.n.03	a condition that is a prerequisite	PREPARE
 intervention.n.01	the act of intervening (as to mediate a dispute, etc.)	PARTICIPATE
@@ -2893,7 +2893,7 @@ cartoon.n.02	a film made by photographing a series of cartoon drawings to give t
 construction.n.05	drawing a figure satisfying certain conditions as part of solving a problem or proving a theorem	PAINT
 tracing.n.01	the act of drawing a plan or diagram or outline	PAINT
 drawing.n.03	the creation of artistic pictures or diagrams	PAINT
-schematization.n.01	providing a chart or outline of a system	PAINT
+schematization.n.01	providing a chart or outline of a system	SORT_CLASSIFY_ARRANGE
 distemper.n.05	a method of painting in which the pigments are mixed with water and a binder; used for painting posters or murals or stage scenery	PAINT
 painting.n.02	creating a picture with paints	PAINT
 finger-painting.n.02	painting by using the fingers to spread the paint	PAINT
@@ -2907,7 +2907,7 @@ crouch.n.01	the act of bending low with the limbs close to the body	LOWER
 bow.n.06	bending the head or body or knee as a sign of reverence or submission or shame or greeting	LOWER
 curtsy.n.01	bending the knees; a gesture of respect made by women	LOWER
 bob.n.07	a short abrupt inclination (as of the head)	LOWER
-prostration.n.02	abject submission; the emotional equivalent of prostrating your body	LOWER
+prostration.n.02	abject submission; the emotional equivalent of prostrating your body	WEAKEN
 prostration.n.03	the act of assuming a prostrate position	LOWER
 lowering.n.02	the act of causing something to move to a lower level	LOWER
 fall.n.07	a movement downward	LOWER
@@ -2919,7 +2919,7 @@ kneel.n.01	supporting yourself on your knees	LOWER
 settling.n.01	a gradual sinking to a lower level	LOWER
 sinking.n.01	a descent as through liquid (especially through water)	DIP_DIVE
 perversion.n.03	the action of perverting something (turning it to a wrong use)	VIOLATE
-misuse.n.01	improper or excessive use	APPLY
+misuse.n.01	improper or excessive use	VIOLATE
 breach.n.01	a failure to perform some promised act or obligation	VIOLATE
 housebreaking.n.01	trespassing for an unlawful purpose; illegal entrance into premises with criminal intent	VIOLATE
 perpetration.n.01	the act of committing a crime	VIOLATE
@@ -2943,7 +2943,7 @@ fencing.n.03	the art or sport of fighting with swords (especially the use of foi
 fistfight.n.01	a fight with bare fists	FIGHT
 prizefight.n.01	a boxing match between professional boxers for a cash prize	FIGHT
 match.n.02	a formal contest in which two or more persons or teams compete	FACE_CHALLENGE
-scramble.n.01	an unceremonious and disorganized struggle	FIGHT
+scramble.n.01	an unceremonious and disorganized struggle	MESS
 hassle.n.02	disorderly fighting	FIGHT
 shadowboxing.n.01	sparring with an imaginary opponent (for exercise or training)	FIGHT
 brush.n.06	a minor short-term fight	FIGHT
@@ -2956,14 +2956,14 @@ set.n.07	the act of putting something in position	PUT_APPLY_PLACE_PAVE
 lubrication.n.02	an application of a lubricant to something	PUT_APPLY_PLACE_PAVE
 mining.n.02	laying explosive mines in concealed places to destroy enemy personnel and equipment	PUT_APPLY_PLACE_PAVE
 paving.n.03	the act of applying paving materials to an area	PUT_APPLY_PLACE_PAVE
-position.n.06	a job in an organization	ASSIGN-smt-to-smn
+position.n.06	a job in an organization	ASSIGN-SMT-TO-SMN
 repositioning.n.01	the act of placing in a new position	PUT_APPLY_PLACE_PAVE
 reshipment.n.01	the act of shipping again (especially by transferring to another ship)	PUT_APPLY_PLACE_PAVE
 slating.n.03	the act of laying slates for a roof	PUT_APPLY_PLACE_PAVE
 roofing.n.02	the craft of a roofer	MOUNT_ASSEMBLE_PRODUCE
 tessellation.n.02	the act of adorning with mosaic	PUT_APPLY_PLACE_PAVE
 tinning.n.01	the application of a thin layer of soft solder to the ends of wires before soldering them	PUT_APPLY_PLACE_PAVE
-placation.n.01	the act of placating and overcoming distrust and animosity	MAKE-RELAX
+placation.n.01	the act of placating and overcoming distrust and animosity	BEFRIEND
 fraternization.n.01	associating with others in a brotherly or friendly way; especially with an enemy	BEFRIEND
 consolidation.n.02	the act of combining into an integral whole	COMBINE_MIX_UNITE
 relation.n.06	(usually plural) mutual dealings or connections among persons or groups	CORRELATE
@@ -2980,7 +2980,7 @@ leverage.n.03	investing with borrowed money as a way to amplify potential gains 
 investing.n.01	the act of investing; laying out money or capital in an enterprise with the expectation of profit	LEND
 encounter.n.03	a casual meeting with a person or thing	MEET
 congregation.n.03	the act of congregating	MEET
-meet.n.01	a meeting at which a number of athletic contests are held	MEET
+meet.n.01	a meeting at which a number of athletic contests are held	FACE_CHALLENGE
 rendezvous.n.01	a meeting planned at a certain time and place	MEET
 mime.n.02	a performance using gestures and body movements without words	SIGN
 dilution.n.02	weakening (reducing the concentration) by the addition of water or a thinner	WEAKEN
@@ -2990,12 +2990,12 @@ demoralization.n.01	destroying the moral basis for a doctrine or policy	DEBASE_A
 profanation.n.02	degradation of something worthy of respect; cheapening	DEBASE_ADULTERATE
 spoliation.n.01	(law) the intentional destruction of a document or an alteration of it that destroys its value as evidence	DEBASE_ADULTERATE
 impairment.n.04	damage that results in a reduction of strength or quality	DEBASE_ADULTERATE
-spoil.n.02	the act of spoiling something by causing damage to it	DEBASE_ADULTERATE
+spoil.n.02	the act of spoiling something by causing damage to it	MESS
 injury.n.04	an act that causes someone or something to receive physical damage	HURT_HARM_ACHE
 devaluation.n.01	an official lowering of a nation's currency; a decrease in the value of a country's currency relative to that of foreign countries	DEBASE_ADULTERATE
 devaluation.n.02	the reduction of something's value or worth	DEBASE_ADULTERATE
 discount.n.01	the act of reducing the selling price of merchandise	DEBASE_ADULTERATE
-disqualification.n.02	the act of preventing someone from participating by finding them unqualified	DEBASE_ADULTERATE
+disqualification.n.02	the act of preventing someone from participating by finding them unqualified	CANCEL_ELIMINATE
 write-off.n.02	the act of cancelling from an account a bad debt or a worthless asset	CANCEL_ELIMINATE
 marginalization.n.01	the social process of becoming or being made marginal (especially as a group within the larger society)	DEBASE_ADULTERATE
 recusation.n.01	(law) the disqualification of a judge or jury by reason of prejudice or conflict of interest; a judge can be recused by objections of either party or judges can disqualify themselves	DEBASE_ADULTERATE
@@ -3029,7 +3029,7 @@ tabulation.n.02	the act of putting into tabular form	SORT_CLASSIFY_ARRANGE
 realization.n.06	something that is made real or concrete	CREATE_MATERIALIZE
 aquatint.n.02	a method of etching that imitates the broad washes of a water color	CREATE_MATERIALIZE
 engraving.n.03	making engraved or etched plates and printing designs from them	CAVE_CARVE
-molding.n.01	the act of creating something by casting it in a mold	CREATE_MATERIALIZE
+molding.n.01	the act of creating something by casting it in a mold	MOUNT_ASSEMBLE_PRODUCE
 neologism.n.02	the act of inventing a word or phrase	CREATE_MATERIALIZE
 invention.n.03	the act of inventing	CREATE_MATERIALIZE
 mintage.n.03	act or process of minting coins	CREATE_MATERIALIZE
@@ -3038,7 +3038,7 @@ devisal.n.01	the act of devising something	CREATE_MATERIALIZE
 design.n.01	the act of working out the form of something (as by making a sketch or outline or plan)	CREATE_MATERIALIZE
 planning.n.02	the act or process of drawing up plans or layouts for some project or enterprise	CREATE_MATERIALIZE
 drafting.n.01	writing a first version to be filled out and polished later	CREATE_MATERIALIZE
-fold.n.07	the act of folding	CREATE_MATERIALIZE
+fold.n.07	the act of folding	PRESS_PUSH_FOLD
 run-through.n.01	an uninterrupted rehearsal	CREATE_MATERIALIZE
 orchestration.n.02	the act of arranging a piece of music for an orchestra and assigning parts to the different musical instruments	CREATE_MATERIALIZE
 lexicalization.n.01	the process of making a word to express a concept	CREATE_MATERIALIZE
@@ -3099,7 +3099,7 @@ centralization.n.01	the act of consolidating power under a central control	AMASS
 curdling.n.01	the process of forming semisolid lumps in a liquid	CHANGE-APPEARANCE/STATE
 hemagglutination.n.01	agglutination of red blood cells	AMASS
 thickening.n.03	the act of thickening	CHANGE-APPEARANCE/STATE
-blink.n.01	a reflex that closes and opens the eyes rapidly	FACIAL-EXPRESSION
+blink.n.01	a reflex that closes and opens the eyes rapidly	DRIVE-BACK
 glare.n.02	an angry stare	SEE
 palpebration.n.01	repeated blinking or winking (especially if uncontrolled and persistent)	FACIAL-EXPRESSION
 squint.n.02	the act of squinting; looking with the eyes partly closed	FACIAL-EXPRESSION
@@ -3172,7 +3172,7 @@ welding.n.01	fastening two pieces of metal together by softening with heat and a
 suffixation.n.01	formation of a word by means of a suffix	ATTACH
 encasement.n.01	the act of enclosing something in a case	ENCLOSE_WRAP
 enclosure.n.02	the act of enclosing something inside something else	ENCLOSE_WRAP
-confection.n.02	the act of creating something (a medicine or drink or soup etc.) by compounding or mixing a variety of components	COOK
+confection.n.02	the act of creating something (a medicine or drink or soup etc.) by compounding or mixing a variety of components	COMBINE_MIX_UNITE
 encapsulation.n.02	the process of enclosing (as in a capsule)	ENCLOSE_WRAP
 involution.n.06	the action of enfolding something	ENCLOSE_WRAP
 parcellation.n.01	the division into parcels	SEPARATE_FILTER_DETACH
@@ -3191,7 +3191,7 @@ packing.n.02	the enclosure of something in a package or box	INSERT
 packaging.n.01	the business of packing	INSERT
 cannulation.n.01	the insertion of a cannula or tube into a hollow body organ	INSERT
 catheterization.n.01	the operation of introducing a catheter into the body	INSERT
-interjection.n.02	the action of interjecting or interposing an action or remark that interrupts	INSERT
+interjection.n.02	the action of interjecting or interposing an action or remark that interrupts	DECEIVE
 interposition.n.02	the act or fact of interposing one thing between or among others	INSERT
 insemination.n.02	the introduction of semen into the genital tract of a female	INSERT
 infusion.n.03	(medicine) the passive introduction of a substance (a fluid or drug or electrolyte) into a vein or between tissues (as by gravitational force)	INSERT
@@ -3215,7 +3215,7 @@ absolution.n.02	the act of absolving or remitting; formal redemption as pronounc
 amnesty.n.03	the formal act of liberating someone	PARDON
 compromise.n.01	a middle way between two extremes	SETTLE_CONCILIATE
 reconciliation.n.01	the reestablishing of cordial relations	SETTLE_CONCILIATE
-proration.n.01	the proportional limitation of production or distribution of something (e.g. crude oil or natural gas) to some fractional part of the total capacity of each producer	SETTLE_CONCILIATE
+proration.n.01	the proportional limitation of production or distribution of something (e.g. crude oil or natural gas) to some fractional part of the total capacity of each producer	DIVIDE
 adjournment.n.01	the termination of a meeting	FINISH_CONCLUDE_END
 dissolution.n.01	separation into component parts	SEPARATE_FILTER_DETACH
 dissolution.n.05	the termination or disintegration of a relationship (between persons or nations)	FINISH_CONCLUDE_END
@@ -3227,7 +3227,7 @@ finale.n.03	the concluding part of any performance	FINISH_CONCLUDE_END
 finalization.n.01	the act of finalizing	FINISH_CONCLUDE_END
 accretion.n.04	(biology) growth by addition as by the adhesion of parts or particles	INCREASE_ENLARGE_MULTIPLY
 forwarding.n.02	the advancement of some enterprise	INCREASE_ENLARGE_MULTIPLY
-boost.n.01	the act of giving hope or support to someone	STRENGTHEN_MAKE-RESISTANT
+boost.n.01	the act of giving hope or support to someone	INCREASE_ENLARGE_MULTIPLY
 advance.n.06	increase in price or value	INCREASE_ENLARGE_MULTIPLY
 melioration.n.03	the linguistic process in which over a period of time a word grows more positive in connotation or more elevated in meaning	INCREASE_ENLARGE_MULTIPLY
 magnification.n.01	the act of expanding something in apparent size	INCREASE_ENLARGE_MULTIPLY
@@ -3285,11 +3285,11 @@ worsening.n.02	changing something with the result that it becomes worse	WORSEN
 aggravation.n.03	action that makes a problem or a disease (or its symptoms) worse	WORSEN
 barbarization.n.01	an act that makes people primitive and uncivilized	WORSEN
 bastardization.n.02	an act that debases or corrupts	WORSEN
-desensitization.n.01	the process of reducing sensitivity	WORSEN
+desensitization.n.01	the process of reducing sensitivity	WEAKEN
 attenuation.n.01	weakening in force or intensity	WEAKEN
 recidivism.n.01	habitual relapse into crime	WORSEN
 detriment.n.01	a damage or loss	WORSEN
-regression.n.04	returning to a former state	WORSEN
+regression.n.04	returning to a former state	RESTORE-TO-PREVIOUS/INITIAL-STATE_UNDO_UNWIND
 reversal.n.01	a change from one state to the opposite state	INVERT_REVERSE
 pornography.n.01	creative activity (writing or pictures or films etc.) of no literary or artistic value other than to stimulate sexual desire	WORSEN
 aeration.n.01	the process of exposing to air (so as to purify)	AIR
@@ -3378,7 +3378,7 @@ support.n.04	a military operation (often involving new supplies of men and mater
 reward.n.03	an act performed to strengthen approved behavior	STRENGTHEN_MAKE-RESISTANT
 ruggedization.n.01	the act of making a piece of equipment rugged (strengthening to resist wear or abuse)	STRENGTHEN_MAKE-RESISTANT
 strengthening.n.01	becoming stronger	STRENGTHEN_MAKE-RESISTANT
-vegetation.n.04	inactivity that is passive and monotonous, comparable to the inactivity of plant life	EXIST_LIVE
+vegetation.n.04	inactivity that is passive and monotonous, comparable to the inactivity of plant life	REST
 shoemaking.n.01	the shoemaker's trade	REPAIR_REMEDY
 conditioner.n.01	exercise that conditions the body	REPAIR_REMEDY
 darning.n.01	the act of mending a hole in a garment with crossing threads	REPAIR_REMEDY
@@ -3448,7 +3448,7 @@ plication.n.02	the act of folding in parallel folds	PRESS_PUSH_FOLD
 strangulation.n.03	(pathology) constriction of a body part so as to cut off the flow of blood or other fluid	PRESS_PUSH_FOLD
 reverse.n.03	an unfortunate happening that hinders or impedes; something that is thwarting or frustrating	SLOW-DOWN
 suspension.n.06	the act of suspending something (hanging it from above so it moves freely)	HANG
-fog.n.02	an atmosphere in which visibility is reduced because of a cloud of some substance	CLOUD_SHADOW_HIDE
+fog.n.02	an atmosphere in which visibility is reduced because of a cloud of some substance	DIM
 disguise.n.03	the act of concealing the identity of something by modifying its appearance	CLOUD_SHADOW_HIDE
 cloudiness.n.01	the state of the sky when it is covered by clouds	CLOUD_SHADOW_HIDE
 clouding.n.01	the process whereby water particles become visible in the sky	CLOUD_SHADOW_HIDE
@@ -3480,7 +3480,7 @@ skin_diving.n.01	underwater swimming without any more breathing equipment than a
 skinny-dip.n.01	a naked swim	DIP_DIVE
 snorkeling.n.01	skin diving with a snorkel	DIP_DIVE
 soak.n.02	washing something by allowing it to soak	DIP_DIVE
-automation.n.01	the act of implementing the control of equipment with advanced technology; usually involving electronic hardware	AUTOMATIZE
+automation.n.01	the act of implementing the control of equipment with advanced technology; usually involving electronic hardware	CHANGE-APPEARANCE/STATE
 computerization.n.01	the control of processes by computer	AUTOMATIZE
 screwup.n.01	the complete mismanagement or mishandling of a situation	MESS
 ballup.n.01	something badly botched or muddled	MESS
@@ -3582,23 +3582,23 @@ luminescence.n.01	light not due to incandescence; occurs at low temperatures	LIG
 phosphorescence.n.01	a fluorescence that persists after the bombarding radiation has ceased	LIGHT_SHINE
 scintillation.n.01	(physics) a flash of light that is produced in a phosphor when it absorbs a photon or ionizing particle	LIGHT_SHINE
 discharge.n.05	electrical conduction through a gas in an applied electric field	LIGHT_SHINE
-accession.n.06	the act of attaining or gaining access to a new office or right or position (especially the throne)	ASSIGN-smt-to-smn
-investment.n.06	the ceremonial act of clothing someone in the insignia of an office; the formal promotion of a person to an office or rank	ASSIGN-smt-to-smn
-coronation.n.01	the ceremony of installing a new monarch	ASSIGN-smt-to-smn
-delegacy.n.03	the appointment of a delegate	ASSIGN-smt-to-smn
-specification.n.02	naming explicitly	ASSIGN-smt-to-smn
-demotion.n.01	act of lowering in rank or position	ASSIGN-smt-to-smn
-casting.n.04	the choice of actors to play particular roles in a play or movie	ASSIGN-smt-to-smn
-commission.n.03	the act of granting authority to undertake certain functions	ASSIGN-smt-to-smn
-ordination.n.03	the act of ordaining; the act of conferring (or receiving) holy orders	ASSIGN-smt-to-smn
-devolution.n.02	the delegation of authority (especially from a central to a regional government)	ASSIGN-smt-to-smn
-ennoblement.n.02	the act of raising someone to the nobility	ASSIGN-smt-to-smn
-throne.n.03	the position and power of an exalted person (a sovereign or bishop) who is entitled to sit in a chair of state on ceremonial occasions	ASSIGN-smt-to-smn
-mandate.n.03	the commission that is given to a government and its policies through an electoral victory	ASSIGN-smt-to-smn
-reassignment.n.01	assignment to a different duty	ASSIGN-smt-to-smn
-rehabilitation.n.03	vindication of a person's character and the re-establishment of that person's reputation	ASSIGN-smt-to-smn
-seating.n.02	the service of ushering people to their seats	ASSIGN-smt-to-smn
-secondment.n.02	the detachment of a person from their regular organization for temporary assignment elsewhere	ASSIGN-smt-to-smn
+accession.n.06	the act of attaining or gaining access to a new office or right or position (especially the throne)	ASSIGN-SMT-TO-SMN
+investment.n.06	the ceremonial act of clothing someone in the insignia of an office; the formal promotion of a person to an office or rank	ASSIGN-SMT-TO-SMN
+coronation.n.01	the ceremony of installing a new monarch	ASSIGN-SMT-TO-SMN
+delegacy.n.03	the appointment of a delegate	ASSIGN-SMT-TO-SMN
+specification.n.02	naming explicitly	ASSIGN-SMT-TO-SMN
+demotion.n.01	act of lowering in rank or position	ASSIGN-SMT-TO-SMN
+casting.n.04	the choice of actors to play particular roles in a play or movie	ASSIGN-SMT-TO-SMN
+commission.n.03	the act of granting authority to undertake certain functions	ASSIGN-SMT-TO-SMN
+ordination.n.03	the act of ordaining; the act of conferring (or receiving) holy orders	ASSIGN-SMT-TO-SMN
+devolution.n.02	the delegation of authority (especially from a central to a regional government)	ASSIGN-SMT-TO-SMN
+ennoblement.n.02	the act of raising someone to the nobility	ASSIGN-SMT-TO-SMN
+throne.n.03	the position and power of an exalted person (a sovereign or bishop) who is entitled to sit in a chair of state on ceremonial occasions	ASSIGN-SMT-TO-SMN
+mandate.n.03	the commission that is given to a government and its policies through an electoral victory	ASSIGN-SMT-TO-SMN
+reassignment.n.01	assignment to a different duty	ASSIGN-SMT-TO-SMN
+rehabilitation.n.03	vindication of a person's character and the re-establishment of that person's reputation	ASSIGN-SMT-TO-SMN
+seating.n.02	the service of ushering people to their seats	ASSIGN-SMT-TO-SMN
+secondment.n.02	the detachment of a person from their regular organization for temporary assignment elsewhere	ASSIGN-SMT-TO-SMN
 advent.n.01	arrival that has been awaited (especially of something momentous)	ARRIVE
 landing.n.03	the act of coming down to the earth (or other surface)	ARRIVE
 debarkation.n.01	the act of passengers and crew getting off of a ship or aircraft	LAND_GET-OFF
@@ -3802,7 +3802,7 @@ two-step.n.01	a ballroom dance in duple meter; marked by sliding steps	DANCE
 waltz.n.03	a ballroom dance in triple time with a strong accent on the first beat	DANCE
 loosening.n.02	the act of making something less tight	UNFASTEN_UNFOLD
 untying.n.01	loosening the ties that fasten something	UNFASTEN_UNFOLD
-relaxation.n.01	(physiology) the gradual lengthening of inactive muscle or muscle fibers	MAKE-RELAX
+relaxation.n.01	(physiology) the gradual lengthening of inactive muscle or muscle fibers	UNFASTEN_UNFOLD
 drizzle.n.01	very light rain; stronger than mist but less than a shower	METEOROLOGICAL
 hail.n.01	precipitation of ice pellets when there are strong rising air currents	METEOROLOGICAL
 scattering.n.03	a light shower that falls in some locations and not others nearby	METEOROLOGICAL

@@ -502,8 +502,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "harangue.v.01",
-            "rant.v.01"
+            "rant.v.01",
+            "harangue.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -551,8 +551,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "mumble.v.01",
-            "murmur.v.01"
+            "murmur.v.01",
+            "mumble.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -564,8 +564,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "talk.v.02",
-            "talk.v.01"
+            "talk.v.01",
+            "talk.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -872,8 +872,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "store.v.02",
-            "store.v.01"
+            "store.v.01",
+            "store.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -885,8 +885,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "retain.v.03",
-            "keep.v.03"
+            "keep.v.03",
+            "retain.v.03"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -947,9 +947,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "act.v.06",
             "act.v.10",
-            "act.v.03"
+            "act.v.03",
+            "act.v.06"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -962,9 +962,9 @@
         "indirect_frames": [],
         "wn_bases": [
             "perform.v.03",
-            "act.v.06",
             "act.v.10",
-            "act.v.03"
+            "act.v.03",
+            "act.v.06"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -1181,9 +1181,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "play.v.06",
             "play.v.03",
-            "play.v.07"
+            "play.v.07",
+            "play.v.06"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -1555,8 +1555,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "shift.v.05",
-            "shift.v.06"
+            "shift.v.06",
+            "shift.v.05"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -1785,8 +1785,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "ramp.v.01",
-            "rampage.v.01"
+            "rampage.v.01",
+            "ramp.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -1954,8 +1954,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "grade.v.03",
-            "grade.v.04"
+            "grade.v.04",
+            "grade.v.03"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -2015,8 +2015,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "back.v.01",
-            "second.v.01"
+            "second.v.01",
+            "back.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -2078,8 +2078,8 @@
         "indirect_frames": [],
         "wn_bases": [
             "validate.v.03",
-            "confirm.v.01",
-            "validate.v.02"
+            "validate.v.02",
+            "confirm.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -2189,8 +2189,8 @@
         "indirect_frames": [],
         "wn_bases": [
             "agree.v.01",
-            "agree.v.07",
-            "agree.v.02"
+            "agree.v.02",
+            "agree.v.07"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -2239,9 +2239,9 @@
         "indirect_frames": [],
         "wn_bases": [
             "stop.v.01",
+            "freeze.v.05",
             "stop.v.03",
-            "halt.v.01",
-            "freeze.v.05"
+            "halt.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -2265,8 +2265,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "barricade.v.01",
             "parry.v.01",
+            "barricade.v.01",
             "obstruct.v.02"
         ],
         "indirect_wn_bases": [],
@@ -2328,8 +2328,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "hesitate.v.02",
-            "pause.v.02"
+            "pause.v.02",
+            "hesitate.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -2353,8 +2353,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "interrupt.v.01",
-            "interrupt.v.03"
+            "interrupt.v.03",
+            "interrupt.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -2560,8 +2560,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "beat.v.04",
-            "pulsate.v.01"
+            "pulsate.v.01",
+            "beat.v.04"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -2573,9 +2573,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "beat.v.04",
             "throb.v.01",
-            "pulsate.v.01"
+            "pulsate.v.01",
+            "beat.v.04"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -2636,8 +2636,8 @@
         "indirect_frames": [],
         "wn_bases": [
             "shake.v.02",
-            "shiver.v.02",
-            "tremble.v.01"
+            "tremble.v.01",
+            "shiver.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -2902,8 +2902,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "shudder.v.02",
-            "shiver.v.02"
+            "shiver.v.02",
+            "shudder.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -3002,8 +3002,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "overflow.v.01",
-            "waste.v.04"
+            "waste.v.04",
+            "overflow.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -3318,8 +3318,8 @@
         "indirect_frames": [],
         "wn_bases": [
             "inaugurate.v.02",
-            "inaugurate.v.01",
-            "start.v.06"
+            "start.v.06",
+            "inaugurate.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -3465,9 +3465,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "guzzle.v.01",
+            "swill.v.02",
             "gulp.v.01",
-            "swill.v.02"
+            "guzzle.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -3515,8 +3515,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "coerce.v.01",
-            "compel.v.01"
+            "compel.v.01",
+            "coerce.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -3624,8 +3624,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "bite.v.01",
-            "chomp.v.01"
+            "chomp.v.01",
+            "bite.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -3637,8 +3637,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "browse.v.04",
-            "crop.v.05"
+            "crop.v.05",
+            "browse.v.04"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -3722,9 +3722,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
+            "eat.v.02",
             "feed.v.06",
-            "eat.v.01",
-            "eat.v.02"
+            "eat.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -3892,9 +3892,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
+            "vanish.v.04",
             "vanish.v.02",
-            "fade.v.01",
-            "vanish.v.04"
+            "fade.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -3906,8 +3906,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "vault.v.01",
-            "curvet.v.01"
+            "curvet.v.01",
+            "vault.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -4124,8 +4124,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "decrepitate.v.01",
-            "decrepitate.v.02"
+            "decrepitate.v.02",
+            "decrepitate.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -4282,8 +4282,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "suffocate.v.05",
-            "smother.v.02"
+            "smother.v.02",
+            "suffocate.v.05"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -4466,10 +4466,10 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "kill.v.04",
-            "kill.v.09",
+            "kill.v.01",
             "kill.v.10",
-            "kill.v.01"
+            "kill.v.04",
+            "kill.v.09"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -4481,8 +4481,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "kill.v.10",
-            "kill.v.01"
+            "kill.v.01",
+            "kill.v.10"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -4869,8 +4869,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "deactivate.v.01",
-            "demobilize.v.01"
+            "demobilize.v.01",
+            "deactivate.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -4882,8 +4882,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "demobilize.v.02",
-            "demobilize.v.01"
+            "demobilize.v.01",
+            "demobilize.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -4895,8 +4895,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "dethrone.v.01",
-            "depose.v.01"
+            "depose.v.01",
+            "dethrone.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -4992,15 +4992,15 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "grapple.v.02",
+            "clench.v.01",
+            "cling_to.v.01",
             "grip.v.01",
-            "seize.v.01",
+            "grapple.v.02",
+            "clasp.v.01",
             "hold.v.02",
             "grasp.v.01",
-            "cling_to.v.01",
-            "clench.v.01",
             "clasp.v.04",
-            "clasp.v.01"
+            "seize.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -5012,8 +5012,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "grasp.v.01",
-            "seize.v.01"
+            "seize.v.01",
+            "grasp.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -5157,8 +5157,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "mail.v.01",
-            "mail.v.02"
+            "mail.v.02",
+            "mail.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -5170,8 +5170,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "mail.v.01",
-            "mail.v.02"
+            "mail.v.02",
+            "mail.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -5315,9 +5315,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "shoot.v.19",
+            "germinate.v.03",
             "sprout.v.02",
-            "germinate.v.03"
+            "shoot.v.19"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -5427,8 +5427,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "root.v.06",
-            "root.v.01"
+            "root.v.01",
+            "root.v.06"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -5464,8 +5464,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "vegetate.v.03",
-            "vegetate.v.04"
+            "vegetate.v.04",
+            "vegetate.v.03"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -5489,8 +5489,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "align.v.02",
-            "align.v.04"
+            "align.v.04",
+            "align.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -5526,8 +5526,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "regulate.v.02",
-            "regularize.v.02"
+            "regularize.v.02",
+            "regulate.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -5600,8 +5600,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "retool.v.01",
-            "revise.v.01"
+            "revise.v.01",
+            "retool.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -5637,8 +5637,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "tune.v.02",
-            "tune.v.01"
+            "tune.v.01",
+            "tune.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -5700,8 +5700,8 @@
         "wn_bases": [
             "beat.v.02",
             "thrash.v.01",
-            "flog.v.01",
-            "whack.v.01"
+            "whack.v.01",
+            "flog.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -5714,10 +5714,10 @@
         "indirect_frames": [],
         "wn_bases": [
             "pummel.v.01",
-            "thump.v.03",
-            "slug.v.01",
             "clout.v.01",
-            "punch.v.01"
+            "punch.v.01",
+            "slug.v.01",
+            "thump.v.03"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -5741,9 +5741,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "kick.v.03",
             "kick.v.01",
-            "boot.v.01"
+            "boot.v.01",
+            "kick.v.03"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -5779,9 +5779,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
+            "flog.v.01",
             "flagellate.v.01",
-            "cane.v.01",
-            "flog.v.01"
+            "cane.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -5829,9 +5829,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "collide.v.02",
+            "hit.v.02",
             "collide.v.03",
-            "hit.v.02"
+            "collide.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -6401,9 +6401,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
+            "vote.v.01",
             "ballot.v.01",
-            "vote.v.02",
-            "vote.v.01"
+            "vote.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -6439,9 +6439,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "pick.v.01",
+            "choose.v.02",
             "choose.v.01",
-            "choose.v.02"
+            "pick.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -6489,8 +6489,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "vote.v.02",
-            "vote.v.01"
+            "vote.v.01",
+            "vote.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -6600,8 +6600,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "leave.v.07",
-            "result.v.01"
+            "result.v.01",
+            "leave.v.07"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -6866,8 +6866,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "escape.v.01",
-            "flee.v.01"
+            "flee.v.01",
+            "escape.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -6879,9 +6879,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "go.v.03",
+            "depart.v.03",
             "depart.v.04",
-            "depart.v.03"
+            "go.v.03"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -6991,8 +6991,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "expatriate.v.02",
-            "emigrate.v.01"
+            "emigrate.v.01",
+            "expatriate.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -7172,8 +7172,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "air.v.02",
-            "air.v.03"
+            "air.v.03",
+            "air.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -7185,8 +7185,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "transmit.v.04",
-            "transfer.v.02"
+            "transfer.v.02",
+            "transmit.v.04"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -7416,8 +7416,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "call.v.21",
-            "call.v.17"
+            "call.v.17",
+            "call.v.21"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -7502,8 +7502,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "predestine.v.01",
-            "predestine.v.03"
+            "predestine.v.03",
+            "predestine.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -7603,9 +7603,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
+            "bust_up.v.01",
             "destroy.v.02",
-            "ruin.v.04",
-            "bust_up.v.01"
+            "ruin.v.04"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -7678,8 +7678,8 @@
         "indirect_frames": [],
         "wn_bases": [
             "lay_waste_to.v.01",
-            "destroy.v.02",
-            "destroy.v.01"
+            "destroy.v.01",
+            "destroy.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -7691,8 +7691,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "lay_waste_to.v.01",
-            "harry.v.02"
+            "harry.v.02",
+            "lay_waste_to.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -8029,8 +8029,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "lunge.v.01",
-            "lurch.v.02"
+            "lurch.v.02",
+            "lunge.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -8319,8 +8319,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "cry.v.02",
-            "cry.v.07"
+            "cry.v.07",
+            "cry.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -8405,8 +8405,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "drizzle.v.02",
-            "moisten.v.01"
+            "moisten.v.01",
+            "drizzle.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -8563,8 +8563,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "pursue.v.04",
-            "prosecute.v.03"
+            "prosecute.v.03",
+            "pursue.v.04"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -8637,9 +8637,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "diversify.v.03",
+            "diversify.v.01",
             "vary.v.04",
-            "diversify.v.01"
+            "diversify.v.03"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -8699,8 +8699,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "dissimilate.v.03",
-            "dissimilate.v.01"
+            "dissimilate.v.01",
+            "dissimilate.v.03"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -9122,8 +9122,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "substitute.v.02",
-            "substitute.v.03"
+            "substitute.v.03",
+            "substitute.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -9135,9 +9135,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "supplant.v.01",
+            "substitute.v.01",
             "replace.v.01",
-            "substitute.v.01"
+            "supplant.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -9367,8 +9367,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "swab.v.01",
-            "wipe_up.v.01"
+            "wipe_up.v.01",
+            "swab.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -9478,9 +9478,9 @@
         "indirect_frames": [],
         "wn_bases": [
             "wallop.v.02",
-            "cream.v.02",
             "worst.v.01",
-            "beat.v.01"
+            "beat.v.01",
+            "cream.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -9696,8 +9696,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "sweeten.v.02",
-            "enhance.v.02"
+            "enhance.v.02",
+            "sweeten.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -9745,8 +9745,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "optimize.v.01",
-            "optimize.v.02"
+            "optimize.v.02",
+            "optimize.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -9806,8 +9806,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "reform.v.01",
-            "reform.v.05"
+            "reform.v.05",
+            "reform.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -9952,8 +9952,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "evacuate.v.05",
-            "excrete.v.01"
+            "excrete.v.01",
+            "evacuate.v.05"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -10001,8 +10001,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "fester.v.01",
-            "suppurate.v.01"
+            "suppurate.v.01",
+            "fester.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -10182,8 +10182,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "expose.v.03",
-            "show.v.01"
+            "show.v.01",
+            "expose.v.03"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -10219,8 +10219,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "disclose.v.02",
-            "expose.v.03"
+            "expose.v.03",
+            "disclose.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -10293,8 +10293,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "sun.v.01",
-            "sun.v.02"
+            "sun.v.02",
+            "sun.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -10792,8 +10792,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "travel.v.03",
-            "junketeer.v.01"
+            "junketeer.v.01",
+            "travel.v.03"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -11036,8 +11036,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "anatomize.v.02",
-            "anatomize.v.01"
+            "anatomize.v.01",
+            "anatomize.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -11097,8 +11097,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "diagnose.v.02",
-            "diagnose.v.01"
+            "diagnose.v.01",
+            "diagnose.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -11134,8 +11134,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "explore.v.04",
-            "explore.v.03"
+            "explore.v.03",
+            "explore.v.04"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -11220,8 +11220,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "x-ray.v.01",
-            "x-ray.v.02"
+            "x-ray.v.02",
+            "x-ray.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -11245,8 +11245,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "convey.v.01",
-            "impart.v.01"
+            "impart.v.01",
+            "convey.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -11295,8 +11295,8 @@
         "indirect_frames": [],
         "wn_bases": [
             "ban.v.01",
-            "forbid.v.01",
-            "ban.v.02"
+            "ban.v.02",
+            "forbid.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -11345,8 +11345,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "forbid.v.01",
-            "suppress.v.01"
+            "suppress.v.01",
+            "forbid.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -11418,9 +11418,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "liberate.v.03",
             "free.v.01",
-            "free.v.06"
+            "free.v.06",
+            "liberate.v.03"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -11432,8 +11432,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "manumit.v.01",
-            "emancipate.v.01"
+            "emancipate.v.01",
+            "manumit.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -11445,8 +11445,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "liberate.v.03",
-            "emancipate.v.01"
+            "emancipate.v.01",
+            "liberate.v.03"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -11518,8 +11518,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "engage.v.10",
-            "engage.v.06"
+            "engage.v.06",
+            "engage.v.10"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -11675,8 +11675,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "reorganize.v.02",
-            "reorganize.v.01"
+            "reorganize.v.01",
+            "reorganize.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -11688,8 +11688,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "reorganize.v.02",
-            "reorganize.v.01"
+            "reorganize.v.01",
+            "reorganize.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -11725,8 +11725,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "distribute.v.01",
-            "administer.v.04"
+            "administer.v.04",
+            "distribute.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -11847,8 +11847,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "give.v.03",
             "give.v.08",
+            "give.v.03",
             "contribute.v.02"
         ],
         "indirect_wn_bases": [],
@@ -12078,8 +12078,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "rummage.v.01",
-            "comb.v.02"
+            "comb.v.02",
+            "rummage.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -12151,9 +12151,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "search.v.01",
             "search.v.02",
-            "hunt.v.06"
+            "hunt.v.06",
+            "search.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -12165,8 +12165,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "search.v.01",
-            "quest.v.01"
+            "quest.v.01",
+            "search.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -12274,8 +12274,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "recuperate.v.03",
-            "recuperate.v.04"
+            "recuperate.v.04",
+            "recuperate.v.03"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -12371,8 +12371,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "heal.v.02",
-            "mend.v.02"
+            "mend.v.02",
+            "heal.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -12396,8 +12396,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "medicate.v.01",
-            "medicate.v.02"
+            "medicate.v.02",
+            "medicate.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -12421,8 +12421,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "succor.v.01",
-            "minister.v.01"
+            "minister.v.01",
+            "succor.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -12434,8 +12434,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "nurse.v.01",
-            "nurse.v.03"
+            "nurse.v.03",
+            "nurse.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -12651,8 +12651,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "masturbate.v.01",
-            "masturbate.v.02"
+            "masturbate.v.02",
+            "masturbate.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -12823,8 +12823,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "attack.v.01",
-            "attack.v.03"
+            "attack.v.03",
+            "attack.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -12860,8 +12860,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "rape.v.01",
-            "assail.v.01"
+            "assail.v.01",
+            "rape.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -13053,8 +13053,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "storm.v.05",
-            "storm.v.02"
+            "storm.v.02",
+            "storm.v.05"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -13198,8 +13198,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "woo.v.02",
-            "court.v.03"
+            "court.v.03",
+            "woo.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -13367,8 +13367,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "film.v.02",
-            "film.v.01"
+            "film.v.01",
+            "film.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -13380,8 +13380,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "film.v.02",
-            "film.v.01"
+            "film.v.01",
+            "film.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -13513,8 +13513,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "ally.v.01",
             "confederate.v.02",
+            "ally.v.01",
             "band_together.v.01"
         ],
         "indirect_wn_bases": [],
@@ -13563,8 +13563,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "unionize.v.01",
-            "unionize.v.02"
+            "unionize.v.02",
+            "unionize.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -13601,8 +13601,8 @@
         "indirect_frames": [],
         "wn_bases": [
             "rise.v.16",
-            "rise.v.01",
-            "ascend.v.01"
+            "ascend.v.01",
+            "rise.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -13614,9 +13614,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
+            "rise.v.01",
             "lift.v.03",
-            "raise.v.02",
-            "rise.v.01"
+            "raise.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -13653,8 +13653,8 @@
         "indirect_frames": [],
         "wn_bases": [
             "lift.v.03",
-            "raise.v.02",
             "hoist.v.01",
+            "raise.v.02",
             "heave.v.04"
         ],
         "indirect_wn_bases": [],
@@ -13764,8 +13764,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "scale.v.03",
-            "scale.v.05"
+            "scale.v.05",
+            "scale.v.03"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -14032,9 +14032,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "manipulate.v.02",
             "handle.v.04",
-            "manipulate.v.06"
+            "manipulate.v.06",
+            "manipulate.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -14070,8 +14070,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "smooch.v.01",
-            "smack.v.04"
+            "smack.v.04",
+            "smooch.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -14180,8 +14180,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "commercialize.v.02",
-            "market.v.01"
+            "market.v.01",
+            "commercialize.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -14205,8 +14205,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "denationalize.v.01",
-            "privatize.v.01"
+            "privatize.v.01",
+            "denationalize.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -14316,8 +14316,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "traffic.v.01",
-            "traffic.v.02"
+            "traffic.v.02",
+            "traffic.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -14354,8 +14354,8 @@
         "indirect_frames": [],
         "wn_bases": [
             "feed.v.01",
-            "feed.v.02",
-            "nutrify.v.01"
+            "nutrify.v.01",
+            "feed.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -14679,8 +14679,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "excise.v.03",
             "extirpate.v.03",
+            "excise.v.03",
             "ablate.v.02"
         ],
         "indirect_wn_bases": [],
@@ -14754,8 +14754,8 @@
         "indirect_frames": [],
         "wn_bases": [
             "husk.v.01",
-            "denude.v.01",
-            "strip.v.11"
+            "strip.v.11",
+            "denude.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -14827,8 +14827,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "decorticate.v.01",
-            "decorticate.v.02"
+            "decorticate.v.02",
+            "decorticate.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -15020,8 +15020,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "undress.v.01",
-            "strip.v.13"
+            "strip.v.13",
+            "undress.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -15323,9 +15323,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "hum.v.03",
             "hum.v.02",
-            "hum.v.04"
+            "hum.v.04",
+            "hum.v.03"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -15423,8 +15423,8 @@
         "indirect_frames": [],
         "wn_bases": [
             "ting.v.02",
-            "tinkle.v.01",
-            "ting.v.01"
+            "ting.v.01",
+            "tinkle.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -15472,8 +15472,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "snap.v.06",
-            "snap.v.10"
+            "snap.v.10",
+            "snap.v.06"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -15485,8 +15485,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "snap.v.06",
-            "snap.v.10"
+            "snap.v.10",
+            "snap.v.06"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -15570,9 +15570,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "scream.v.03",
             "whine.v.03",
-            "shriek.v.01"
+            "shriek.v.01",
+            "scream.v.03"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -15838,9 +15838,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "ring.v.01",
             "roll.v.05",
-            "peal.v.01"
+            "peal.v.01",
+            "ring.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -15936,8 +15936,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "whistle.v.01",
-            "whistle.v.05"
+            "whistle.v.05",
+            "whistle.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -16095,8 +16095,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "decline.v.04",
             "ebb.v.03",
+            "decline.v.04",
             "wane.v.03"
         ],
         "indirect_wn_bases": [],
@@ -16109,8 +16109,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "decline.v.04",
             "wane.v.02",
+            "decline.v.04",
             "wane.v.03"
         ],
         "indirect_wn_bases": [],
@@ -16147,9 +16147,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "decrease.v.01",
+            "decrease.v.02",
             "drop_off.v.01",
-            "decrease.v.02"
+            "decrease.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -16186,8 +16186,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "turn_down.v.05",
-            "lower.v.04"
+            "lower.v.04",
+            "turn_down.v.05"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -16271,8 +16271,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "subside.v.01",
-            "remit.v.07"
+            "remit.v.07",
+            "subside.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -16466,8 +16466,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "ride.v.01",
-            "ride_horseback.v.01"
+            "ride_horseback.v.01",
+            "ride.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -16600,11 +16600,11 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "check.v.22",
             "see.v.10",
+            "check.v.08",
             "determine.v.08",
             "check.v.01",
-            "check.v.08"
+            "check.v.22"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -16700,8 +16700,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "circulate.v.02",
-            "propagate.v.05"
+            "propagate.v.05",
+            "circulate.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -16846,10 +16846,10 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
+            "evaporate.v.02",
             "evaporate.v.03",
             "gasify.v.01",
-            "evaporate.v.01",
-            "evaporate.v.02"
+            "evaporate.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -16933,8 +16933,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "code.v.02",
-            "encode.v.01"
+            "encode.v.01",
+            "code.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -17007,8 +17007,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "melt.v.01",
-            "dissolve.v.09"
+            "dissolve.v.09",
+            "melt.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -17104,8 +17104,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "ionize.v.01",
-            "ionize.v.02"
+            "ionize.v.02",
+            "ionize.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -17117,8 +17117,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "isomerize.v.02",
-            "isomerize.v.01"
+            "isomerize.v.01",
+            "isomerize.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -17178,8 +17178,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "polymerize.v.02",
-            "polymerize.v.01"
+            "polymerize.v.01",
+            "polymerize.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -17203,8 +17203,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "saponify.v.02",
-            "saponify.v.01"
+            "saponify.v.01",
+            "saponify.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -17228,8 +17228,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "solvate.v.01",
-            "solvate.v.02"
+            "solvate.v.02",
+            "solvate.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -17758,9 +17758,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "shun.v.01",
+            "avoid.v.01",
             "hedge.v.01",
-            "avoid.v.01"
+            "shun.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -17845,8 +17845,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "fast.v.01",
-            "fast.v.02"
+            "fast.v.02",
+            "fast.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -17871,8 +17871,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "accompany.v.02",
-            "company.v.01"
+            "company.v.01",
+            "accompany.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -17908,8 +17908,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "equilibrate.v.01",
-            "balance.v.01"
+            "balance.v.01",
+            "equilibrate.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -18018,8 +18018,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "prosecute.v.01",
-            "prosecute.v.02"
+            "prosecute.v.02",
+            "prosecute.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -18417,10 +18417,10 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "precede.v.02",
-            "precede.v.03",
+            "predate.v.01",
             "precede.v.04",
-            "predate.v.01"
+            "precede.v.02",
+            "precede.v.03"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -18456,8 +18456,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "appear.v.02",
-            "appear.v.05"
+            "appear.v.05",
+            "appear.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -18553,8 +18553,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "happen.v.04",
-            "manifest.v.03"
+            "manifest.v.03",
+            "happen.v.04"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -18638,8 +18638,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "open.v.01",
             "unfold.v.04",
+            "open.v.01",
             "open.v.03"
         ],
         "indirect_wn_bases": [],
@@ -18905,9 +18905,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "impoverish.v.01",
             "beggar.v.02",
-            "deprive.v.03"
+            "deprive.v.03",
+            "impoverish.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -18931,8 +18931,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "burglarize.v.01",
-            "hold_up.v.04"
+            "hold_up.v.04",
+            "burglarize.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -19042,9 +19042,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "deprive.v.01",
+            "deprive.v.03",
             "deprive.v.02",
-            "deprive.v.03"
+            "deprive.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -19478,8 +19478,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "underscore.v.01",
-            "stress.v.01"
+            "stress.v.01",
+            "underscore.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -19491,8 +19491,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "brawl.v.01",
-            "quarrel.v.01"
+            "quarrel.v.01",
+            "brawl.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -19552,8 +19552,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "clarify.v.01",
-            "clear.v.10"
+            "clear.v.10",
+            "clarify.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -19577,8 +19577,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "specify.v.04",
-            "detail.v.01"
+            "detail.v.01",
+            "specify.v.04"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -19746,8 +19746,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "meet.v.07",
-            "assemble.v.03"
+            "assemble.v.03",
+            "meet.v.07"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -19856,8 +19856,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "intersperse.v.02",
-            "intersperse.v.01"
+            "intersperse.v.01",
+            "intersperse.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -19905,8 +19905,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "answer.v.02",
-            "answer.v.10"
+            "answer.v.10",
+            "answer.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -19979,8 +19979,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "grouch.v.01",
-            "murmur.v.02"
+            "murmur.v.02",
+            "grouch.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -20209,8 +20209,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "superscribe.v.02",
-            "superscribe.v.01"
+            "superscribe.v.01",
+            "superscribe.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -20270,8 +20270,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "ridicule.v.01",
-            "deride.v.01"
+            "deride.v.01",
+            "ridicule.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -20343,10 +20343,10 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "ask.v.01",
+            "question.v.03",
             "interrogate.v.02",
-            "interview.v.01",
-            "question.v.03"
+            "ask.v.01",
+            "interview.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -20358,9 +20358,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "beg.v.01",
             "solicit.v.01",
-            "beg.v.03"
+            "beg.v.03",
+            "beg.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -20384,8 +20384,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "request.v.02",
             "request.v.03",
+            "request.v.02",
             "request.v.01"
         ],
         "indirect_wn_bases": [],
@@ -20700,8 +20700,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "disapprove.v.02",
             "reject.v.01",
+            "disapprove.v.02",
             "refuse.v.02"
         ],
         "indirect_wn_bases": [],
@@ -20810,8 +20810,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "repudiate.v.02",
-            "repudiate.v.03"
+            "repudiate.v.03",
+            "repudiate.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -20944,8 +20944,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "report.v.01",
-            "report.v.05"
+            "report.v.05",
+            "report.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -20957,8 +20957,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "report.v.01",
-            "describe.v.01"
+            "describe.v.01",
+            "report.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -20982,8 +20982,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "dramatize.v.01",
-            "dramatize.v.02"
+            "dramatize.v.02",
+            "dramatize.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -21285,8 +21285,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "teach.v.01",
             "train.v.01",
+            "teach.v.01",
             "educate.v.01"
         ],
         "indirect_wn_bases": [],
@@ -21432,8 +21432,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "denote.v.01",
-            "indicate.v.02"
+            "indicate.v.02",
+            "denote.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -21556,8 +21556,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "solmizate.v.01",
-            "solmizate.v.02"
+            "solmizate.v.02",
+            "solmizate.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -21774,8 +21774,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "paint.v.04",
-            "paint.v.02"
+            "paint.v.02",
+            "paint.v.04"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -21847,8 +21847,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "crouch.v.01",
             "bow.v.03",
+            "crouch.v.01",
             "bow.v.01"
         ],
         "indirect_wn_bases": [],
@@ -21861,8 +21861,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "curtsy.v.01",
-            "curtsy.v.02"
+            "curtsy.v.02",
+            "curtsy.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -21886,8 +21886,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "prostrate.v.01",
-            "prostrate.v.03"
+            "prostrate.v.03",
+            "prostrate.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -21947,8 +21947,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "genuflect.v.01",
-            "scrape.v.04"
+            "scrape.v.04",
+            "genuflect.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -21996,8 +21996,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "transgress.v.01",
-            "sin.v.01"
+            "sin.v.01",
+            "transgress.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -22009,8 +22009,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "transgress.v.01",
-            "conflict.v.02"
+            "conflict.v.02",
+            "transgress.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -22110,8 +22110,8 @@
         "wn_bases": [
             "encroach.v.01",
             "intrude.v.01",
-            "desecrate.v.01",
-            "trespass.v.01"
+            "trespass.v.01",
+            "desecrate.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -22195,9 +22195,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "issue.v.03",
+            "print.v.01",
             "publish.v.02",
-            "print.v.01"
+            "issue.v.03"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -22209,8 +22209,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "publish.v.02",
-            "print.v.01"
+            "print.v.01",
+            "publish.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -22246,8 +22246,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "contend.v.06",
-            "battle.v.01"
+            "battle.v.01",
+            "contend.v.06"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -22755,8 +22755,8 @@
         "indirect_frames": [],
         "wn_bases": [
             "devalue.v.02",
-            "devalue.v.01",
-            "depreciate.v.03"
+            "depreciate.v.03",
+            "devalue.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -23260,8 +23260,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "instrument.v.02",
-            "orchestrate.v.01"
+            "orchestrate.v.01",
+            "instrument.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -23514,8 +23514,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "postpone.v.01",
-            "prorogue.v.02"
+            "prorogue.v.02",
+            "postpone.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -23794,8 +23794,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "haul.v.01",
-            "drag.v.01"
+            "drag.v.01",
+            "haul.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -23893,9 +23893,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "collect.v.04",
+            "roll_up.v.02",
             "gather.v.01",
-            "roll_up.v.02"
+            "collect.v.04"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -24015,8 +24015,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "dress.v.09",
             "deck.v.01",
+            "dress.v.09",
             "decorate.v.01"
         ],
         "indirect_wn_bases": [],
@@ -24310,8 +24310,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "rival.v.02",
-            "compete.v.01"
+            "compete.v.01",
+            "rival.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -24816,8 +24816,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "deluge.v.01",
             "flood.v.02",
+            "deluge.v.01",
             "inundate.v.02",
             "flood.v.04"
         ],
@@ -24927,8 +24927,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "pack.v.01",
-            "box.v.01"
+            "box.v.01",
+            "pack.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -25278,8 +25278,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "dissolve.v.10",
-            "adjourn.v.01"
+            "adjourn.v.01",
+            "dissolve.v.10"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -25315,10 +25315,10 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "end.v.01",
             "end.v.04",
             "end.v.03",
-            "end.v.02"
+            "end.v.02",
+            "end.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -25330,11 +25330,11 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "finish.v.06",
-            "complete.v.01",
-            "end.v.01",
             "end.v.04",
-            "end.v.03"
+            "end.v.03",
+            "end.v.01",
+            "complete.v.01",
+            "finish.v.06"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -25346,8 +25346,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "end.v.01",
-            "complete.v.01"
+            "complete.v.01",
+            "end.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -25383,8 +25383,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "conclude.v.02",
-            "end.v.02"
+            "end.v.02",
+            "conclude.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -25444,8 +25444,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "rise.v.02",
-            "advance.v.12"
+            "advance.v.12",
+            "rise.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -25494,8 +25494,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "augment.v.02",
-            "augment.v.01"
+            "augment.v.01",
+            "augment.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -25544,8 +25544,8 @@
         "indirect_frames": [],
         "wn_bases": [
             "escalate.v.01",
-            "intensify.v.03",
-            "intensify.v.02"
+            "intensify.v.02",
+            "intensify.v.03"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -25629,9 +25629,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
+            "increase.v.02",
             "escalate.v.01",
-            "increase.v.01",
-            "increase.v.02"
+            "increase.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -25667,9 +25667,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "increase.v.01",
+            "increase.v.02",
             "grow.v.02",
-            "increase.v.02"
+            "increase.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -25693,8 +25693,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "increase.v.01",
-            "increase.v.02"
+            "increase.v.02",
+            "increase.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -25706,8 +25706,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "inflate.v.03",
-            "inflate.v.04"
+            "inflate.v.04",
+            "inflate.v.03"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -25731,8 +25731,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "swell.v.03",
-            "tumefy.v.01"
+            "tumefy.v.01",
+            "swell.v.03"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -26205,9 +26205,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "deteriorate.v.01",
+            "devolve.v.03",
             "worsen.v.01",
-            "devolve.v.03"
+            "deteriorate.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -26412,8 +26412,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "incorporate.v.04",
-            "integrate.v.01"
+            "integrate.v.01",
+            "incorporate.v.04"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -26449,8 +26449,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "unify.v.01",
-            "unite.v.06"
+            "unite.v.06",
+            "unify.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -26535,8 +26535,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "awaken.v.01",
-            "wake_up.v.02"
+            "wake_up.v.02",
+            "awaken.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -26645,8 +26645,8 @@
         "indirect_frames": [],
         "wn_bases": [
             "heat.v.01",
-            "heat.v.04",
-            "heat.v.02"
+            "heat.v.02",
+            "heat.v.04"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -26658,8 +26658,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "heat.v.04",
-            "warm.v.01"
+            "warm.v.01",
+            "heat.v.04"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -26696,9 +26696,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
+            "foul.v.05",
             "spot.v.04",
-            "tarnish.v.01",
-            "foul.v.05"
+            "tarnish.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -26722,8 +26722,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "pollute.v.01",
-            "contaminate.v.02"
+            "contaminate.v.02",
+            "pollute.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -26759,9 +26759,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
+            "burn.v.07",
             "burn.v.03",
-            "burn.v.15",
-            "burn.v.07"
+            "burn.v.15"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -26797,8 +26797,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "incinerate.v.01",
-            "burn.v.07"
+            "burn.v.07",
+            "incinerate.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -26834,9 +26834,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "erupt.v.03",
             "ignite.v.01",
             "kindle.v.02",
+            "erupt.v.03",
             "kindle.v.01"
         ],
         "indirect_wn_bases": [],
@@ -26970,8 +26970,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "color.v.04",
-            "color.v.01"
+            "color.v.01",
+            "color.v.04"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -27164,8 +27164,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "deaden.v.05",
-            "deaden.v.06"
+            "deaden.v.06",
+            "deaden.v.05"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -27201,8 +27201,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "de-escalate.v.01",
-            "de-escalate.v.02"
+            "de-escalate.v.02",
+            "de-escalate.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -27214,8 +27214,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "enervate.v.01",
-            "enfeeble.v.01"
+            "enfeeble.v.01",
+            "enervate.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -27239,8 +27239,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "dissolve.v.01",
-            "recede.v.03"
+            "recede.v.03",
+            "dissolve.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -27252,8 +27252,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "pine_away.v.01",
             "waste.v.10",
+            "pine_away.v.01",
             "waste.v.08"
         ],
         "indirect_wn_bases": [],
@@ -27617,8 +27617,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "cleave.v.01",
-            "rend.v.01"
+            "rend.v.01",
+            "cleave.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -27705,9 +27705,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
+            "fleece.v.02",
             "shear.v.03",
-            "shear.v.01",
-            "fleece.v.02"
+            "shear.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -27841,8 +27841,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "communize.v.02",
-            "nationalize.v.01"
+            "nationalize.v.01",
+            "communize.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -27903,9 +27903,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "cook.v.03",
             "cook.v.01",
-            "cook.v.02"
+            "cook.v.02",
+            "cook.v.03"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -28038,8 +28038,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "simmer.v.01",
-            "stew.v.03"
+            "stew.v.03",
+            "simmer.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -28171,8 +28171,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "compress.v.02",
-            "compress.v.01"
+            "compress.v.01",
+            "compress.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -28220,8 +28220,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "compress.v.02",
             "press.v.04",
+            "compress.v.02",
             "press.v.07",
             "press.v.01",
             "press.v.11"
@@ -28286,9 +28286,9 @@
         "wn_bases": [
             "thrust.v.06",
             "thrust.v.07",
+            "push.v.01",
             "thrust.v.02",
-            "press.v.11",
-            "push.v.01"
+            "press.v.11"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -28336,8 +28336,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "pinch.v.01",
-            "squeeze.v.02"
+            "squeeze.v.02",
+            "pinch.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -28497,8 +28497,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "evert.v.01",
-            "turn_back.v.05"
+            "turn_back.v.05",
+            "evert.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -28510,8 +28510,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "intussuscept.v.01",
-            "invaginate.v.02"
+            "invaginate.v.02",
+            "intussuscept.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -28524,8 +28524,8 @@
         "indirect_frames": [],
         "wn_bases": [
             "upend.v.02",
-            "turn_back.v.05",
-            "upend.v.01"
+            "upend.v.01",
+            "turn_back.v.05"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -28537,8 +28537,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "complexify.v.01",
-            "complicate.v.01"
+            "complicate.v.01",
+            "complexify.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -28647,9 +28647,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
+            "dip.v.04",
             "dip.v.12",
             "dunk.v.03",
-            "dip.v.04",
             "dunk.v.01"
         ],
         "indirect_wn_bases": [],
@@ -28868,9 +28868,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "disrupt.v.02",
+            "perturb.v.04",
             "perturb.v.02",
-            "perturb.v.04"
+            "disrupt.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -28882,8 +28882,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "destabilize.v.01",
-            "destabilize.v.02"
+            "destabilize.v.02",
+            "destabilize.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -29004,8 +29004,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "build.v.05",
-            "build.v.07"
+            "build.v.07",
+            "build.v.05"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -29404,8 +29404,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "invalidate.v.01",
-            "invalidate.v.04"
+            "invalidate.v.04",
+            "invalidate.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -29503,8 +29503,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "rid.v.01",
-            "extinguish.v.04"
+            "extinguish.v.04",
+            "rid.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -29540,8 +29540,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "darken.v.03",
-            "darken.v.01"
+            "darken.v.01",
+            "darken.v.03"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -29639,8 +29639,8 @@
         "indirect_frames": [],
         "wn_bases": [
             "puncture.v.01",
-            "puncture.v.05",
-            "puncture.v.04"
+            "puncture.v.04",
+            "puncture.v.05"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -29652,8 +29652,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "electrify.v.03",
-            "electrify.v.02"
+            "electrify.v.02",
+            "electrify.v.03"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -29665,8 +29665,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "electrify.v.03",
-            "electrify.v.02"
+            "electrify.v.02",
+            "electrify.v.03"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -29678,8 +29678,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "electrify.v.03",
-            "electrify.v.02"
+            "electrify.v.02",
+            "electrify.v.03"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -29801,8 +29801,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "rearm.v.01",
-            "rearm.v.02"
+            "rearm.v.02",
+            "rearm.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -29983,8 +29983,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "accelerate.v.01",
-            "accelerate.v.02"
+            "accelerate.v.02",
+            "accelerate.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -30008,10 +30008,10 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
+            "flash.v.01",
             "scintillate.v.01",
             "twinkle.v.02",
-            "sparkle.v.01",
-            "flash.v.01"
+            "sparkle.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -30023,8 +30023,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "spark.v.02",
-            "sparkle.v.01"
+            "sparkle.v.01",
+            "spark.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -30060,10 +30060,10 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "glitter.v.01",
             "spark.v.02",
-            "flicker.v.02",
-            "flicker.v.03"
+            "glitter.v.01",
+            "flicker.v.03",
+            "flicker.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -30143,7 +30143,7 @@
     "investment.n.06": {
         "definition": "the ceremonial act of clothing someone in the insignia of an office; the formal promotion of a person to an office or rank",
         "frames": [
-            "ASSIGN-smt-to-smn"
+            "ASSIGN-SMT-TO-SMN"
         ],
         "indirect_frames": [],
         "wn_bases": [
@@ -30155,14 +30155,14 @@
     "coronation.n.01": {
         "definition": "the ceremony of installing a new monarch",
         "frames": [
-            "ASSIGN-smt-to-smn"
+            "ASSIGN-SMT-TO-SMN"
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "invest.v.04",
-            "crown.v.01",
             "enthrone.v.02",
-            "invest.v.03"
+            "crown.v.01",
+            "invest.v.03",
+            "invest.v.04"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -30170,12 +30170,12 @@
     "appointment.n.01": {
         "definition": "the act of putting a person into a non-elective position",
         "frames": [
-            "ASSIGN-smt-to-smn"
+            "ASSIGN-SMT-TO-SMN"
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "delegate.v.02",
             "appoint.v.01",
+            "delegate.v.02",
             "name.v.03"
         ],
         "indirect_wn_bases": [],
@@ -30184,12 +30184,12 @@
     "delegacy.n.03": {
         "definition": "the appointment of a delegate",
         "frames": [
-            "ASSIGN-smt-to-smn"
+            "ASSIGN-SMT-TO-SMN"
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "delegate.v.02",
-            "delegate.v.01"
+            "delegate.v.01",
+            "delegate.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -30197,7 +30197,7 @@
     "assignment.n.01": {
         "definition": "a duty that you are assigned to perform (especially in the armed forces)",
         "frames": [
-            "ASSIGN-smt-to-smn"
+            "ASSIGN-SMT-TO-SMN"
         ],
         "indirect_frames": [],
         "wn_bases": [
@@ -30209,7 +30209,7 @@
     "assignment.n.05": {
         "definition": "an undertaking that you have been assigned to do (as by an instructor)",
         "frames": [
-            "ASSIGN-smt-to-smn"
+            "ASSIGN-SMT-TO-SMN"
         ],
         "indirect_frames": [],
         "wn_bases": [
@@ -30221,7 +30221,7 @@
     "specification.n.02": {
         "definition": "naming explicitly",
         "frames": [
-            "ASSIGN-smt-to-smn"
+            "ASSIGN-SMT-TO-SMN"
         ],
         "indirect_frames": [],
         "wn_bases": [
@@ -30233,7 +30233,7 @@
     "demotion.n.01": {
         "definition": "act of lowering in rank or position",
         "frames": [
-            "ASSIGN-smt-to-smn"
+            "ASSIGN-SMT-TO-SMN"
         ],
         "indirect_frames": [],
         "wn_bases": [
@@ -30245,7 +30245,7 @@
     "casting.n.04": {
         "definition": "the choice of actors to play particular roles in a play or movie",
         "frames": [
-            "ASSIGN-smt-to-smn"
+            "ASSIGN-SMT-TO-SMN"
         ],
         "indirect_frames": [],
         "wn_bases": [
@@ -30257,7 +30257,7 @@
     "commission.n.03": {
         "definition": "the act of granting authority to undertake certain functions",
         "frames": [
-            "ASSIGN-smt-to-smn"
+            "ASSIGN-SMT-TO-SMN"
         ],
         "indirect_frames": [],
         "wn_bases": [
@@ -30269,7 +30269,7 @@
     "ordination.n.03": {
         "definition": "the act of ordaining; the act of conferring (or receiving) holy orders",
         "frames": [
-            "ASSIGN-smt-to-smn"
+            "ASSIGN-SMT-TO-SMN"
         ],
         "indirect_frames": [],
         "wn_bases": [
@@ -30282,7 +30282,7 @@
     "devolution.n.02": {
         "definition": "the delegation of authority (especially from a central to a regional government)",
         "frames": [
-            "ASSIGN-smt-to-smn"
+            "ASSIGN-SMT-TO-SMN"
         ],
         "indirect_frames": [],
         "wn_bases": [
@@ -30294,7 +30294,7 @@
     "ennoblement.n.02": {
         "definition": "the act of raising someone to the nobility",
         "frames": [
-            "ASSIGN-smt-to-smn"
+            "ASSIGN-SMT-TO-SMN"
         ],
         "indirect_frames": [],
         "wn_bases": [
@@ -30306,12 +30306,12 @@
     "throne.n.03": {
         "definition": "the position and power of an exalted person (a sovereign or bishop) who is entitled to sit in a chair of state on ceremonial occasions",
         "frames": [
-            "ASSIGN-smt-to-smn"
+            "ASSIGN-SMT-TO-SMN"
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "enthrone.v.02",
-            "throne.v.01"
+            "throne.v.01",
+            "enthrone.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -30319,7 +30319,7 @@
     "mandate.n.03": {
         "definition": "the commission that is given to a government and its policies through an electoral victory",
         "frames": [
-            "ASSIGN-smt-to-smn"
+            "ASSIGN-SMT-TO-SMN"
         ],
         "indirect_frames": [],
         "wn_bases": [
@@ -30331,7 +30331,7 @@
     "reassignment.n.01": {
         "definition": "assignment to a different duty",
         "frames": [
-            "ASSIGN-smt-to-smn"
+            "ASSIGN-SMT-TO-SMN"
         ],
         "indirect_frames": [],
         "wn_bases": [
@@ -30343,7 +30343,7 @@
     "rehabilitation.n.03": {
         "definition": "vindication of a person's character and the re-establishment of that person's reputation",
         "frames": [
-            "ASSIGN-smt-to-smn"
+            "ASSIGN-SMT-TO-SMN"
         ],
         "indirect_frames": [],
         "wn_bases": [
@@ -30355,7 +30355,7 @@
     "seating.n.02": {
         "definition": "the service of ushering people to their seats",
         "frames": [
-            "ASSIGN-smt-to-smn"
+            "ASSIGN-SMT-TO-SMN"
         ],
         "indirect_frames": [],
         "wn_bases": [
@@ -30367,7 +30367,7 @@
     "secondment.n.02": {
         "definition": "the detachment of a person from their regular organization for temporary assignment elsewhere",
         "frames": [
-            "ASSIGN-smt-to-smn"
+            "ASSIGN-SMT-TO-SMN"
         ],
         "indirect_frames": [],
         "wn_bases": [
@@ -30431,8 +30431,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "land.v.04",
-            "land.v.06"
+            "land.v.06",
+            "land.v.04"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -30552,9 +30552,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
+            "bide.v.01",
             "reside.v.01",
-            "occupy.v.02",
-            "bide.v.01"
+            "occupy.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -30686,8 +30686,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "gaze.v.01",
-            "regard.v.02"
+            "regard.v.02",
+            "gaze.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -30737,8 +30737,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "glance.v.01",
-            "peep.v.01"
+            "peep.v.01",
+            "glance.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -30798,8 +30798,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "reorient.v.02",
-            "reorient.v.03"
+            "reorient.v.03",
+            "reorient.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -31039,8 +31039,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "fail.v.08",
-            "fail.v.02"
+            "fail.v.02",
+            "fail.v.08"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -31052,8 +31052,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "fall.v.06",
-            "fall.v.13"
+            "fall.v.13",
+            "fall.v.06"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -31078,8 +31078,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "renege.v.01",
-            "revoke.v.01"
+            "revoke.v.01",
+            "renege.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -31140,8 +31140,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "tear.v.02",
-            "tear.v.01"
+            "tear.v.01",
+            "tear.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -31214,8 +31214,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "disconnect.v.02",
-            "disjoin.v.01"
+            "disjoin.v.01",
+            "disconnect.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -31239,8 +31239,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "diverge.v.01",
-            "diverge.v.03"
+            "diverge.v.03",
+            "diverge.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -31325,8 +31325,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "subdivide.v.02",
-            "subdivide.v.01"
+            "subdivide.v.01",
+            "subdivide.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -31362,8 +31362,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "inhale.v.01",
             "inhale.v.02",
+            "inhale.v.01",
             "aspirate.v.03"
         ],
         "indirect_wn_bases": [],
@@ -31388,9 +31388,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "pant.v.01",
+            "puff.v.08",
             "snort.v.02",
-            "puff.v.08"
+            "pant.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -31402,8 +31402,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "puff.v.02",
-            "puff.v.01"
+            "puff.v.01",
+            "puff.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -31720,9 +31720,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "schedule.v.01",
+            "schedule.v.02",
             "program.v.01",
-            "schedule.v.02"
+            "schedule.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -31758,8 +31758,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "mention.v.01",
             "reference.v.01",
+            "mention.v.01",
             "quote.v.01"
         ],
         "indirect_wn_bases": [],
@@ -31917,8 +31917,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "incurvate.v.01",
-            "incurvate.v.02"
+            "incurvate.v.02",
+            "incurvate.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -32124,8 +32124,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "lean.v.01",
-            "lean.v.02"
+            "lean.v.02",
+            "lean.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -32222,8 +32222,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "consolidate.v.04",
-            "consolidate.v.05"
+            "consolidate.v.05",
+            "consolidate.v.04"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -32332,8 +32332,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "liquefy.v.03",
-            "liquefy.v.02"
+            "liquefy.v.02",
+            "liquefy.v.03"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -32586,8 +32586,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "rigidify.v.01",
-            "stiffen.v.02"
+            "stiffen.v.02",
+            "rigidify.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -33046,9 +33046,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "loosen.v.01",
             "loosen.v.07",
-            "untie.v.02"
+            "untie.v.02",
+            "loosen.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -33061,8 +33061,8 @@
         "indirect_frames": [],
         "wn_bases": [
             "unfasten.v.01",
-            "unfasten.v.02",
-            "untie.v.02"
+            "untie.v.02",
+            "unfasten.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -33267,8 +33267,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "curse.v.03",
-            "accurse.v.01"
+            "accurse.v.01",
+            "curse.v.03"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -33510,8 +33510,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "earth.v.02",
-            "ground.v.11"
+            "ground.v.11",
+            "earth.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -33788,8 +33788,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "terrify.v.01",
-            "frighten.v.01"
+            "frighten.v.01",
+            "terrify.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -33813,8 +33813,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "infuriate.v.01",
-            "exacerbate.v.02"
+            "exacerbate.v.02",
+            "infuriate.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -33827,8 +33827,8 @@
         "indirect_frames": [],
         "wn_bases": [
             "exacerbate.v.02",
-            "annoy.v.01",
-            "harass.v.01"
+            "harass.v.01",
+            "annoy.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -33950,8 +33950,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "trouble.v.02",
-            "harass.v.01"
+            "harass.v.01",
+            "trouble.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -33963,8 +33963,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "stun.v.01",
-            "besot.v.01"
+            "besot.v.01",
+            "stun.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -34037,8 +34037,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "horripilate.v.02",
-            "horripilate.v.01"
+            "horripilate.v.01",
+            "horripilate.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -34111,8 +34111,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "surprise.v.01",
-            "surprise.v.02"
+            "surprise.v.02",
+            "surprise.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -34269,9 +34269,9 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "hang_glide.v.01",
             "sailplane.v.01",
-            "glide.v.02"
+            "glide.v.02",
+            "hang_glide.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -34464,8 +34464,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "work.v.12",
-            "work.v.02"
+            "work.v.02",
+            "work.v.12"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -34549,10 +34549,10 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "work.v.12",
-            "work.v.01",
+            "work.v.09",
             "work.v.08",
-            "work.v.09"
+            "work.v.12",
+            "work.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -34650,8 +34650,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "miss.v.05",
-            "miss.v.07"
+            "miss.v.07",
+            "miss.v.05"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -34723,8 +34723,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "demur.v.02",
-            "demur.v.01"
+            "demur.v.01",
+            "demur.v.02"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -34772,8 +34772,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "boomerang.v.01",
-            "backfire.v.01"
+            "backfire.v.01",
+            "boomerang.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -34906,8 +34906,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "sever.v.01",
-            "separate.v.08"
+            "separate.v.08",
+            "sever.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -34943,8 +34943,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "disband.v.01",
-            "disband.v.02"
+            "disband.v.02",
+            "disband.v.01"
         ],
         "indirect_wn_bases": [],
         "is_drf": true
@@ -34980,8 +34980,8 @@
         ],
         "indirect_frames": [],
         "wn_bases": [
-            "meet.v.04",
-            "satisfy.v.01"
+            "satisfy.v.01",
+            "meet.v.04"
         ],
         "indirect_wn_bases": [],
         "is_drf": true

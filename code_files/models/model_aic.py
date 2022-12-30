@@ -5,12 +5,11 @@ import typing
 
 from transformers import AutoModel, AutoConfig, AutoTokenizer
 
-class ModelPID(nn.Module):
+class ModelAIC(nn.Module):
     def __init__(   self, 
                     hparams = {}, 
                     loss_fn = None,
-                    fine_tune_transformer = False,
-                    has_predicates_positions = False):
+                    fine_tune_transformer = False):
                     
         super().__init__()
 
@@ -18,8 +17,7 @@ class ModelPID(nn.Module):
 
         self.tokenizer = AutoTokenizer.from_pretrained(hparams['transformer_name'])
 
-        self.n_labels = int(hparams['n_predicates_labels'])
-        self.has_predicates_positions = has_predicates_positions
+        self.n_labels = int(hparams['n_roles_labels'])
         
         # 1) Embedding
         self.transformer_model = AutoModel.from_pretrained(
@@ -44,7 +42,6 @@ class ModelPID(nn.Module):
         self, 
         text: typing.Union[str, typing.List[str], typing.List[typing.List[str]]],
         text_pair: typing.Union[str, typing.List[str], typing.List[typing.List[str]], None] = None,
-        predicates_positions: typing.List[typing.List[str]] = None,
         is_split_into_words: bool = True,
     ):
 
@@ -73,20 +70,6 @@ class ModelPID(nn.Module):
 
         # 2) Classifier
 
-        if self.has_predicates_positions:
-
-            predicates_positions_processed = []
-            for i, _ in enumerate(predictions):
-                words_ids = batch_encoding.word_ids(batch_index = i)
-                predicates_positions_processed.append(torch.tensor([
-                    0 if v == None or (v != None and j-1>=0 and words_ids[j-1]==words_ids[j])
-                    else 1
-                    for j,v in enumerate(words_ids)
-                ]))
-            predicates_positions_processed = torch.stack(predicates_positions)
-
-            batch_sentence_words = batch_sentence_words * predicates_positions.unsqueeze(-1)
-
         predictions = self.classifier(batch_sentence_words)
 
         return predictions, batch_encoding # predictions = (batch, tokenizer_len, n_lables)
@@ -97,7 +80,7 @@ class ModelPID(nn.Module):
         for i, _ in enumerate(indices):
             words_ids = batch_encoding.word_ids(batch_index = i)
             predictions_processed.append([
-                self.hparams['id_to_predicates'][ indices[i][j] ] 
+                self.hparams['id_to_roles'][ indices[i][j] ] 
                 for j,v in enumerate(words_ids)
                 if (v != None and j-1>=0 and words_ids[j-1]!=words_ids[j])
             ])
