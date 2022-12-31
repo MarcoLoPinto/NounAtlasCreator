@@ -96,10 +96,11 @@ class ModelPID(nn.Module):
         predictions_processed = []
         for i, _ in enumerate(indices):
             words_ids = batch_encoding.word_ids(batch_index = i)
+            k = words_ids[1:].index(None) + 1
             predictions_processed.append([
                 self.hparams['id_to_predicates'][ indices[i][j] ] 
                 for j,v in enumerate(words_ids)
-                if (v != None and j-1>=0 and words_ids[j-1]!=words_ids[j])
+                if (v != None and j-1>=0 and j<k and words_ids[j-1]!=words_ids[j])
             ])
         return predictions_processed
 

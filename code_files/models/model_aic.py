@@ -79,10 +79,11 @@ class ModelAIC(nn.Module):
         predictions_processed = []
         for i, _ in enumerate(indices):
             words_ids = batch_encoding.word_ids(batch_index = i)
+            k = words_ids[1:].index(None) + 1
             predictions_processed.append([
                 self.hparams['id_to_roles'][ indices[i][j] ] 
                 for j,v in enumerate(words_ids)
-                if (v != None and j-1>=0 and words_ids[j-1]!=words_ids[j])
+                if (v != None and j-1>=0 and j<k and words_ids[j-1]!=words_ids[j])
             ])
         return predictions_processed
 
@@ -90,12 +91,11 @@ class ModelAIC(nn.Module):
         self,
         text: typing.Union[str, typing.List[str], typing.List[typing.List[str]]],
         text_pair: typing.Union[str, typing.List[str], typing.List[typing.List[str]], None] = None,
-        predicates_positions: typing.List[typing.List[str]] = None,
         is_split_into_words: bool = True
     ):
         self.eval()
         with torch.no_grad():
-            predictions, batch_encoding = self.forward(text,text_pair,predicates_positions,is_split_into_words)
+            predictions, batch_encoding = self.forward(text,text_pair,is_split_into_words)
             return self.process_predictions(predictions, batch_encoding)
 
     def compute_loss(self, x, y_true):

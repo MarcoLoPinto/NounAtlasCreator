@@ -79,13 +79,15 @@ class DatasetUniteD():
     def create_collate_fn(self):
         def collate_fn(batch):
             batch_formatted = {}
-            # max_batch_len = max([len(sample['words']) for sample in batch])
             batch_formatted['words'] = [sample['words'] for sample in batch]
-            if 'predicates' in batch[0].keys():
-                batch_formatted['predicates'] = [[p.upper() for p in sample['predicates']] for sample in batch]
-                batch_formatted['predicates_positions'] = [[1 if s != self.nolabel_value else 0 for s in predicates] for predicates in batch_formatted['predicates']]
-            if 'roles' in batch[0].keys() and type(batch[0]['roles']) == list: # if split_predicates is True, so to have a list!
+            batch_formatted['predicates'] = [[p.upper() for p in sample['predicates']] for sample in batch]
+            batch_formatted['predicates_positions'] = [[1 if s != self.nolabel_value else 0 for s in predicates] for predicates in batch_formatted['predicates']]
+
+            if self.split_predicates:
                 batch_formatted['roles'] = [sample['roles'] for sample in batch]
+                batch_formatted['predicate_word'] = [sample['predicate_word'] for sample in batch]
+                batch_formatted['predicate_name'] = [[p.upper() for p in sample['predicate_name']] for sample in batch]
+
             return batch_formatted
         return collate_fn
 
@@ -100,17 +102,15 @@ class DatasetUniteD():
 
         d_formatted = []
         for sample in d:
-            if all(p == '_' for p in sample['predicates']): # if there won't be any roles for this sentence:
-                sample_copy = deepcopy(sample)
-                sample_copy['roles'] = [self.nolabel_value] * len(sample['words'])
-                d_formatted.append(sample_copy)
-            else:
+            if not all(p == '_' for p in sample['predicates']): # at least one predicate, so to have roles for the AIC part:
                 for i, predicate in enumerate(sample['predicates']):
                     if predicate == '_':
                         continue
                     sample_copy = deepcopy(sample)
                     preds = sample_copy['predicates']
                     sample_copy['predicates'] = ['_']*i + [preds[i]] + ['_']*(len(preds)-i-1) # removing every other predicate in the phrase
+                    sample_copy['predicate_word'] = [sample['words'][i]]
+                    sample_copy['predicate_name'] = [preds[i]]
                     
                     # get the roles for that particular predicate as list! (if it has the "roles" attribute)
                     if 'roles' in sample_copy:
