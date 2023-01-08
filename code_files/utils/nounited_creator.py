@@ -6,8 +6,7 @@ import json
 import nltk
 from nltk.corpus import wordnet
 
-import spacy
-from spacy.tokens import Doc as SpacyDoc
+import stanza
 
 from collections import Counter
 import random
@@ -49,7 +48,7 @@ def chatgpt_request(text_request:str, api_key:str, temperature = 1.0, timeout = 
     return [answer["text"] for answer in json.loads(res.text)['choices']] if res.status_code == 200 else None
         
 
-def create_nounited_dataset(sentences_list: List[str], unambiguous_candidates_path: str, amuse_url: str, invero_url: str, chunk_size = 16, window_span_error = 3, lang = 'EN', spacy_pipeline = 'en_core_web_sm') -> Tuple[List[dict], Counter]:
+def create_nounited_dataset(sentences_list: List[str], unambiguous_candidates_path: str, amuse_url: str, invero_url: str, chunk_size = 16, window_span_error = 3, lang = 'EN') -> Tuple[List[dict], Counter]:
     """Generates the noUniteD dataset.
 
     Args:
@@ -60,7 +59,6 @@ def create_nounited_dataset(sentences_list: List[str], unambiguous_candidates_pa
         chunk_size (int, optional): Number of sentences to query amuse and invero. Defaults to 16.
         window_span_error (int, optional): The displacement between invero and amuse tokenization indices. The greater, the less are the incorrelations errors. Defaults to 3.
         lang (str, optional): Language of the sentences. Defaults to "EN" (English). Se amuse and invero for more details.
-        spacy_pipeline (str, optional): SpaCy pipeline to be loaded and used. Defaults to "en_core_web_sm".
 
     Returns:
         (List[dict], Counter()): A tuple composed of a list of dictionaries (each of them is a sample) and a counter to check which nominal synsets are the most used (useful for debugging).
@@ -78,8 +76,7 @@ def create_nounited_dataset(sentences_list: List[str], unambiguous_candidates_pa
     error_incorrelations = 0 # number of times a word token from the invero response is not found in amuse (because of the tokenization incorrelation between invero and amuse)
     num_generated_sentences = 0
 
-    nlp = spacy.load(spacy_pipeline)
-    nlp.tokenizer=lambda doc: doc
+    nlp = stanza.Pipeline(lang='en', processors='tokenize,mwt,pos,lemma,depparse', tokenize_pretokenized=True)
 
     pbar = tqdm(range(0,len(sentences_list),chunk_size), disable=False)
     pbar_desc = lambda: f"Nominal found: {nominal_found}, Verbal found: {verbal_found}, Incorrelations: {error_incorrelations}, Chunk errors: {error_chunks}, Sentences: {num_generated_sentences}"
@@ -145,7 +142,10 @@ def create_nounited_dataset(sentences_list: List[str], unambiguous_candidates_pa
             
             if any([p != "_" for p in predictates]): # if there are predicates in the phrase
                 words = [token['rawText'] for token in res_invero['tokens']]
-                spacy_result = nlp(SpacyDoc(nlp.vocab, words))
+                stanza_result = nlp([words])
+
+                assert len(stanza_result.sentences[0].words) == len(words), "Error on stanza pipeline. The length of the result does not match the length of the input!"
+
                 noUniteD_srl_result.append({
                     'words':                words, # list of words
                     'predicates':           predictates, # list of predicates in the sentence (upper-case)
@@ -156,10 +156,10 @@ def create_nounited_dataset(sentences_list: List[str], unambiguous_candidates_pa
                     'roles_n':              {}, # list of nominal roles in the sentence (not computed because VerbAtlas can't curretly do it, lower-case)
                     'num_v':                phrase_verbals_found, # number of verbal synsets found (can be used for balancing the dataset)
                     'num_n':                phrase_nominal_found, # number of nominal synsets found (can be used for balancing the dataset)
-                    "lemmas":               [token.lemma_ for token in spacy_result], # used spacy instead of amuse because of the incorrelations errors
-                    'pos_tags':             [token.pos_ for token in spacy_result], # used spacy instead of amuse because of the incorrelations errors
-                    'dependency_heads':     [token.head.i for token in spacy_result], # spacy dependency heads indices
-                    'dependency_relations': [token.dep_ for token in spacy_result], # spacy dependency relations
+                    "lemmas":               [word.lemma for word in stanza_result.sentences[0].words], # used stanza instead of amuse because of the incorrelations errors
+                    'pos_tags':             [word.upos for word in stanza_result.sentences[0].words], # used stanza instead of amuse because of the incorrelations errors
+                    'dependency_heads':     [word.head for word in stanza_result.sentences[0].words], # stanza dependency heads indices
+                    'dependency_relations': [word.deprel for word in stanza_result.sentences[0].words], # stanza dependency relations
                 })
                 num_generated_sentences += 1
 
