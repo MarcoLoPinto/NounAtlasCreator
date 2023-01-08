@@ -8,12 +8,16 @@ from copy import deepcopy
 
 from transformers import AutoTokenizer
 import torch
+from random import shuffle
 
 class DatasetNoUniteD():
-    def __init__(self, lang_data_path:str, split_predicates = False):
+    def __init__(self, lang_data_path:str, split_type_to_use = '', split_predicates = False, max_length = None, shuffle = False):
 
         self.nolabel_value = '_'
         self.split_predicates = split_predicates
+        self.max_length = max_length
+        self.shuffle = shuffle
+        self.split_type_to_use = split_type_to_use # either "_v" (only verbal), "_n" (only nominal) or "" (all)
         
         # adding roles
         self.id_to_roles = [self.nolabel_value] + [
@@ -76,25 +80,19 @@ class DatasetNoUniteD():
 
         self.data = self.load_data(lang_data_path)
 
-    def create_collate_fn(self, split_type_to_use = ''):
+    def create_collate_fn(self):
         def collate_fn(batch):
             batch_formatted = {}
 
             batch_formatted['words'] = [sample['words'] for sample in batch]
-
-            split_type = split_type_to_use # either "_v" (only verbal), "_n" (only nominal) or "" (all)
-
-            predicates_type = f'predicates{split_type}'
-            roles_type = f'roles{split_type}'
             
-            batch_formatted['predicates'] = [[p.upper() for p in sample[predicates_type]] for sample in batch]
+            batch_formatted['predicates'] = [[p.upper() for p in sample['predicates']] for sample in batch]
             batch_formatted['predicates_positions'] = [[1 if s != self.nolabel_value else 0 for s in predicates] for predicates in batch_formatted['predicates']]
 
             if self.split_predicates:
-                batch_formatted['predicates_word'] = [sample[f'{predicates_type}_word'] for sample in batch]
-                batch_formatted['predicates_name'] = [[p.upper() for p in sample[f'{predicates_type}_name']] for sample in batch]
-                if roles_type in batch[0] and batch[0][roles_type] != None:
-                    batch_formatted['roles'] = [sample[roles_type] for sample in batch]
+                batch_formatted['predicate_word'] = [sample['predicate_word'] for sample in batch]
+                batch_formatted['predicate_name'] = [[p.upper() for p in sample['predicate_name']] for sample in batch]
+                batch_formatted['roles'] = [[r.lower() for r in sample['roles']] for sample in batch]
 
             return batch_formatted
         return collate_fn
@@ -105,37 +103,43 @@ class DatasetNoUniteD():
             d = json.load(json_file)
         d = list(d.values()) if type(d) == dict else d
 
-        if not self.split_predicates:
-            return d
+        if self.split_predicates:
 
-        d_formatted = []
-        for sample in d:
-            for split_type in ['','_v','_n']:
-                predicates_type = f'predicates{split_type}'
-                roles_type = f'roles{split_type}'
+            d_formatted = []
+            predicates_type = f'predicates{self.split_type_to_use}'
+            roles_type = f'roles{self.split_type_to_use}'
+
+            for sample in d:
                 if not all(p == '_' for p in sample[predicates_type]): # at least one predicate, so to have roles for the AIC part:
                     for i, predicate in enumerate(sample[predicates_type]):
                         if predicate == '_':
                             continue
                         sample_copy = deepcopy(sample)
                         preds = sample_copy[predicates_type]
-                        sample_copy[predicates_type] = ['_']*i + [preds[i]] + ['_']*(len(preds)-i-1) # removing every other predicate in the phrase
-                        sample_copy[f'{predicates_type}_word'] = [sample['words'][i]]
-                        sample_copy[f'{predicates_type}_name'] = [preds[i]]
+                        sample_copy['predicates'] = ['_']*i + [preds[i]] + ['_']*(len(preds)-i-1) # removing every other predicate in the phrase
+                        sample_copy['predicate_word'] = [sample['words'][i]]
+                        sample_copy['predicate_name'] = [preds[i]]
                         
                         # get the roles for that particular predicate as list! (if it has the "roles" attribute)
-                        if roles_type in sample_copy and type(roles_type) == dict and len(roles_type) > 0:
+                        if roles_type in sample_copy and type(sample_copy[roles_type]) == dict and len(sample_copy[roles_type]) > 0:
                             try:
                                 roles = sample_copy[roles_type][int(i)]
                             except:
                                 roles = sample_copy[roles_type][str(i)]
-                            sample_copy[roles_type] = roles
+                            sample_copy['roles'] = roles
                         else:
-                            sample_copy[roles_type] = None
+                            sample_copy['roles'] = None
 
                         d_formatted.append(sample_copy)
 
-        return d_formatted
+            d = d_formatted[:self.max_length]
+            
+        else:
+            d = d[:self.max_length]
+
+        if self.shuffle: shuffle(d)
+
+        return d
 
     def __len__(self):
         return len(self.data)

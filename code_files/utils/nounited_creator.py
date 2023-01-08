@@ -49,7 +49,7 @@ def chatgpt_request(text_request:str, api_key:str, temperature = 1.0, timeout = 
     return [answer["text"] for answer in json.loads(res.text)['choices']] if res.status_code == 200 else None
         
 
-def create_nounited_dataset(sentences_list: List[str], unambiguous_candidates_path: str, amuse_url: str, invero_url: str, chunk_size = 16, window_span_error = 3, lang = 'EN') -> Tuple[List[dict], Counter]:
+def create_nounited_dataset(sentences_list: List[str], unambiguous_candidates_path: str, amuse_url: str, invero_url: str, chunk_size = 16, window_span_error = 3, lang = 'EN', spacy_pipeline = 'en_core_web_sm') -> Tuple[List[dict], Counter]:
     """Generates the noUniteD dataset.
 
     Args:
@@ -60,6 +60,7 @@ def create_nounited_dataset(sentences_list: List[str], unambiguous_candidates_pa
         chunk_size (int, optional): Number of sentences to query amuse and invero. Defaults to 16.
         window_span_error (int, optional): The displacement between invero and amuse tokenization indices. The greater, the less are the incorrelations errors. Defaults to 3.
         lang (str, optional): Language of the sentences. Defaults to "EN" (English). Se amuse and invero for more details.
+        spacy_pipeline (str, optional): SpaCy pipeline to be loaded and used. Defaults to "en_core_web_sm".
 
     Returns:
         (List[dict], Counter()): A tuple composed of a list of dictionaries (each of them is a sample) and a counter to check which nominal synsets are the most used (useful for debugging).
@@ -77,7 +78,7 @@ def create_nounited_dataset(sentences_list: List[str], unambiguous_candidates_pa
     error_incorrelations = 0 # number of times a word token from the invero response is not found in amuse (because of the tokenization incorrelation between invero and amuse)
     num_generated_sentences = 0
 
-    nlp = spacy.load('en_core_web_sm')
+    nlp = spacy.load(spacy_pipeline)
     nlp.tokenizer=lambda doc: doc
 
     pbar = tqdm(range(0,len(sentences_list),chunk_size), disable=False)
@@ -122,8 +123,8 @@ def create_nounited_dataset(sentences_list: List[str], unambiguous_candidates_pa
                     if pos_type == 'n' and wn_synset_name in candidates_unambiguous:
                         phrase_nominal_found += 1
                         nominal_found += 1
-                        predictates[i] = candidates_unambiguous[wn_synset_name]['frames'][0]
-                        predictates_n[i] = candidates_unambiguous[wn_synset_name]['frames'][0]
+                        predictates[i] = candidates_unambiguous[wn_synset_name]['frames'][0].upper()
+                        predictates_n[i] = candidates_unambiguous[wn_synset_name]['frames'][0].upper()
                         nominal_event_count[wn_synset_name + " # " + wordnet.synset(wn_synset_name).definition()] += 1
                         
                     elif pos_type == 'v':
@@ -131,11 +132,11 @@ def create_nounited_dataset(sentences_list: List[str], unambiguous_candidates_pa
                         
                         for ann in res_invero['annotations']:
                             if ann['tokenIndex'] == invero_index:
-                                predictates[i] = ann['verbatlas']['frameName']
-                                predictates_v[i] = ann['verbatlas']['frameName']
+                                predictates[i] = ann['verbatlas']['frameName'].upper()
+                                predictates_v[i] = ann['verbatlas']['frameName'].upper()
                                 roles[str(i)] = ["_"]*len(predictates)
                                 for role in ann['verbatlas']['roles']:
-                                    roles[str(i)][role['span'][0]] = role['role']
+                                    roles[str(i)][role['span'][0]] = role['role'].lower()
                         phrase_verbals_found += 1
                         verbal_found += 1
                         pass
@@ -146,17 +147,19 @@ def create_nounited_dataset(sentences_list: List[str], unambiguous_candidates_pa
                 words = [token['rawText'] for token in res_invero['tokens']]
                 spacy_result = nlp(SpacyDoc(nlp.vocab, words))
                 noUniteD_srl_result.append({
-                    'words':        words, # list of words
-                    'predicates':   predictates, # list of predicates in the sentence
-                    'predicates_v': predictates_v, # list of verbal predicates in the sentence
-                    'predicates_n': predictates_n, # list of nominal predicates in the sentence
-                    'roles':        roles, # list of roles in the sentence
-                    'roles_v':      roles, # list of verbal roles in the sentence
-                    'roles_n':      {}, # list of nominal roles in the sentence (not computed because VerbAtlas can't curretly do it)
-                    'num_v':        phrase_verbals_found, # number of verbal synsets found (can be used for balancing the dataset)
-                    'num_n':        phrase_nominal_found, # number of nominal synsets found (can be used for balancing the dataset)
-                    "lemmas":       [token.lemma_ for token in spacy_result], # used spacy instead of amuse because of the incorrelations errors
-                    'pos_tags':     [token.pos_ for token in spacy_result], # used spacy instead of amuse because of the incorrelations errors
+                    'words':                words, # list of words
+                    'predicates':           predictates, # list of predicates in the sentence (upper-case)
+                    'predicates_v':         predictates_v, # list of verbal predicates in the sentence (upper-case)
+                    'predicates_n':         predictates_n, # list of nominal predicates in the sentence (upper-case)
+                    'roles':                roles, # list of roles in the sentence (lower-case)
+                    'roles_v':              roles, # list of verbal roles in the sentence (lower-case)
+                    'roles_n':              {}, # list of nominal roles in the sentence (not computed because VerbAtlas can't curretly do it, lower-case)
+                    'num_v':                phrase_verbals_found, # number of verbal synsets found (can be used for balancing the dataset)
+                    'num_n':                phrase_nominal_found, # number of nominal synsets found (can be used for balancing the dataset)
+                    "lemmas":               [token.lemma_ for token in spacy_result], # used spacy instead of amuse because of the incorrelations errors
+                    'pos_tags':             [token.pos_ for token in spacy_result], # used spacy instead of amuse because of the incorrelations errors
+                    'dependency_heads':     [token.head.i for token in spacy_result], # spacy dependency heads indices
+                    'dependency_relations': [token.dep_ for token in spacy_result], # spacy dependency relations
                 })
                 num_generated_sentences += 1
 
