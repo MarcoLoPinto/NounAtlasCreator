@@ -124,11 +124,13 @@ class DatasetNoUniteD():
                         if roles_type in sample_copy and type(sample_copy[roles_type]) == dict and len(sample_copy[roles_type]) > 0:
                             try:
                                 roles = sample_copy[roles_type][int(i)]
-                            except:
+                            except KeyError:
                                 roles = sample_copy[roles_type][str(i)]
+                            except:
+                                roles = []
                             sample_copy['roles'] = roles
                         else:
-                            sample_copy['roles'] = None
+                            sample_copy['roles'] = []
 
                         d_formatted.append(sample_copy)
 

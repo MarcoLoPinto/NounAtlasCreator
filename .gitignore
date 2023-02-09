@@ -5,6 +5,12 @@ datasets/*/*.*
 datasets/*/*/*.*
 datasets/*/*/*/*.*
 datasets/*/*/*/*/*.*
+
+temp_files/*.*
+temp_files/*/*.*
+temp_files/*/*/*.*
+temp_files/*/*/*/*.*
+temp_files/*/*/*/*/*.*
 # environment variables
 .env
 

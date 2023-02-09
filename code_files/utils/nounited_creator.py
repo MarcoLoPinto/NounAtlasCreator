@@ -12,7 +12,7 @@ from collections import Counter
 import random
 
 from tqdm import tqdm
-from typing import List, Tuple
+from typing import List, Tuple, Union
 
 def amuse_request(text = "Marco is eating an apple.", lang = "EN", amuse_url = 'http://127.0.0.1:3002/api/model'):
     if type(text) == list:
@@ -48,12 +48,12 @@ def chatgpt_request(text_request:str, api_key:str, temperature = 1.0, timeout = 
     return [answer["text"] for answer in json.loads(res.text)['choices']] if res.status_code == 200 else None
         
 
-def create_nounited_dataset(sentences_list: List[str], unambiguous_candidates_path: str, amuse_url: str, invero_url: str, chunk_size = 16, window_span_error = 3, lang = 'EN') -> Tuple[List[dict], Counter]:
+def create_nounited_dataset(sentences_list: List[str], unambiguous_candidates_path: Union[str,dict], amuse_url: str, invero_url: str, chunk_size = 16, window_span_error = 3, lang = 'EN') -> Tuple[List[dict], Counter]:
     """Generates the noUniteD dataset.
 
     Args:
         sentences_list (List[str]): A list of sentences, the starting dataset.
-        unambiguous_candidates_path (str): Path to the unambiguous candidates to be used to create the nominal part. It is generated via SynsetExplorer.
+        unambiguous_candidates_path (Union[str,dict]): Path to the unambiguous candidates to be used to create the nominal part. It is generated via SynsetExplorer. If it's not a string, then it is assumed that the loaded file is passed as input.
         amuse_url (str): URL to the API endpoint of amuse.
         invero_url (str): URL to the API endpoint of invero.
         chunk_size (int, optional): Number of sentences to query amuse and invero. Defaults to 16.
@@ -61,14 +61,17 @@ def create_nounited_dataset(sentences_list: List[str], unambiguous_candidates_pa
         lang (str, optional): Language of the sentences. Defaults to "EN" (English). Se amuse and invero for more details.
 
     Returns:
-        (List[dict], Counter()): A tuple composed of a list of dictionaries (each of them is a sample) and a counter to check which nominal synsets are the most used (useful for debugging).
+        (List[dict], dict): A tuple composed of a list of dictionaries (each of them is a sample) and a dictionary to check which nominal synsets are the most used and in which phrases (useful for debugging).
     """
     # load the unambiguous nominal events to be used to build the final dataset:
-    with open(unambiguous_candidates_path, 'r') as json_file:
-        candidates_unambiguous = json.load(json_file)
+    if isinstance(unambiguous_candidates_path, str):
+        with open(unambiguous_candidates_path, 'r') as json_file:
+            candidates_unambiguous = json.load(json_file)
+    else:
+        candidates_unambiguous = unambiguous_candidates_path
 
     # initializing parameters:
-    nominal_event_count = Counter() # used to see which nominal synsets are used the most
+    syn_phrases_id = {} # used to see which phrases has which synsets
     noUniteD_srl_result = [] # the final dataset
     nominal_found = 0 # nominal synsets used
     verbal_found = 0 # verbal synsets used
@@ -98,7 +101,7 @@ def create_nounited_dataset(sentences_list: List[str], unambiguous_candidates_pa
             roles = {}
             phrase_nominal_found = 0
             phrase_verbals_found = 0
-            # syn_associtated_to_predicate = ["_"]*len(res_invero['tokens']) # TODO: decide if to put or not
+            wn_synsets = ["_"]*len(predictates)
             # for each word token in sentence:
             for i, token in enumerate(res_invero['tokens']):
                 wn_synset_name = None
@@ -118,22 +121,28 @@ def create_nounited_dataset(sentences_list: List[str], unambiguous_candidates_pa
                     pos_type = wn_synset_name.split('.')[1]
 
                     if pos_type == 'n' and wn_synset_name in candidates_unambiguous:
+                        predictates[i] = candidates_unambiguous[wn_synset_name]['frames'][0].upper() # predicates upper-case
+                        predictates_n[i] = candidates_unambiguous[wn_synset_name]['frames'][0].upper() # predicates upper-case
+                        
+                        wn_synsets[i] = wn_synset_name
+
                         phrase_nominal_found += 1
                         nominal_found += 1
-                        predictates[i] = candidates_unambiguous[wn_synset_name]['frames'][0].upper()
-                        predictates_n[i] = candidates_unambiguous[wn_synset_name]['frames'][0].upper()
-                        nominal_event_count[wn_synset_name + " # " + wordnet.synset(wn_synset_name).definition()] += 1
                         
                     elif pos_type == 'v':
                         invero_index = token['index']
                         
                         for ann in res_invero['annotations']:
                             if ann['tokenIndex'] == invero_index:
-                                predictates[i] = ann['verbatlas']['frameName'].upper()
-                                predictates_v[i] = ann['verbatlas']['frameName'].upper()
+                                predictates[i] = ann['verbatlas']['frameName'].upper() # predicates upper-case
+                                predictates_v[i] = ann['verbatlas']['frameName'].upper() # predicates upper-case
+
+                                wn_synsets[i] = wn_synset_name
+
                                 roles[str(i)] = ["_"]*len(predictates)
                                 for role in ann['verbatlas']['roles']:
-                                    roles[str(i)][role['span'][0]] = role['role'].lower()
+                                    roles[str(i)][role['span'][0]] = role['role'].lower() # roles lower-case
+
                         phrase_verbals_found += 1
                         verbal_found += 1
                         pass
@@ -163,7 +172,13 @@ def create_nounited_dataset(sentences_list: List[str], unambiguous_candidates_pa
                 })
                 num_generated_sentences += 1
 
-    return (noUniteD_srl_result, nominal_event_count)
+                res_id = num_generated_sentences - 1
+                for wn_i, wn_synset_name_i in enumerate(wn_synsets):
+                    if wn_synset_name_i != '_' and wn_synset_name_i.split('.')[1] in ['v','n']:
+                        if wn_synset_name_i not in syn_phrases_id: syn_phrases_id[wn_synset_name_i] = [(res_id,wn_i)]
+                        else: syn_phrases_id[wn_synset_name_i] += [(res_id,wn_i)]
+
+    return (noUniteD_srl_result, syn_phrases_id)
 
 
 def save_nounited_dataset(noUniteD_srl_result: List[dict], dir_path: str, lang = 'EN', train_ratio = 0.8, num_dataset_divisions = 2, shuffle = False):

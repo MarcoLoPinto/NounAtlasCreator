@@ -76,16 +76,16 @@ class ModelPID(nn.Module):
         if self.has_predicates_positions:
 
             predicates_positions_processed = []
-            for i, _ in enumerate(predictions):
+            for i, _ in enumerate(batch_sentence_words):
                 words_ids = batch_encoding.word_ids(batch_index = i)
                 predicates_positions_processed.append(torch.tensor([
-                    0 if v == None or (v != None and j-1>=0 and words_ids[j-1]==words_ids[j])
-                    else 1
+                    1 if v != None and v < len(predicates_positions[i]) and predicates_positions[i][v] == 1 and (j-1>=0 and words_ids[j-1] != words_ids[j])
+                    else 0
                     for j,v in enumerate(words_ids)
                 ]))
-            predicates_positions_processed = torch.stack(predicates_positions)
+            predicates_positions_processed = torch.stack(predicates_positions_processed)
 
-            batch_sentence_words = batch_sentence_words * predicates_positions.unsqueeze(-1)
+            batch_sentence_words = batch_sentence_words * predicates_positions_processed.unsqueeze(-1).to(next(self.parameters()).device)
 
         predictions = self.classifier(batch_sentence_words)
 
