@@ -93,6 +93,7 @@ class DatasetNoUniteD():
                 batch_formatted['predicate_word'] = [sample['predicate_word'] for sample in batch]
                 batch_formatted['predicate_name'] = [[p.upper() for p in sample['predicate_name']] for sample in batch]
                 batch_formatted['roles'] = [[r.lower() for r in sample['roles']] for sample in batch]
+                batch_formatted['predicate_position'] = [sample['predicate_position'] for sample in batch]
 
             return batch_formatted
         return collate_fn
@@ -119,13 +120,17 @@ class DatasetNoUniteD():
                         sample_copy['predicates'] = ['_']*i + [preds[i]] + ['_']*(len(preds)-i-1) # removing every other predicate in the phrase
                         sample_copy['predicate_word'] = [sample['words'][i]]
                         sample_copy['predicate_name'] = [preds[i]]
+                        sample_copy['predicate_position'] = [i]
                         
                         # get the roles for that particular predicate as list! (if it has the "roles" attribute)
                         if roles_type in sample_copy and type(sample_copy[roles_type]) == dict and len(sample_copy[roles_type]) > 0:
                             try:
                                 roles = sample_copy[roles_type][int(i)]
                             except KeyError:
-                                roles = sample_copy[roles_type][str(i)]
+                                try:
+                                    roles = sample_copy[roles_type][str(i)]
+                                except:
+                                    roles = []
                             except:
                                 roles = []
                             sample_copy['roles'] = roles
