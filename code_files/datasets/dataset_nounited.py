@@ -12,6 +12,15 @@ from random import shuffle
 
 class DatasetNoUniteD():
     def __init__(self, lang_data_path:str, split_type_to_use = '', split_predicates = False, max_length = None, shuffle = False):
+        """Dataset class for the NoUniteD dataset
+
+        Args:
+            lang_data_path (str): The path of the dataset.
+            split_type_to_use (str, optional): Either "_v" (only verbal), "_n" (only nominal) or "" (all). Defaults to "".
+            split_predicates (bool, optional): If true, each sample will be split in n phrases, one for each predicate in the sample. Defaults to False.
+            max_length (_type_, optional): Max length of the dataset to be used. If None, all the dataset is used. Defaults to None.
+            shuffle (bool, optional): To be used when max_length != None, in order to select random samples from the part of the dataset to be used. Defaults to False.
+        """
 
         self.nolabel_value = '_'
         self.split_predicates = split_predicates

@@ -11,6 +11,12 @@ import torch
 
 class DatasetUniteD():
     def __init__(self, lang_data_path:str, split_predicates = False):
+        """Dataset class for the UniteD dataset
+
+        Args:
+            lang_data_path (str): The path of the dataset.
+            split_predicates (bool, optional): If true, each sample will be split in n phrases, one for each predicate in the sample. Defaults to False.
+        """
 
         self.nolabel_value = '_'
         self.split_predicates = split_predicates

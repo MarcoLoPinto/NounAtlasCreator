@@ -1,4 +1,12 @@
 def load_dotenv(path):
+    """loads .env variables
+
+    Args:
+        path (str): The path of the .env variable
+
+    Returns:
+        dict: a key-value dictionary
+    """
     e_dict = {}
     with open(path) as f:
         for line in f:
@@ -7,6 +15,12 @@ def load_dotenv(path):
     return e_dict
 
 def print_summary(model, short = False):
+    """prints the summary for a model
+
+    Args:
+        model (any): The torch model
+        short (bool, optional): If the print must be synthetic. Defaults to False.
+    """
     if not short:
         print(model)
         print('----------------------')

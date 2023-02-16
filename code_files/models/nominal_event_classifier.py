@@ -10,6 +10,13 @@ class NEClassifier(nn.Module):
                     hparams = {}, 
                     loss_fn = None,
                     fine_tune_transformer = False):
+        """Nominal Event Classifier model
+
+        Args:
+            hparams (any, optional): Parameters necessary to initialize the model. It can be either a dictionary or the path string for the file. Defaults to {}.
+            loss_fn (any, optional): Loss function. Defaults to None.
+            fine_tune_transformer (bool, optional): If the transformer needs to be fine-tuned. Defaults to False.
+        """
                     
         super().__init__()
 
@@ -83,10 +90,20 @@ class NEClassifier(nn.Module):
 
     def predict(
         self,
-        text: typing.Union[str, typing.List[str], typing.List[typing.List[str]]],
-        text_pair: typing.Union[str, typing.List[str], typing.List[typing.List[str]], None] = None,
+        text: typing.Union[typing.List[str], typing.List[typing.List[str]]],
+        text_pair: typing.Union[typing.List[str], typing.List[typing.List[str]], None] = None,
         is_split_into_words: bool = False
     ):
+        """Predict function to use after training/loading the model
+
+        Args:
+            text (typing.Union[typing.List[str], typing.List[typing.List[str]]]): The tokenized sentence (or list of sentences).
+            text_pair (typing.Union[typing.List[str], typing.List[typing.List[str]]]): The predicate word (or list of predicates). Defaults to None (do not change it unless trained otherwise).
+            is_split_into_words (bool, optional): If it's split into words. Defaults to True (do not change it unless trained otherwise).
+
+        Returns:
+            typing.Union[str, typing.List[str]]: The predicted predicate frame name for the sentence (or list of frame names).
+        """
         self.eval()
         with torch.no_grad():
             predictions = self.forward(text,text_pair,is_split_into_words)

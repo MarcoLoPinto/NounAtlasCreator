@@ -11,6 +11,14 @@ class ModelPID(nn.Module):
                     loss_fn = None,
                     fine_tune_transformer = False,
                     has_predicates_positions = False):
+        """Predicate Identification and Disambiguation model
+
+        Args:
+            hparams (any, optional): Parameters necessary to initialize the model. It can be either a dictionary or the path string for the file. Defaults to {}.
+            loss_fn (any, optional): Loss function. Defaults to None.
+            fine_tune_transformer (bool, optional): If the transformer needs to be fine-tuned. Defaults to False.
+            has_predicates_positions (bool, optional): If the predicates positions are passed as additional input. Defaults to False.
+        """
                     
         super().__init__()
 
@@ -106,11 +114,22 @@ class ModelPID(nn.Module):
 
     def predict(
         self,
-        text: typing.Union[str, typing.List[str], typing.List[typing.List[str]]],
-        text_pair: typing.Union[str, typing.List[str], typing.List[typing.List[str]], None] = None,
+        text: typing.Union[typing.List[str], typing.List[typing.List[str]]],
+        text_pair: typing.Union[typing.List[str], typing.List[typing.List[str]], None] = None,
         predicates_positions: typing.List[typing.List[str]] = None,
         is_split_into_words: bool = True
     ):
+        """Predict function to use after training/loading the model
+
+        Args:
+            text (typing.Union[typing.List[str], typing.List[typing.List[str]]]): The tokenized sentence (or list of sentences).
+            text_pair (typing.Union[typing.List[str], typing.List[typing.List[str]]]): The sentence pair (or list of sentences) to be passed. Defaults to None (do not change it unless trained otherwise).
+            predicates_positions (typing.List[typing.List[str]], optional): The optional predicates positions to be passed if has_predicates_positions is set to True. Defaults to None.
+            is_split_into_words (bool, optional): If it's split into words. Defaults to True (do not change it unless trained otherwise).
+
+        Returns:
+            typing.Union[typing.List[str], typing.List[typing.List[str]]]: The predicted predicates for the sentence (or list of sentences).
+        """
         self.eval()
         with torch.no_grad():
             predictions, batch_encoding = self.forward(text,text_pair,predicates_positions,is_split_into_words)

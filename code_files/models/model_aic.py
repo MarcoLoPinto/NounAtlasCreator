@@ -10,6 +10,13 @@ class ModelAIC(nn.Module):
                     hparams = {}, 
                     loss_fn = None,
                     fine_tune_transformer = False):
+        """Argument Identification and Classification model
+
+        Args:
+            hparams (any, optional): Parameters necessary to initialize the model. It can be either a dictionary or the path string for the file. Defaults to {}.
+            loss_fn (any, optional): Loss function. Defaults to None.
+            fine_tune_transformer (bool, optional): If the transformer needs to be fine-tuned. Defaults to False.
+        """
                     
         super().__init__()
 
@@ -89,10 +96,20 @@ class ModelAIC(nn.Module):
 
     def predict(
         self,
-        text: typing.Union[str, typing.List[str], typing.List[typing.List[str]]],
-        text_pair: typing.Union[str, typing.List[str], typing.List[typing.List[str]], None] = None,
+        text: typing.Union[typing.List[str], typing.List[typing.List[str]]],
+        text_pair: typing.Union[typing.List[str], typing.List[typing.List[str]]],
         is_split_into_words: bool = True
     ):
+        """Predict function to use after training/loading the model
+
+        Args:
+            text (typing.Union[typing.List[str], typing.List[typing.List[str]]]): The tokenized sentence (or list of sentences).
+            text_pair (typing.Union[typing.List[str], typing.List[typing.List[str]]]): The predicate (or the list of predicates).
+            is_split_into_words (bool, optional): If it's split into words. Defaults to True (do not change it unless trained otherwise).
+
+        Returns:
+            typing.Union[typing.List[str], typing.List[typing.List[str]]]: The predicted roles for the sentence (or list of sentences).
+        """
         self.eval()
         with torch.no_grad():
             predictions, batch_encoding = self.forward(text,text_pair,is_split_into_words)

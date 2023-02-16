@@ -10,6 +10,13 @@ class ModelRoleAdder(nn.Module):
                     hparams = {}, 
                     loss_fn = None,
                     fine_tune_transformer = False):
+        """Model used to add roles for the nominal part in the NoUniteD dataset
+
+        Args:
+            hparams (any, optional): Parameters necessary to initialize the model. It can be either a dictionary or the path string for the file. Defaults to {}.
+            loss_fn (any, optional): Loss function. Defaults to None.
+            fine_tune_transformer (bool, optional): If the transformer needs to be fine-tuned. Defaults to False.
+        """
                     
         super().__init__()
 
@@ -107,6 +114,16 @@ class ModelRoleAdder(nn.Module):
         predicate_position: typing.Union[int, typing.List[int]],
         predicate_type: typing.Union[str, typing.List[str]]
     ):
+        """Predict function to use after training/loading the model
+
+        Args:
+            text (typing.Union[typing.List[str], typing.List[typing.List[str]]]): The tokenized sentence (or list of sentences).
+            predicate_position (typing.Union[int, typing.List[int]]): The predicate position (or list of positions).
+            predicate_type (typing.Union[str, typing.List[str]]): The predicate frame name (or list of frame names).
+
+        Returns:
+            typing.Union[typing.List[str], typing.List[typing.List[str]]]: The predicted roles for the sentence (or list of sentences).
+        """
         self.eval()
         with torch.no_grad():
             predictions, batch_encoding = self.forward(text,predicate_position,predicate_type)
