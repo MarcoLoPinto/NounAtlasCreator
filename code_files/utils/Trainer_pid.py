@@ -24,13 +24,12 @@ class Trainer_pid(Trainer):
 
         # inputs
         words = sample['words']
-        predicates_positions = sample['predicates_positions'] # only for ModelPD
         # outputs
         labels_raw = sample['predicates']
 
         predictions, batch_encoding = model.forward(
             words,
-            predicates_positions = predicates_positions if model.has_predicates_positions else None
+            predicates_positions = sample['predicates_positions'] if model.has_predicates_positions else None # only for ModelPD
         )
 
         predictions_raw = model.process_predictions(predictions, batch_encoding)
